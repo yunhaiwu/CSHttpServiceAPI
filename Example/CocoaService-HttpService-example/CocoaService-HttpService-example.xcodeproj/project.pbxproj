@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60BBABDF23571FCE0058F540 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABDE23571FCE0058F540 /* AppDelegate.m */; };
+		60BBABE523571FCE0058F540 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABE423571FCE0058F540 /* ViewController.m */; };
+		60BBABEA23571FCF0058F540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BBABE923571FCF0058F540 /* Assets.xcassets */; };
+		60BBABED23571FCF0058F540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BBABEB23571FCF0058F540 /* LaunchScreen.storyboard */; };
+		60BBABF023571FCF0058F540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABEF23571FCF0058F540 /* main.m */; };
+		60BBABFA23571FCF0058F540 /* CocoaService_HttpService_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABF923571FCF0058F540 /* CocoaService_HttpService_exampleTests.m */; };
+		60BBAC0523571FCF0058F540 /* CocoaService_HttpService_exampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBAC0423571FCF0058F540 /* CocoaService_HttpService_exampleUITests.m */; };
+		D306E7952BE4BF853CF7393D /* libPods-CocoaService-HttpService-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB438062A69D68B8F585E60 /* libPods-CocoaService-HttpService-example.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60BBABF623571FCF0058F540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BBABD223571FCE0058F540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BBABD923571FCE0058F540;
+			remoteInfo = "CocoaService-HttpService-example";
+		};
+		60BBAC0123571FCF0058F540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BBABD223571FCE0058F540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BBABD923571FCE0058F540;
+			remoteInfo = "CocoaService-HttpService-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB438062A69D68B8F585E60 /* libPods-CocoaService-HttpService-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaService-HttpService-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605F7B8023598058002E2901 /* CSHttpServiceAPI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = CSHttpServiceAPI.podspec; path = ../../CSHttpServiceAPI.podspec; sourceTree = "<group>"; };
+		60BBABDA23571FCE0058F540 /* CocoaService-HttpService-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaService-HttpService-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BBABDD23571FCE0058F540 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60BBABDE23571FCE0058F540 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60BBABE323571FCE0058F540 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60BBABE423571FCE0058F540 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60BBABE923571FCF0058F540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60BBABEC23571FCF0058F540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60BBABEE23571FCF0058F540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BBABEF23571FCF0058F540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60BBABF523571FCF0058F540 /* CocoaService-HttpService-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaService-HttpService-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BBABF923571FCF0058F540 /* CocoaService_HttpService_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaService_HttpService_exampleTests.m; sourceTree = "<group>"; };
+		60BBABFB23571FCF0058F540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BBAC0023571FCF0058F540 /* CocoaService-HttpService-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaService-HttpService-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BBAC0423571FCF0058F540 /* CocoaService_HttpService_exampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaService_HttpService_exampleUITests.m; sourceTree = "<group>"; };
+		60BBAC0623571FCF0058F540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3578C65B2220B2C7DA469B /* Pods-CocoaService-HttpService-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaService-HttpService-example.release.xcconfig"; path = "Target Support Files/Pods-CocoaService-HttpService-example/Pods-CocoaService-HttpService-example.release.xcconfig"; sourceTree = "<group>"; };
+		BB32469909425AD2A23FC705 /* Pods-CocoaService-HttpService-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaService-HttpService-example.debug.xcconfig"; path = "Target Support Files/Pods-CocoaService-HttpService-example/Pods-CocoaService-HttpService-example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60BBABD723571FCE0058F540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D306E7952BE4BF853CF7393D /* libPods-CocoaService-HttpService-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BBABF223571FCF0058F540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BBABFD23571FCF0058F540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141223C5B9BF8CA1DD0B2B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB438062A69D68B8F585E60 /* libPods-CocoaService-HttpService-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60BBABD123571FCE0058F540 = {
+			isa = PBXGroup;
+			children = (
+				605F7B8023598058002E2901 /* CSHttpServiceAPI.podspec */,
+				60BBABDC23571FCE0058F540 /* CocoaService-HttpService-example */,
+				60BBABF823571FCF0058F540 /* CocoaService-HttpService-exampleTests */,
+				60BBAC0323571FCF0058F540 /* CocoaService-HttpService-exampleUITests */,
+				60BBABDB23571FCE0058F540 /* Products */,
+				F2E7A0633C7999879E3017BC /* Pods */,
+				141223C5B9BF8CA1DD0B2B8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60BBABDB23571FCE0058F540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BBABDA23571FCE0058F540 /* CocoaService-HttpService-example.app */,
+				60BBABF523571FCF0058F540 /* CocoaService-HttpService-exampleTests.xctest */,
+				60BBAC0023571FCF0058F540 /* CocoaService-HttpService-exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BBABDC23571FCE0058F540 /* CocoaService-HttpService-example */ = {
+			isa = PBXGroup;
+			children = (
+				60BBABDD23571FCE0058F540 /* AppDelegate.h */,
+				60BBABDE23571FCE0058F540 /* AppDelegate.m */,
+				60BBABE323571FCE0058F540 /* ViewController.h */,
+				60BBABE423571FCE0058F540 /* ViewController.m */,
+				60BBABE923571FCF0058F540 /* Assets.xcassets */,
+				60BBABEB23571FCF0058F540 /* LaunchScreen.storyboard */,
+				60BBABEE23571FCF0058F540 /* Info.plist */,
+				60BBABEF23571FCF0058F540 /* main.m */,
+			);
+			path = "CocoaService-HttpService-example";
+			sourceTree = "<group>";
+		};
+		60BBABF823571FCF0058F540 /* CocoaService-HttpService-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				60BBABF923571FCF0058F540 /* CocoaService_HttpService_exampleTests.m */,
+				60BBABFB23571FCF0058F540 /* Info.plist */,
+			);
+			path = "CocoaService-HttpService-exampleTests";
+			sourceTree = "<group>";
+		};
+		60BBAC0323571FCF0058F540 /* CocoaService-HttpService-exampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60BBAC0423571FCF0058F540 /* CocoaService_HttpService_exampleUITests.m */,
+				60BBAC0623571FCF0058F540 /* Info.plist */,
+			);
+			path = "CocoaService-HttpService-exampleUITests";
+			sourceTree = "<group>";
+		};
+		F2E7A0633C7999879E3017BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB32469909425AD2A23FC705 /* Pods-CocoaService-HttpService-example.debug.xcconfig */,
+				BA3578C65B2220B2C7DA469B /* Pods-CocoaService-HttpService-example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60BBABD923571FCE0058F540 /* CocoaService-HttpService-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BBAC0923571FCF0058F540 /* Build configuration list for PBXNativeTarget "CocoaService-HttpService-example" */;
+			buildPhases = (
+				EEEE5F7AC3E901EBF22D4FE2 /* [CP] Check Pods Manifest.lock */,
+				60BBABD623571FCE0058F540 /* Sources */,
+				60BBABD723571FCE0058F540 /* Frameworks */,
+				60BBABD823571FCE0058F540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaService-HttpService-example";
+			productName = "CocoaService-HttpService-example";
+			productReference = 60BBABDA23571FCE0058F540 /* CocoaService-HttpService-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60BBABF423571FCF0058F540 /* CocoaService-HttpService-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BBAC0C23571FCF0058F540 /* Build configuration list for PBXNativeTarget "CocoaService-HttpService-exampleTests" */;
+			buildPhases = (
+				60BBABF123571FCF0058F540 /* Sources */,
+				60BBABF223571FCF0058F540 /* Frameworks */,
+				60BBABF323571FCF0058F540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BBABF723571FCF0058F540 /* PBXTargetDependency */,
+			);
+			name = "CocoaService-HttpService-exampleTests";
+			productName = "CocoaService-HttpService-exampleTests";
+			productReference = 60BBABF523571FCF0058F540 /* CocoaService-HttpService-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60BBABFF23571FCF0058F540 /* CocoaService-HttpService-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BBAC0F23571FCF0058F540 /* Build configuration list for PBXNativeTarget "CocoaService-HttpService-exampleUITests" */;
+			buildPhases = (
+				60BBABFC23571FCF0058F540 /* Sources */,
+				60BBABFD23571FCF0058F540 /* Frameworks */,
+				60BBABFE23571FCF0058F540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BBAC0223571FCF0058F540 /* PBXTargetDependency */,
+			);
+			name = "CocoaService-HttpService-exampleUITests";
+			productName = "CocoaService-HttpService-exampleUITests";
+			productReference = 60BBAC0023571FCF0058F540 /* CocoaService-HttpService-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60BBABD223571FCE0058F540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = wuyunhai;
+				TargetAttributes = {
+					60BBABD923571FCE0058F540 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					60BBABF423571FCF0058F540 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 60BBABD923571FCE0058F540;
+					};
+					60BBABFF23571FCF0058F540 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 60BBABD923571FCE0058F540;
+					};
+				};
+			};
+			buildConfigurationList = 60BBABD523571FCE0058F540 /* Build configuration list for PBXProject "CocoaService-HttpService-example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60BBABD123571FCE0058F540;
+			productRefGroup = 60BBABDB23571FCE0058F540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60BBABD923571FCE0058F540 /* CocoaService-HttpService-example */,
+				60BBABF423571FCF0058F540 /* CocoaService-HttpService-exampleTests */,
+				60BBABFF23571FCF0058F540 /* CocoaService-HttpService-exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60BBABD823571FCE0058F540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BBABED23571FCF0058F540 /* LaunchScreen.storyboard in Resources */,
+				60BBABEA23571FCF0058F540 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BBABF323571FCF0058F540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BBABFE23571FCF0058F540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EEEE5F7AC3E901EBF22D4FE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoaService-HttpService-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60BBABD623571FCE0058F540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BBABE523571FCE0058F540 /* ViewController.m in Sources */,
+				60BBABDF23571FCE0058F540 /* AppDelegate.m in Sources */,
+				60BBABF023571FCF0058F540 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BBABF123571FCF0058F540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BBABFA23571FCF0058F540 /* CocoaService_HttpService_exampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BBABFC23571FCF0058F540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BBAC0523571FCF0058F540 /* CocoaService_HttpService_exampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60BBABF723571FCF0058F540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BBABD923571FCE0058F540 /* CocoaService-HttpService-example */;
+			targetProxy = 60BBABF623571FCF0058F540 /* PBXContainerItemProxy */;
+		};
+		60BBAC0223571FCF0058F540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BBABD923571FCE0058F540 /* CocoaService-HttpService-example */;
+			targetProxy = 60BBAC0123571FCF0058F540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60BBABEB23571FCF0058F540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60BBABEC23571FCF0058F540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60BBAC0723571FCF0058F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60BBAC0823571FCF0058F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60BBAC0A23571FCF0058F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB32469909425AD2A23FC705 /* Pods-CocoaService-HttpService-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX4TU8V4ZG;
+				INFOPLIST_FILE = "CocoaService-HttpService-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaservice.CocoaService-HttpService-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60BBAC0B23571FCF0058F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3578C65B2220B2C7DA469B /* Pods-CocoaService-HttpService-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX4TU8V4ZG;
+				INFOPLIST_FILE = "CocoaService-HttpService-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaservice.CocoaService-HttpService-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60BBAC0D23571FCF0058F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX4TU8V4ZG;
+				INFOPLIST_FILE = "CocoaService-HttpService-exampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaservice.CocoaService-HttpService-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaService-HttpService-example.app/CocoaService-HttpService-example";
+			};
+			name = Debug;
+		};
+		60BBAC0E23571FCF0058F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX4TU8V4ZG;
+				INFOPLIST_FILE = "CocoaService-HttpService-exampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaservice.CocoaService-HttpService-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaService-HttpService-example.app/CocoaService-HttpService-example";
+			};
+			name = Release;
+		};
+		60BBAC1023571FCF0058F540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX4TU8V4ZG;
+				INFOPLIST_FILE = "CocoaService-HttpService-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaservice.CocoaService-HttpService-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CocoaService-HttpService-example";
+			};
+			name = Debug;
+		};
+		60BBAC1123571FCF0058F540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX4TU8V4ZG;
+				INFOPLIST_FILE = "CocoaService-HttpService-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoaservice.CocoaService-HttpService-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CocoaService-HttpService-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60BBABD523571FCE0058F540 /* Build configuration list for PBXProject "CocoaService-HttpService-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BBAC0723571FCF0058F540 /* Debug */,
+				60BBAC0823571FCF0058F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BBAC0923571FCF0058F540 /* Build configuration list for PBXNativeTarget "CocoaService-HttpService-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BBAC0A23571FCF0058F540 /* Debug */,
+				60BBAC0B23571FCF0058F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BBAC0C23571FCF0058F540 /* Build configuration list for PBXNativeTarget "CocoaService-HttpService-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BBAC0D23571FCF0058F540 /* Debug */,
+				60BBAC0E23571FCF0058F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BBAC0F23571FCF0058F540 /* Build configuration list for PBXNativeTarget "CocoaService-HttpService-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BBAC1023571FCF0058F540 /* Debug */,
+				60BBAC1123571FCF0058F540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60BBABD223571FCE0058F540 /* Project object */;
+}

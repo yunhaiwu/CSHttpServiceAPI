@@ -1,0 +1,31 @@
+{
+  "name": "CSHttpServiceAPI",
+  "version": "1.0.0",
+  "summary": "cocoaservice http service api.",
+  "description": "http请求组件API",
+  "homepage": "https://github.com/yunhaiwu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "吴云海": "halayun@gamil.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/yunhaiwu/CocoaService-HttpServiceAPI.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "CSHttpServiceAPI/*.{h,m}",
+  "exclude_files": "Example",
+  "public_header_files": "CSHttpServiceAPI/*.h",
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "dependencies": {
+    "CocoaService": [
+
+    ]
+  }
+}
