@@ -22,6 +22,6 @@ HTTP 响应抽象类
 /*
  子类重写
  */
-+ (id<CSHttpResponse>)buildResponseByString:(NSString*)responseDataStr;
++ (id<CSHttpResponse>)buildResponseWithString:(NSString* _Nonnull)responseString;
 
 @end

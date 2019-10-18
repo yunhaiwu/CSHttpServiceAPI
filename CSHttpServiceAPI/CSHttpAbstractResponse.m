@@ -10,16 +10,16 @@
 
 @implementation CSHttpAbstractResponse
 
-+ (id<CSHttpResponse>)buildResponseByData:(NSData*) responseData {
++ (id<CSHttpResponse>)buildResponseWithData:(NSData*) responseData {
     id<CSHttpResponse> response = nil;
     if ([responseData length]) {
-        response = [self buildResponseByString:[[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]];
+        response = [self buildResponseWithString:[[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]];
         [response setResponseData:responseData];
     }
     return response;
 }
 
-+ (id<CSHttpResponse>)buildResponseByString:(NSString*)responseDataStr {
++ (id<CSHttpResponse>)buildResponseWithString:(NSString*)responseString {
     return nil;
 }
 
