@@ -54,7 +54,7 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
 /**
  上传文件
  */
-- (NSArray<CSHttpFileUpload*>*) uploadFiles;
+- (NSArray<CSHttpFileUpload*>*)uploadFiles;
 
 /**
  验证参数
