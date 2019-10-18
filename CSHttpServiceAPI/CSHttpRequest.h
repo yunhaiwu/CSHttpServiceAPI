@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
     
     CSHTTPMethodDELETE = 3,
     
-    CSHTTPMethodTRACE = 4,
+    CSHTTPMethodPATCH = 4,
 };
 
 @protocol CSHttpRequest <NSObject>
