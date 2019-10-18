@@ -29,14 +29,14 @@ typedef void (^CSHttpServiceProgressBlock)(float progress);
   responseBlock:(CSHttpServiceResponseBlock)responseBlock;
 
 
-- (void)requestWithURL:(NSString* _Nonnull)url
+- (void)requestWithURL:(NSURL* _Nonnull)url
                 method:(CSHTTPMethod)method
                 params:(NSDictionary<NSString*, NSObject*>*)params
                headers:(NSDictionary<NSString*, NSString*>*)headers
          responseBlock:(CSHttpServiceResponseDataBlock) responseBlock;
 
 
-- (void)downloadWithURL:(NSString* _Nonnull)url
+- (void)downloadWithURL:(NSURL* _Nonnull)url
           responseBlock:(CSHttpServiceDownloadResponseBlock)downloadResponseBlock
                progress:(CSHttpServiceProgressBlock)progressBlock;
 
