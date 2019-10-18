@@ -36,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		0EB438062A69D68B8F585E60 /* libPods-CocoaService-HttpService-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaService-HttpService-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		605F7B8023598058002E2901 /* CSHttpServiceAPI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = CSHttpServiceAPI.podspec; path = ../../CSHttpServiceAPI.podspec; sourceTree = "<group>"; };
+		605F7B8023598058002E2901 /* CSHttpServiceAPI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = CSHttpServiceAPI.podspec; path = ../../CSHttpServiceAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		60BBABDA23571FCE0058F540 /* CocoaService-HttpService-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaService-HttpService-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BBABDD23571FCE0058F540 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60BBABDE23571FCE0058F540 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };

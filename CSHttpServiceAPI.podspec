@@ -19,7 +19,7 @@ s.author       = { "吴云海" => "halayun@gamil.com" }
 
 s.platform     = :ios, "7.0"
 
-s.source       = { :git => "https://github.com/yunhaiwu/CocoaService-HttpServiceAPI.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/yunhaiwu/CSHttpServiceAPI.git", :tag => "#{s.version}" }
 
 s.source_files  = "CSHttpServiceAPI/*.{h,m}"
 s.exclude_files = "Example"
