@@ -10,7 +10,7 @@
 
 @implementation CSHttpAbstractResponse
 
-+(id<CSHttpResponse>) buildResponseByData:(NSData*) responseData {
++ (id<CSHttpResponse>)buildResponseByData:(NSData*) responseData {
     id<CSHttpResponse> response = nil;
     if ([responseData length]) {
         response = [self buildResponseByString:[[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding]];
@@ -19,7 +19,7 @@
     return response;
 }
 
-+(id<CSHttpResponse>) buildResponseByString:(NSString*)responseDataStr {
++ (id<CSHttpResponse>)buildResponseByString:(NSString*)responseDataStr {
     return nil;
 }
 

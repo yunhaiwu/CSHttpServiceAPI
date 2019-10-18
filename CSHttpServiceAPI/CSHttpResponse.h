@@ -19,7 +19,7 @@
 /*
  构建响应对象
  */
-+(id<CSHttpResponse>) buildResponseByData:(NSData*)responseData;
++ (id<CSHttpResponse>)buildResponseByData:(NSData*)responseData;
 
 
 @optional
