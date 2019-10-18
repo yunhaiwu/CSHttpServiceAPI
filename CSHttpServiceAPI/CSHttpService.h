@@ -25,19 +25,19 @@ typedef void (^CSHttpServiceProgressBlock)(float progress);
 @protocol CSHttpService <CSService>
 
 - (void)request:(id<CSHttpRequest> _Nonnull)request
-  responseClass:(Class)resClass
-  responseBlock:(CSHttpServiceResponseBlock)responseBlock;
+  responseClass:(Class _Nonnull)resClass
+  responseBlock:(CSHttpServiceResponseBlock _Nonnull)responseBlock;
 
 
 - (void)requestWithURL:(NSURL* _Nonnull)url
                 method:(CSHTTPMethod)method
-                params:(NSDictionary<NSString*, NSObject*>*)params
-               headers:(NSDictionary<NSString*, NSString*>*)headers
-         responseBlock:(CSHttpServiceResponseDataBlock) responseBlock;
+                params:(NSDictionary<NSString*, NSObject*>* _Nullable)params
+               headers:(NSDictionary<NSString*, NSString*>* _Nullable)headers
+         responseBlock:(CSHttpServiceResponseDataBlock _Nonnull) responseBlock;
 
 
 - (void)downloadWithURL:(NSURL* _Nonnull)url
-          responseBlock:(CSHttpServiceDownloadResponseBlock)downloadResponseBlock
-               progress:(CSHttpServiceProgressBlock)progressBlock;
+          responseBlock:(CSHttpServiceDownloadResponseBlock _Nonnull)downloadResponseBlock
+               progress:(CSHttpServiceProgressBlock _Nullable)progressBlock;
 
 @end
