@@ -29,6 +29,6 @@
  默认超时时长
  default 30 seconds
  */
-- (NSInteger)defaultTimeoutBySeconds;
+- (int)defaultTimeoutBySeconds;
 
 @end

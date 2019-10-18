@@ -11,15 +11,14 @@
 
 typedef NS_ENUM(NSInteger, CSHTTPMethod) {
     CSHTTPMethodGET = 0,
+    
     CSHTTPMethodPOST = 1,
+    
     CSHTTPMethodPUT = 2,
+    
     CSHTTPMethodDELETE = 3,
+    
     CSHTTPMethodTRACE = 4,
-    CSHTTPMethodOPTIONS = 5,
-    CSHTTPMethodLOCK = 6,
-    CSHTTPMethodMKCOL = 7,
-    CSHTTPMethodCOPY = 8,
-    CSHTTPMethodMOVE = 9,
 };
 
 @protocol CSHttpRequest <NSObject>
@@ -29,8 +28,10 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
  */
 - (NSURL*)url;
 
+@optional
 /**
  请求方法
+ deault GET
  */
 - (CSHTTPMethod)method;
 
@@ -45,9 +46,10 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
 - (NSDictionary*)params;
 
 /**
- 超时时长
+ 超时时长(秒)
+ default 30
  */
-- (int)timeoutDuration;
+- (int)timeoutDurationBySeconds;
 
 /**
  上传文件

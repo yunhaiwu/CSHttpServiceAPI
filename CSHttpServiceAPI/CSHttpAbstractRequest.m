@@ -8,7 +8,6 @@
 
 #import "CSHttpAbstractRequest.h"
 #import <CocoaService/CocoaService.h>
-#import "CSHttpServiceConfig.h"
 
 @implementation CSHttpAbstractRequest
 
@@ -27,19 +26,5 @@
 - (NSDictionary*)params {
     return nil;
 }
-
-- (int)timeoutDuration {
-    id<CSHttpServiceConfig> httpServiceConfig = [[[CocoaService sharedInstance] applicationContext] fetchService:@protocol(CSHttpServiceConfig)];
-    if (httpServiceConfig) {
-        return [httpServiceConfig defaultTimeoutBySeconds];
-    }
-    return CSHttpServiceDefaultTimeoutBySeconds;
-}
-
-- (NSArray<CSHttpFileUpload*>*) uploadFiles {
-    return nil;
-}
-
-- (void)validateParamsByError:(NSError**)error {}
 
 @end
