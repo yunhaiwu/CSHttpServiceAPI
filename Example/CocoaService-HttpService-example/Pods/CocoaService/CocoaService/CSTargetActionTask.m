@@ -1,14 +1,14 @@
 //
-//  CSTaskTargetActionTask.m
+//  CSTargetActionTask.m
 //  CocoaService-Framework
 //
 //  Created by 吴云海
 //  Copyright © 2018年 yunhai.wu. All rights reserved.
 //
 
-#import "CSTaskTargetActionTask.h"
+#import "CSTargetActionTask.h"
 
-@implementation CSTaskTargetActionTask
+@implementation CSTargetActionTask
 
 - (instancetype)initWithTarget:(id)target action:(SEL)action async:(BOOL)async {
     self = [super init];

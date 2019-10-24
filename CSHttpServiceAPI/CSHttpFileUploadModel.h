@@ -1,5 +1,5 @@
 //
-//  CSHttpFileUpload.h
+//  CSHttpFileUploadModel.h
 //  CocoaService-HttpServiceAPI
 //
 //  Created by 吴云海
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 __attribute__((objc_subclassing_restricted))
-@interface CSHttpFileUpload : NSObject
+@interface CSHttpFileUploadModel : NSObject
 
 @property(nonatomic, copy) NSString *requestKey;
 
@@ -24,6 +24,9 @@ __attribute__((objc_subclassing_restricted))
 
 - (instancetype)initWithRequestKey:(NSString*)requestKey mimeType:(NSString*)mimeType fileName:(NSString*)fileName filePath:(NSString*)filePath;
 
+/*
+ 文件是否存在
+ */
 - (BOOL)fileExist;
 
 @end

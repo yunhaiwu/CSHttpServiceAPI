@@ -1,23 +1,23 @@
 //
-//  CSAppGlobalDefaultModule.m
+//  CSApplicationCoreModule.m
 //  CocoaService-Framework
 //
 //  Created by 吴云海
 //  Copyright © 2018年 yunhai.wu. All rights reserved.
 //
 
-#import "CSAppGlobalDefaultModule.h"
+#import "CSApplicationCoreModule.h"
 
-NSString *const CSAppGlobalDefaultModuleId = @"CSAppGlobalDefaultModule";
+NSString *const CSApplicationCoreModuleId = @"CSApplicationCoreModule";
 
-@implementation CSAppGlobalDefaultModule
+@implementation CSApplicationCoreModule
 
-+ (int)modulePriority {
++ (NSUInteger)modulePriority {
     return WJ_MODULE_LOADING_PRIORITY_HIGH + 1;
 }
 
 + (NSString *)moduleId {
-    return CSAppGlobalDefaultModuleId;
+    return CSApplicationCoreModuleId;
 }
 
 + (CSModuleLoadingMode)moduleLoadingMode {

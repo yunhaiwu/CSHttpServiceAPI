@@ -1,5 +1,5 @@
 //
-//  CSAppGlobalDefaultModule.h
+//  CSApplicationCoreModule.h
 //  CocoaService-Framework
 //
 //  Created by 吴云海
@@ -14,7 +14,7 @@
  不可卸载
  */
 __attribute__((objc_subclassing_restricted))
-@interface CSAppGlobalDefaultModule : NSObject<CSModule>
+@interface CSApplicationCoreModule : NSObject<CSModule>
 
 @property (nonatomic, weak) id<CSModuleContext> modContext;
 

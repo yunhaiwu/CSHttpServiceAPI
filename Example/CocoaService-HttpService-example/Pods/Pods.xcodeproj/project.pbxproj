@@ -7,104 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00062BDD35EFDB06E23895E03B6B1102 /* CSHttpFileUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234B9EE7A3101A27FE9218A8ED1A32D /* CSHttpFileUpload.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0040D9ACBB0EB678D8EDCE3D51EC329E /* CSServicesContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6595C5AC8FFAB2657402F896A16C4B /* CSServicesContainer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		01C9DADE58BEB26FA338451BB6E0BD5E /* CSHttpAbstractRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036067A8C2136F53680B3F404CE2907 /* CSHttpAbstractRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		06613ECA1A2707A6BB320A7B2606DDB1 /* CSSafeArray.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6ECF12ED3905DD277F739A8B192155 /* CSSafeArray.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		06C2142D35687C9131E89CCB594F6B4F /* CSServicesContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED69FF094A609F45ECB2F8CA2496E6F /* CSServicesContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E2EA2672009D056BBF98C068E879D91 /* CSHttpServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CDA1FB5142AD71ACE719F03502FBD03 /* CSHttpServiceConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0EC48AF4569910FBB1A2D06F27C7A76D /* CSMonitorTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = C83BE558951E9A63A6C91596A008BA1E /* CSMonitorTimeProfiler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F6CD9EBAB566D8615A166690200E976 /* CocoaService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF25C0FAFF3B78CA5C4F6EC14C514124 /* CocoaService-dummy.m */; };
-		117429CC693D764AF2E76A55E6578D80 /* CSSimpleApplicationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4EA4C5F582115C6B6711B2354CA461 /* CSSimpleApplicationContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		12AAFC82E6A7C2AEED3D0646E2328896 /* CSHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A068E04FB0B7AA0268A40B28A11F89C /* CSHttpRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1512FC309CD3F329E2C20D25ABC7A106 /* CSSafeStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 971E524300264CDE06A6560F66A37BFE /* CSSafeStack.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		15E757B099711BD25F2C13E34DB5AC20 /* CSSimpleAspectJoinPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FA370DD6DD4B49D87459976AE76224 /* CSSimpleAspectJoinPoint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1602E0F16BC9B38C0F46DA5019419208 /* CSServiceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAC36AE671406AA72E8954BFF5F7568 /* CSServiceWrapper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1BB71BF4F6C09F6B56060B6F7B4E7DA8 /* CSSimpleAppFristViewControllerDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D94709B55A17ED59E241493DB8DD7E /* CSSimpleAppFristViewControllerDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1F97A8EFBDBCB7F98A4A92652E055661 /* CSMonitorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = BD399713D4ADFB5D3FCC95E8A9F8E48B /* CSMonitorContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2235D0557B821D04A7BDFCFBDC915D5D /* NSObject+CSService.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B1AE1E17B2F5D8B1123E9060D4A943 /* NSObject+CSService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		28AAC08377AE59F629D0ECF5AF680B26 /* CSAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = E124F2F115F5C4F4B3942C85847A086D /* CSAspect.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		292232FBB86F6B79A77CA0B9EA0D715E /* CSSimpleApplicationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F007735A218745C64CB8337DA4E044A1 /* CSSimpleApplicationContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2E9C16425D2F7279AF41ECD788948951 /* CSAspectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A56F0847899BB45F709FE7B1504C8052 /* CSAspectContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		32EC9DD525EA09C167D9AA3CFAA7F200 /* CSSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 197949E5945CBE27E75D79B496DB3C7F /* CSSafeArray.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		352694C748DB71DD1C3F29D159B49ED3 /* CSMonitorTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AEA4DC209E916C017E5569EE75F3A /* CSMonitorTimeProfiler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		35AB2598BB785AC59E051F3E2A9F3A1A /* NSObject+CSModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 34157420DC45730B7CD10D40282C5170 /* NSObject+CSModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		38257D05B139C5F787BD051B7E167E77 /* CSSafeSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 78092063B5CBF69167DA95F2053C69A7 /* CSSafeSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		39FB4323B1BE4EF3838E4400130AF5D8 /* CSHttpFileUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 0745FF1DE68ADAEAF84E0FF4DDC0DB3D /* CSHttpFileUpload.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3B3F477C44EBDE09D8B569C965B736F0 /* CSAppGlobalDefaultModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EFAC3E685F4A0A37F8DA384AE724C1 /* CSAppGlobalDefaultModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3E7CDABEECF89B230F8743C149B67DB3 /* CSSimpleAspectJoinPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B48DFB3C29DE66752CEAB9B8590D578 /* CSSimpleAspectJoinPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3F66F7249A3C469B25E0DD17056F7AF7 /* CSTaskScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = BC80DE0F0F793209EEB1C5946CE56BC8 /* CSTaskScheduler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		442F223E9D81D43D67DF473BF5698E49 /* IWJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D29F1F9AF38AEE90E2EAEC57D860695 /* IWJLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45D19718A717134D5135B1E83403E9A0 /* CSTaskScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A14281945335CF498EB503218002CE /* CSTaskScheduler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		469A5BFFAF8576E3E9B7DEF1A36CF47E /* CSMonitorTimeProfiler+CocoaService.m in Sources */ = {isa = PBXBuildFile; fileRef = CA64963C10F37A4B0104527D86F7A2F4 /* CSMonitorTimeProfiler+CocoaService.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		472C11678656ECE4A921E85DB9F1192B /* CSSafeStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3A16091BBA454B96F3A503B55DBBA0 /* CSSafeStack.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		496DD6D8737BF01DC57846B7A18E29B8 /* NSObject+CSModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B83027E88A5E8E3FAE1F2B9370AC8E55 /* NSObject+CSModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		565291657E77E3C850A832DBD303B5F6 /* CSServiceContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BBFABB9DFDC6975EC49315264168F2 /* CSServiceContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		571C4E9EB0991745C04AACF0C1786486 /* WJLoggerBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7DA5CCB48E744D7C3E44FBC4FCAC5F /* WJLoggerBinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5724E37B3BC3FB405A40B930685748A5 /* CSHttpServiceInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EBCA69002E68CBC0E4F2FE9D4DBDFE28 /* CSHttpServiceInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5B14E6392C2192CB4A3AA65BC20AE014 /* CSAppGlobalDefaultModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ED0AF08DC0C8645958CCE4608A4A58 /* CSAppGlobalDefaultModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5B590C3AE13E9B72AD6CE6496ED7B14B /* CSModuleContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C262B57ADAEDD97C2CB286F02B96F1 /* CSModuleContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62E36B71B6845BA42409086BB64F83E1 /* CocoaService.h in Headers */ = {isa = PBXBuildFile; fileRef = F2033CD465679314CFC8A222DA690205 /* CocoaService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6438BE1C50E84FE7F9E8A0DDC65A4678 /* CSTaskBlockTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D78AADB65A9FB8B66004B2E708E1C6 /* CSTaskBlockTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6AAE8AFE32396993A8B18DC5E41898F8 /* CSSimpleAspectRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F0F0126A0EB5AD2D552B7D75DFBF6D /* CSSimpleAspectRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B96B2F73F36C1135F90FBE0D227B0A4 /* CSService.h in Headers */ = {isa = PBXBuildFile; fileRef = D408A0703B80DE14755CA1FC8FD15E76 /* CSService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6E8E8B3E55D0EFC9A300CFED48152666 /* CSRuntimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B48CD6368B80456D1267849ECEA2C31 /* CSRuntimeTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		007D7F46F40E1ACE73C4B035ABB47025 /* CSMacroDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DD114474F13CE2E9AAB3E5061E10F75C /* CSMacroDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0080E8199AC7F01AD9E627E1DBF40D4D /* CSModuleContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DACB6F089596B7E3136D32D518C946 /* CSModuleContainer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0779264C8AD9BFF31A069A5D114E48C7 /* NSObject+CSService.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9F2EE6D75AFDB281BF52215029349B /* NSObject+CSService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BC4788B7D6074C03C78A468F6EE5D5F /* CSApplicationPluginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E2C11693C43C658FE378CB12818CD0 /* CSApplicationPluginManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D54C8857333B38ED4D6F29DCB7CE0C1 /* CSHttpServiceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E406A850652B3499E1D4C95F17D55C7 /* CSHttpServiceAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DA66DB69D9C7E350DE1E45F0E2ABFBF /* CSSimpleAspectRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE2497CA9ED717752E29383CAE0F065 /* CSSimpleAspectRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DD3B13B9737696B5CB3EF9B660785F5 /* CSServiceContext.h in Headers */ = {isa = PBXBuildFile; fileRef = E57AB7C12CDF3523F0CA01514AEDCF71 /* CSServiceContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1130E61830E302A46B5C6B215AA6352F /* CSHttpServiceAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AAB1A1BC913B0581D53D98DA2C1038 /* CSHttpServiceAPI-dummy.m */; };
+		12CE3AC331B9357C193F0EDBB86B3840 /* CSSimpleModuleContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B29E1A0BEB05A597B7CEC2671D23854F /* CSSimpleModuleContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		147FE3E92352F21BC0B4034E7D7C0829 /* CocoaService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F20D52BC26C1AEFDE80B791B7B369CA5 /* CocoaService-dummy.m */; };
+		1AD21714EED73D36986BE9EC1ECE6BE4 /* CSSafeStack.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C2D7479CE13D9F1ADDAF1A56A97C1C /* CSSafeStack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20F5E5DFE4CF8BF8C9607262FDFB97B2 /* CSTargetActionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 840D3651F71FE9161F071E4AADA9E6C3 /* CSTargetActionTask.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		224878404D955EA432C7EFF1C87DE0B6 /* CSApplicationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = BE98DA6A6759C9E81026AAE40D0503C9 /* CSApplicationContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		277E1185BE7B1D3972A82FB42A9A1188 /* CSSimpleAspectJoinPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D476032D67A6897C1E0B5594D5FAE23 /* CSSimpleAspectJoinPoint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A9E4243272857C60C3C8D8AA54D6A9B /* CSSafeQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA170BC02FDCA6A65753EE3B43E995F /* CSSafeQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DA67B2BC0E1E1597BDA1EFD919EE1C6 /* CSApplicationCoreModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A3FB67FA3A7A4EBE9E8244483ECDC8 /* CSApplicationCoreModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2DC312F43543A6217750757C13C7C93A /* CSServicesContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37768C7E9D2F4DB7BF889CC130D9324F /* CSServicesContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E46270D5681CE36F9114B743DA07C73 /* CSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A02D46EE9751A86B9E24AB408A7241 /* CSAnnotation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3641D2427BCA018564A024CAD2BE3C90 /* CSHttpFileUploadModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4D006CB30504F4309A7B3B50DAFD2F /* CSHttpFileUploadModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		390287F6CE17261F2C8395EB21CD4C6C /* CSSafeArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE033A202D6405C095E54AAC0369539 /* CSSafeArray.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4058BF4C015484ADF809BFD2E43BE7D2 /* CSSimpleModuleContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5A085F96E9A9B901C57FF439082384 /* CSSimpleModuleContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4170892AF2A5CE03D91F00144430D52B /* CSHttpAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7AA0ED7A80958CCB04FAC4F093FE66 /* CSHttpAbstractResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		442F223E9D81D43D67DF473BF5698E49 /* IWJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D7B589C00C9977C61B6A57E9A9096A /* IWJLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		464E7A4665EBC5FB91E83A8D6CC0F98A /* CSHttpAbstractResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 480E13253F63BD2BD853B051D1396D7A /* CSHttpAbstractResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4790CEA6045F1196BE40B5345FCBAC51 /* CSServicesContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 196F4AEF910413633AF0BCFBCA2530C8 /* CSServicesContainer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4891BAC5BE7DD190FFC12198965FF639 /* CSHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1261C08735E53E3C4CD0E9229EB2E51E /* CSHttpRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		493A07A6806D5016915AB0A55098A8D2 /* CSAspectRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1940876D46D8FB7996AAD4D4EB707747 /* CSAspectRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AA2E61B96E8438DC6DE969CA55E6203 /* CSRuntimeTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFCC9F5B97DDEE8ED5E024FF1FE480B /* CSRuntimeTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C6B4DC6BAC1007B62AF3257591FA929 /* CSApplicationPreloadDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 886DCF7EBBD96AF2071F06A7C806865C /* CSApplicationPreloadDataManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		50A94F0B03DECC677A2E8C18159D7B8A /* CSModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B661DAB3F7470BAD78FE6BC3AC3C73 /* CSModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		517707F0B27477F29A2980C673D708E9 /* CSAspectServiceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E198F9E85E6118ADD76D7C4609DDB8C3 /* CSAspectServiceProxy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		522750291944F4700808839BAC3BB11B /* CSMonitorApplicationTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D82BA2B0B646EF2930D50F9D32B3C7 /* CSMonitorApplicationTimeProfiler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5294774FAB1F99118E4C60BA1284E4D9 /* CSApplicationPreloadDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C810DF4463CF21FEB67389C7C2A6DB /* CSApplicationPreloadDataManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		555F8BB8A8B747374CB704D02925A912 /* NSObject+CSModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CB98C9C1E0E649741881140B06686799 /* NSObject+CSModule.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		55B18D4AD9ED6FB813140618FC8DCD38 /* CSSimpleApplicationPluginDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD6AB935489D91697C6DE897DE7C7C9 /* CSSimpleApplicationPluginDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		571C4E9EB0991745C04AACF0C1786486 /* WJLoggerBinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8F4848F363BF69613C09D1C5B89356 /* WJLoggerBinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		598A55B60478836CCB35696FED84D92E /* CSApplicationCoreModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2340A8E02861526882F6C0FD855B6E /* CSApplicationCoreModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59E7CCC6487AE534F5C39449A3922D95 /* CSModuleContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C5D1F3672EF1556AAB4592C2E6FAB71 /* CSModuleContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B42FDA600158B6D443F83F553174EF0 /* CSModuleRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA36CAD275F8A55F20451402DC10250 /* CSModuleRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B837E8A4EA99527A9CB4FB4ECE7F6C7 /* CSAspectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A37331C30F5989DD1A55C2AC32508C /* CSAspectContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FFB6893893D4765380686BFF756535C /* CSHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5655B348DF8644AFC651B7C491A8FCC5 /* CSHttpResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E312F83396E8169FA22116ECEAF6CBD /* CSAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AA32FD8048792E004417135A80EBC4 /* CSAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F42E330295CB924CD8537BCE7FE0FFF /* CSHttpServiceInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED670CD5EE5BBE35ACF94F032B97921 /* CSHttpServiceInterceptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F5001B2F2768FAC3975DE47C8792F41 /* NSObject+CSModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A09346849D87F71B0473556BE6B53B86 /* NSObject+CSModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7146B0BB42D1689022090F6D134D0EB9 /* Pods-CocoaService-HttpService-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8452040EECAA889DDD6D06B94B05287C /* Pods-CocoaService-HttpService-example-dummy.m */; };
-		7257171355612001D26903A8BC588306 /* CSAspectServiceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A919EF68EC2ACDB9EDDC4254A186B467 /* CSAspectServiceProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		75A1B3E78140590D65266AC3D87F714C /* CSModuleContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BF994CA1C4FD4BF0DE2541CDF5FF1F /* CSModuleContainer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		783E3B6AC64B694D74AD54ADA076ECF8 /* CSSimpleAppFristViewControllerDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E57BD9AA4F09991184EC6E04708EF9A /* CSSimpleAppFristViewControllerDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		83B0BA1BE374C6AA07E2929C9568DB81 /* CSAppFirstViewControllerDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF6961B22C972082BF8F0C941CEF80A /* CSAppFirstViewControllerDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		83C391877C17A9DE399E55E4A0F31632 /* CSModuleContext.h in Headers */ = {isa = PBXBuildFile; fileRef = E9261D1661F1FC2442DD777FC1618F61 /* CSModuleContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		85245B7F9E0C78096748A3974727B7CD /* CSTaskTargetActionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A4B1EF8441AE6B2A63A31A98B040E2 /* CSTaskTargetActionTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		86D8637A96D9D44B3BD06ED76310060E /* CSSimpleModuleContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9516A6C20DD5A93F1A19F57DE82DCD1F /* CSSimpleModuleContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8C4C85E12B6BC343BB66AE43994D43D4 /* CSServiceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBA4A6C2BA0F494ED2FDA3179E55292 /* CSServiceWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8CF9DF52ED58994AD07BB953C8152B72 /* CSAspectJoinPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2B3A20DAFD210A080CCB6D880841AA /* CSAspectJoinPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		912AE69C591A96A5B809CFE8BCB7AA53 /* CSAspectServiceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F68FF8BC8E6A71AC9FA3F027E06524 /* CSAspectServiceProxy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9564E3C971A30EC0FB38D5BBBCEA8020 /* CSAspectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 125EB9BDF2E93025C6143839B64F57E9 /* CSAspectContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		97820A1685A94BE012DFA20D26B3592A /* CSModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D75847BE16FE45825B959533272BE97C /* CSModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		998D9E13D175AA93303A9BA21DA0D78A /* CSSimpleServiceRegisterDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F378BA490EA1FF5907CB6BD3B79BA6B /* CSSimpleServiceRegisterDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9E1276151622AA550353D805277F8CFD /* CSTaskTargetActionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 806F90AEBB8E2F0D9A9B0A2CF9253BA3 /* CSTaskTargetActionTask.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A53AD9B62588E1894A6ACA54ED1A0A7C /* CSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D564E6B0E7FEEC0FEB46AF08106862 /* CSAnnotation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A81B46DEF5A0C1E28635237E5681EA6A /* CSAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B5CFEBFA44744B034262A9C12B146F /* CSAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA26C065741B13E21F7544B7994CA414 /* CocoaService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6250B1306CB7FDB6A09BAB659D4FF832 /* CocoaService.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AC000929854ABCC231E0FF40C3A4CA16 /* CSServiceContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E40A64D1D7320A8EFFECE55CC4880 /* CSServiceContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AD5C820B642D217C2A372425E0A996CF /* CSHttpAbstractResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADBE5D0703A83AABF83A1AC290C3C32 /* CSHttpAbstractResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AEA58FB36BD5193433CC7A3B219950C6 /* CSHttpAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBA23A495195124FAA6B54F786420F /* CSHttpAbstractResponse.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AF01C3400D90E6446966A8B3928A8B5B /* CSAspectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 173A53C5030A3B1C6FD0A030CAA6DC69 /* CSAspectContainer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AFD8709DAD48536F91F30D32B85DD6E4 /* IWJLoggerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BDE54191B3A88D03BAF714DB96E8AF /* IWJLoggerFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AFE0CABE45B82690C089ED179A92EA7A /* CSRuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F742AF11888D9478AD221AA513EE8A /* CSRuntimeTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B1A77AE3F6908344C5AE7C6521035C80 /* CSApplicationPreloadDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7BC809AAA3795D56E343F61CAB8DAF /* CSApplicationPreloadDataManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B2DE19B6FFBEDF971794C7F957C570F6 /* WJLoggingAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFAD97C43F30CF3816BF67FED523BAD /* WJLoggingAPI-dummy.m */; };
-		B919622114775280FAF97AA8B3C1D2FE /* CSApplicationPreloadDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B656201584CAADE781A72DAF94B5C8 /* CSApplicationPreloadDataManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BC6F87BCDBF150CC4BD826C916BC7E90 /* CSApplicationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C147E2B498F156DB0E1A68537154BBA7 /* CSApplicationContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC883CABD0078914D2C5F52DC5806097 /* CSServiceRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0A12DC4AA8E17C45E59A6258FBB4F4 /* CSServiceRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD93A0FF15D1D2BBB65395B9FEB31D36 /* CSMonitorTimeProfiler+CocoaService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8C37AFB8A6060EF0B3989DEBFFFF3C /* CSMonitorTimeProfiler+CocoaService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BF6DE894B951D4754AB2EB66F9DA1DBD /* CSSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F12493C1750283BB4BFE98CA1655A69B /* CSSafeDictionary.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C02F79DBF0519426D9FF486E2331F78C /* WJLoggingAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB227A963EA4E0FD7AE640AD96FB017 /* WJLoggingAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C4D54DF4173BE07D0339ACBBD06B3831 /* CSSafeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8203CD451AD6ED610DE713645A09429 /* CSSafeSet.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C7833B7742A223C609AC4BC98D26B0B4 /* WJLoggerBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 41100BA3AC0C1AA0E82E1FB0545A165B /* WJLoggerBinder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C92BA3890014E981B4DF6A68636DD734 /* CSSimpleModuleContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E78B7258046C4028BDA0AC9ED1BEC5 /* CSSimpleModuleContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CF06338C7522BA9D4E563995CE131F7A /* CSSimpleAspectRegisterDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4EE4CD037D05FCDC4EED62BEA8610C /* CSSimpleAspectRegisterDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D4CDA6732D4F370312D319EE00117EA1 /* CSSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F174573EF84A0254330EE2AFF9AC905 /* CSSafeDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D680F92B4C877D8236EE8F3497276012 /* CSHttpServiceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = B3129ABF1217603C19C889D30A1D5B9F /* CSHttpServiceAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6F88E05B4E376850B5B203FB11FCFF3 /* NSObject+CSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CEBAC54662A1D6250BD95E7C83F77E /* NSObject+CSService.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D9145FB2C40FD19283934FADFA8F50D9 /* CSModuleRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E303866958546A6B103C44D1DA971C61 /* CSModuleRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DC4CB676FCB260EA03E3194467E693F2 /* CSAspectRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBCACC391196D79DA414147A335998B /* CSAspectRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E121700BF12BB1EB0593330006DA4E8E /* CSSimpleServiceRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = DE12B8DD6A0642FC64C8F9DA81D57BFB /* CSSimpleServiceRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E189A56BAF393EC5480209E435E2F6B7 /* CSModuleAppDelegateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = B5433C8A9D53F192FD2BDCA8D76CAB89 /* CSModuleAppDelegateListener.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E226F4D4CB3C30F23D473B50A01A521C /* CSMonitorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DBF75C44642746B89A8D7E43445987 /* CSMonitorContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E3A2D74E5417345814BDB8536841C981 /* CSHttpService.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DFDDFB8C7811EF3424AFD53D40A064 /* CSHttpService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E44AC3ABD8F7CE51E1813764709E3FC8 /* CSSafeQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 547C6A97ECE397CCAF7FDA18D4DDD6E2 /* CSSafeQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E850B16A5E28E2B306AA3B67B37CE578 /* CSAspectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C3C3D3562E21A69626A2A2D33D4A60 /* CSAspectContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E912C3BE6B39E4777315BA83EEFB7F2E /* CSHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C73CCDFB87BAA2B0FD6AFB388E245B17 /* CSHttpResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F198C339AC52AF9D82B37798B2B20594 /* CSTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D86D1916E9993B6539E479E4F91174 /* CSTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F35BC049CAE4F65029A34D104AD2314E /* CSTaskBlockTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B262D4F57F2EB6A84C41AFC8F765AD8 /* CSTaskBlockTask.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F3C52CB91E26E572B6668B8FD365429E /* CSSimpleModuleRegisterDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 47308C6C31568D6FAA87FF2AEFC3D528 /* CSSimpleModuleRegisterDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F5DAEDA1F66987DDADCD07C0DC5064D6 /* CSSafeQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E209C7C9D8A3FF70CE95043EDE6977A /* CSSafeQueue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F6473DD9E8443CF1F149C7B8BC23110D /* CSHttpAbstractRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F4E50236F949BEA55B72E7FAD68901 /* CSHttpAbstractRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F67BB13FAD9CD4D8565A112341D52A94 /* CSHttpServiceAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 225569E393ECD1D58207A41754B38301 /* CSHttpServiceAPI-dummy.m */; };
-		F6B887FA11CC968F410A2C00E89B4C69 /* CSSimpleModuleRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 552B707C24AF3CAB0A2C136ECCE6F8AB /* CSSimpleModuleRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F6DD47586C506729A9D2D1BC56260068 /* CSMacroDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C28F33A8FCD0C1C92D0AEE850AE684 /* CSMacroDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71CA6DB8592CCA196348C4F4F50F4E72 /* CSRuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 43269A72B3E3120EA5C303170B4C5411 /* CSRuntimeTool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		71E3D426A2230DCFAF6C498AB280FD74 /* CSServiceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A6A52D511620C04EDC6E4A0FF111B5 /* CSServiceWrapper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7610EE02710596BCE445055749438F0A /* CSAspectServiceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C2A823A5C4601398C34AA81A913A27 /* CSAspectServiceProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		768BFA3031332DF9229B6FFA55D5FD2A /* CSMonitorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 02296CC81086C7F76FC8664E69CF7554 /* CSMonitorContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78BFA61D221550AAA732E0DBCAB422F8 /* CSSafeQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6993B6526BB37CF89EB9899B8FB97283 /* CSSafeQueue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7D5837583CC1DACC2F60DF9825B83110 /* CSTaskScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBBEB554F0253E056899F528CAE3C35 /* CSTaskScheduler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F64C1F9870485359E24D0D76E767C9F /* CocoaService.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B6F268A95202BA26392F579D5B908E /* CocoaService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8002455D49CCE86012F05DC261309561 /* CSTargetActionTask.h in Headers */ = {isa = PBXBuildFile; fileRef = B58103DF85E3760F5279F2DA8B6F42A2 /* CSTargetActionTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81C57331B392CE81AFF29AF3D46E782F /* CSServiceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B20D4F5503EEDC9DFEDCE21FDDAFC9D4 /* CSServiceWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		842B55F5824937547AA39FF3008A18FD /* CSSimpleApplicationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD8A89A67BB58B1D66061590211806B /* CSSimpleApplicationContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		87CAABD4040B649EB23663B8CF4A805E /* CSSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1549F335FC0F9C369719EF6DD84BF91C /* CSSafeDictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88BF721D7B31F244EA0FDA6FCFEE9E55 /* CSApplicationPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE7A8DBD46C9CA5C18F4831C21A4287 /* CSApplicationPluginManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		89859957B5647FB2AC873F94775FC303 /* CSAspectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 84717607A1EA859074D8160470F8DCAC /* CSAspectContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8ABB38E4A98A37C916E26C31CBA31500 /* CSSimpleAspectJoinPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1AEDF28AF92C4B0ADD4924E2A1F1F /* CSSimpleAspectJoinPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B05302ED5F94BB9CE4D20A44AD0D53B /* CSSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F25436A5E03894DAB8F773F5F35CAB98 /* CSSafeDictionary.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8B86CA9CB294B8EE1ED7B45C3B0206E2 /* CSAspectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7503A222DD1DFCE83D52FAF7DE99CD42 /* CSAspectContainer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C5CA66359AC39151E6C6206BFF0FF57 /* CSService.h in Headers */ = {isa = PBXBuildFile; fileRef = F339C92DEFAE97FE666517C56289B926 /* CSService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90D09FD337ECA94EA220B5B72645F8F2 /* CocoaService.m in Sources */ = {isa = PBXBuildFile; fileRef = 090988EDD466CFDBE8652D78D71A0EC1 /* CocoaService.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		94DE8FD6A7BB8729390A016E63684E91 /* CSModuleAppDelegateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 263BD806379378384139DFB07601FBC6 /* CSModuleAppDelegateListener.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F2C5F0D9C0A1FE43BDF2037552712A5 /* CSMonitorTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96887D0FBC4DEA99DB09497205C91889 /* CSMonitorTimeProfiler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A11867E7B588C8352FBA5DD5D42149D4 /* CSModuleContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D97B89A22A1E3D838E1FF2587734D965 /* CSModuleContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4DF08793E6652662054447D1B655FF5 /* CSSafeStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB033585C5CC29691D606E1EF3929D1 /* CSSafeStack.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A703DC05DEB3A1E71DD5329920B31E87 /* CSHttpService.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5817E0277C0167ABE06B63DB8D8CE5 /* CSHttpService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A70D0FD89C266B4F359F29805BD4B362 /* CSAspectJoinPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F2AAAA424F6E1060AD1A3190C0775E /* CSAspectJoinPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8ECA6FA950A97A693377F07BC2900CC /* CSHttpAbstractRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC5ED5402A8E8534DD79E736DA630CF /* CSHttpAbstractRequest.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A9FCC30C5358D8197624A3233EBD9A17 /* CSSimpleApplicationPluginDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E9EE096030C0625540A88C6B15807D7D /* CSSimpleApplicationPluginDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD9136E3861449AF8529A0F7EBEBC40C /* CSSimpleServiceRegisterDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F8806A6DF594A514A7442F1D0FAC95 /* CSSimpleServiceRegisterDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ADE22E68B2C6BA4D2B0E710FF1591F4A /* CSMonitorApplicationTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = B662E15B14CB569C0777D6AFF36F89DC /* CSMonitorApplicationTimeProfiler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AEDEB03317BA25A8CE753DF3ACCF8E48 /* CSTaskScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 675DFE4404332F1D17790C1D089E70D3 /* CSTaskScheduler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AFD8709DAD48536F91F30D32B85DD6E4 /* IWJLoggerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D607AA00D946F7C7144495140EBEC7B5 /* IWJLoggerFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2DE19B6FFBEDF971794C7F957C570F6 /* WJLoggingAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 428084AB1C02F4E6C349566E97BD6E81 /* WJLoggingAPI-dummy.m */; };
+		B2F31ECEFB537332DA49FA54EE393857 /* CSServiceContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E583DEE1B1CE278D978BC75014F53881 /* CSServiceContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B5AC0F2B503CBF14019BE7DD53BA8521 /* CSApplicationPluginDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = AF00E1EE6651E94DDA6F0C7845AC62BC /* CSApplicationPluginDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFAFCC5CF59E69520DCB3B6698A96FD0 /* CSBlockTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D6D9B0B5F707683731095B0F8480C9 /* CSBlockTask.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C02F79DBF0519426D9FF486E2331F78C /* WJLoggingAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0BF2320C684CDE9B86198F424AFAF1 /* WJLoggingAPI.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C396186DDD7EBCAE3C614597DEF14604 /* CSHttpFileUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A9309727144D3A7DA7AFA744DFDA2 /* CSHttpFileUploadModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C455BB2FE88380F918429897D9A3395C /* CSSafeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C66CB8570BF1510AF9D7EDBE59E859 /* CSSafeSet.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C73BFABEAAE9C6B1D3445D4B98AE3793 /* CSHttpServiceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DB83E7E5605F56235F8BA5C3F1B767 /* CSHttpServiceConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7833B7742A223C609AC4BC98D26B0B4 /* WJLoggerBinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E7D14F263BB457285A76C4F51D2DA /* WJLoggerBinder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C970B814FAACCA25F5B20D11DE95FEF8 /* CSServiceRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 84882AE92B2C5CE9D606EF9068B17763 /* CSServiceRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB2BA385CA58166414E2B98E51122C6F /* CSSimpleApplicationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 892216EF87B774CDE43EDAD1B0027690 /* CSSimpleApplicationContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3D7EEEB12F65B557B68EA91917F935A /* CSSimpleModuleRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B0046DA8AC748939A4F470DDFB1745 /* CSSimpleModuleRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D515D4260AAB88BD57FE5C850B82C6BC /* CSMonitorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8C532047716F9A66230A87DCFDFE11 /* CSMonitorContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D7619BC8324D956283D6A5A2F2078391 /* CSApplicationPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 639E1DC5DEE27FD2D2682307FA102CF0 /* CSApplicationPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE74EDF550B9F53122EA2BA69FE86C34 /* CSAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B9FC3C3F56EE7D5C6C3208F6049A3D /* CSAspect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E35F6518D12EAEA78B46DFAF5BA77DE6 /* CSAspectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FE610D17BE924C5F8A41C518B8EA710F /* CSAspectContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E9CAD576560AA3C5AE1F609A7890760C /* CSSafeSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6863409D6114B01BEA0D5EE191DB57E7 /* CSSafeSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ECE9ADAD9D93B048255F7CD208FCD627 /* CSHttpAbstractRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 408A1EA827AEC06F908F97B642DB127F /* CSHttpAbstractRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F06A24AFC42A0DFC0B532B8A932A2CB1 /* CSSimpleModuleRegisterDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = A9968A8EC1FF44F5BC4A4A1BB6872FC4 /* CSSimpleModuleRegisterDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F3863D7F532DFF522A78F4A87A5A9195 /* CSSimpleServiceRegisterDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD4E34C3326C1C0D91361CB61F1D1E9 /* CSSimpleServiceRegisterDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3A579DF7988A46E721A958D4AC3E77F /* CSTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8BA92E8E4402B2B4FA50D3C6D77173 /* CSTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6374CF4774E424391B7D6D5652CE1C4 /* CSSimpleAspectRegisterDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F3526078D97AAD247406E2E125918E /* CSSimpleAspectRegisterDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F6F93050B0F7AE0FF6C0E44FB5D9D4CF /* NSObject+CSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E1D2CAC88B16DF980E2AAFA1A6DAE4 /* NSObject+CSService.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F74EF416FABDA6D38E3EF3362C14CF26 /* CSMonitorTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EA7214C74EF6413C6CD63806A5172F /* CSMonitorTimeProfiler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB7CBFC2BFC6BB49728CFA2AA1375147 /* CSSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A61CB4BF6B44F1BED1940AC2C2924A1 /* CSSafeArray.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FC411053995E8EA28274B65776852A09 /* CSBlockTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF71924461DD977ACE7C6F2F49375A7 /* CSBlockTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,120 +151,123 @@
 /* Begin PBXFileReference section */
 		00704EA231287916C27642EE37A7138F /* libWJLoggingAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWJLoggingAPI.a; path = libWJLoggingAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C0EE5CE3E4229052267E367EA3CF10 /* Pods-CocoaService-HttpService-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaService-HttpService-example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0234B9EE7A3101A27FE9218A8ED1A32D /* CSHttpFileUpload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSHttpFileUpload.m; path = CSHttpServiceAPI/CSHttpFileUpload.m; sourceTree = "<group>"; };
-		046E40A64D1D7320A8EFFECE55CC4880 /* CSServiceContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSServiceContext.m; path = CocoaService/CSServiceContext.m; sourceTree = "<group>"; };
-		0745FF1DE68ADAEAF84E0FF4DDC0DB3D /* CSHttpFileUpload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpFileUpload.h; path = CSHttpServiceAPI/CSHttpFileUpload.h; sourceTree = "<group>"; };
-		0A6595C5AC8FFAB2657402F896A16C4B /* CSServicesContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSServicesContainer.m; path = CocoaService/CSServicesContainer.m; sourceTree = "<group>"; };
-		0B2B3A20DAFD210A080CCB6D880841AA /* CSAspectJoinPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectJoinPoint.h; path = CocoaService/CSAspectJoinPoint.h; sourceTree = "<group>"; };
-		0EFC121DE9FCCAB6F56CBE4350618FBC /* WJLoggingAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLoggingAPI.xcconfig; sourceTree = "<group>"; };
-		125EB9BDF2E93025C6143839B64F57E9 /* CSAspectContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectContainer.h; path = CocoaService/CSAspectContainer.h; sourceTree = "<group>"; };
-		173A53C5030A3B1C6FD0A030CAA6DC69 /* CSAspectContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAspectContainer.m; path = CocoaService/CSAspectContainer.m; sourceTree = "<group>"; };
-		188AEA4DC209E916C017E5569EE75F3A /* CSMonitorTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSMonitorTimeProfiler.m; path = CocoaService/CSMonitorTimeProfiler.m; sourceTree = "<group>"; };
-		197949E5945CBE27E75D79B496DB3C7F /* CSSafeArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeArray.m; path = CocoaService/CSSafeArray.m; sourceTree = "<group>"; };
-		1A068E04FB0B7AA0268A40B28A11F89C /* CSHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpRequest.h; path = CSHttpServiceAPI/CSHttpRequest.h; sourceTree = "<group>"; };
-		1ADBE5D0703A83AABF83A1AC290C3C32 /* CSHttpAbstractResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpAbstractResponse.h; path = CSHttpServiceAPI/CSHttpAbstractResponse.h; sourceTree = "<group>"; };
-		21ED0AF08DC0C8645958CCE4608A4A58 /* CSAppGlobalDefaultModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAppGlobalDefaultModule.m; path = CocoaService/CSAppGlobalDefaultModule.m; sourceTree = "<group>"; };
-		225569E393ECD1D58207A41754B38301 /* CSHttpServiceAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSHttpServiceAPI-dummy.m"; sourceTree = "<group>"; };
-		23CEBAC54662A1D6250BD95E7C83F77E /* NSObject+CSService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CSService.m"; path = "CocoaService/NSObject+CSService.m"; sourceTree = "<group>"; };
-		27FD648EBCEDD114DC99BDAF4D30B04C /* WJLoggingAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLoggingAPI-prefix.pch"; sourceTree = "<group>"; };
-		29419263CBBF76A87306D6EFF7C56E8F /* CocoaService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaService-prefix.pch"; sourceTree = "<group>"; };
-		29C28F33A8FCD0C1C92D0AEE850AE684 /* CSMacroDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSMacroDefines.h; path = CocoaService/CSMacroDefines.h; sourceTree = "<group>"; };
-		32D86D1916E9993B6539E479E4F91174 /* CSTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSTask.h; path = CocoaService/CSTask.h; sourceTree = "<group>"; };
-		33D564E6B0E7FEEC0FEB46AF08106862 /* CSAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnnotation.m; path = CocoaService/CSAnnotation.m; sourceTree = "<group>"; };
-		34157420DC45730B7CD10D40282C5170 /* NSObject+CSModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CSModule.h"; path = "CocoaService/NSObject+CSModule.h"; sourceTree = "<group>"; };
-		36FA370DD6DD4B49D87459976AE76224 /* CSSimpleAspectJoinPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleAspectJoinPoint.m; path = CocoaService/CSSimpleAspectJoinPoint.m; sourceTree = "<group>"; };
-		3A882C85FEA9E943D8DD85610ED6FF36 /* CocoaService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaService.xcconfig; sourceTree = "<group>"; };
-		3AF6961B22C972082BF8F0C941CEF80A /* CSAppFirstViewControllerDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAppFirstViewControllerDefine.h; path = CocoaService/CSAppFirstViewControllerDefine.h; sourceTree = "<group>"; };
-		3B8E4CB4F55EE11FE3CD93D6E4DB9E84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3ED69FF094A609F45ECB2F8CA2496E6F /* CSServicesContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSServicesContainer.h; path = CocoaService/CSServicesContainer.h; sourceTree = "<group>"; };
-		41100BA3AC0C1AA0E82E1FB0545A165B /* WJLoggerBinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLoggerBinder.m; path = Classes/WJLoggerBinder.m; sourceTree = "<group>"; };
-		47308C6C31568D6FAA87FF2AEFC3D528 /* CSSimpleModuleRegisterDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleModuleRegisterDefine.m; path = CocoaService/CSSimpleModuleRegisterDefine.m; sourceTree = "<group>"; };
-		5036067A8C2136F53680B3F404CE2907 /* CSHttpAbstractRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSHttpAbstractRequest.m; path = CSHttpServiceAPI/CSHttpAbstractRequest.m; sourceTree = "<group>"; };
-		547C6A97ECE397CCAF7FDA18D4DDD6E2 /* CSSafeQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeQueue.h; path = CocoaService/CSSafeQueue.h; sourceTree = "<group>"; };
-		552B707C24AF3CAB0A2C136ECCE6F8AB /* CSSimpleModuleRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleModuleRegisterDefine.h; path = CocoaService/CSSimpleModuleRegisterDefine.h; sourceTree = "<group>"; };
-		5B262D4F57F2EB6A84C41AFC8F765AD8 /* CSTaskBlockTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSTaskBlockTask.m; path = CocoaService/CSTaskBlockTask.m; sourceTree = "<group>"; };
-		5E7DA5CCB48E744D7C3E44FBC4FCAC5F /* WJLoggerBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLoggerBinder.h; path = Classes/WJLoggerBinder.h; sourceTree = "<group>"; };
-		5F8C37AFB8A6060EF0B3989DEBFFFF3C /* CSMonitorTimeProfiler+CocoaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CSMonitorTimeProfiler+CocoaService.h"; path = "CocoaService/CSMonitorTimeProfiler+CocoaService.h"; sourceTree = "<group>"; };
-		5FBCACC391196D79DA414147A335998B /* CSAspectRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectRegisterDefine.h; path = CocoaService/CSAspectRegisterDefine.h; sourceTree = "<group>"; };
-		6250B1306CB7FDB6A09BAB659D4FF832 /* CocoaService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CocoaService.m; path = CocoaService/CocoaService.m; sourceTree = "<group>"; };
-		69B656201584CAADE781A72DAF94B5C8 /* CSApplicationPreloadDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSApplicationPreloadDataManager.m; path = CocoaService/CSApplicationPreloadDataManager.m; sourceTree = "<group>"; };
-		6A7BC809AAA3795D56E343F61CAB8DAF /* CSApplicationPreloadDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSApplicationPreloadDataManager.h; path = CocoaService/CSApplicationPreloadDataManager.h; sourceTree = "<group>"; };
-		6E209C7C9D8A3FF70CE95043EDE6977A /* CSSafeQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeQueue.m; path = CocoaService/CSSafeQueue.m; sourceTree = "<group>"; };
-		6FFAD97C43F30CF3816BF67FED523BAD /* WJLoggingAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJLoggingAPI-dummy.m"; sourceTree = "<group>"; };
-		74272A1BA413F0CF4E68B1D3E44BD8AF /* CSHttpServiceAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CSHttpServiceAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		78092063B5CBF69167DA95F2053C69A7 /* CSSafeSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeSet.h; path = CocoaService/CSSafeSet.h; sourceTree = "<group>"; };
+		02296CC81086C7F76FC8664E69CF7554 /* CSMonitorContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSMonitorContext.h; path = CocoaService/CSMonitorContext.h; sourceTree = "<group>"; };
+		04DE2354CF7DFB36E4208F3AFDCBF743 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		06A3FB67FA3A7A4EBE9E8244483ECDC8 /* CSApplicationCoreModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSApplicationCoreModule.m; path = CocoaService/CSApplicationCoreModule.m; sourceTree = "<group>"; };
+		06EA7214C74EF6413C6CD63806A5172F /* CSMonitorTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSMonitorTimeProfiler.h; path = CocoaService/CSMonitorTimeProfiler.h; sourceTree = "<group>"; };
+		090988EDD466CFDBE8652D78D71A0EC1 /* CocoaService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CocoaService.m; path = CocoaService/CocoaService.m; sourceTree = "<group>"; };
+		1261C08735E53E3C4CD0E9229EB2E51E /* CSHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpRequest.h; path = CSHttpServiceAPI/CSHttpRequest.h; sourceTree = "<group>"; };
+		14B0046DA8AC748939A4F470DDFB1745 /* CSSimpleModuleRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleModuleRegisterDefine.h; path = CocoaService/CSSimpleModuleRegisterDefine.h; sourceTree = "<group>"; };
+		1549F335FC0F9C369719EF6DD84BF91C /* CSSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeDictionary.h; path = CocoaService/CSSafeDictionary.h; sourceTree = "<group>"; };
+		17D6D9B0B5F707683731095B0F8480C9 /* CSBlockTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlockTask.m; path = CocoaService/CSBlockTask.m; sourceTree = "<group>"; };
+		1940876D46D8FB7996AAD4D4EB707747 /* CSAspectRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectRegisterDefine.h; path = CocoaService/CSAspectRegisterDefine.h; sourceTree = "<group>"; };
+		195480D2CB153711C201C685296A412C /* WJLoggingAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLoggingAPI-prefix.pch"; sourceTree = "<group>"; };
+		196F4AEF910413633AF0BCFBCA2530C8 /* CSServicesContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSServicesContainer.m; path = CocoaService/CSServicesContainer.m; sourceTree = "<group>"; };
+		1BE033A202D6405C095E54AAC0369539 /* CSSafeArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeArray.h; path = CocoaService/CSSafeArray.h; sourceTree = "<group>"; };
+		20E2C11693C43C658FE378CB12818CD0 /* CSApplicationPluginManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSApplicationPluginManager.h; path = CocoaService/CSApplicationPluginManager.h; sourceTree = "<group>"; };
+		21A6A52D511620C04EDC6E4A0FF111B5 /* CSServiceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSServiceWrapper.m; path = CocoaService/CSServiceWrapper.m; sourceTree = "<group>"; };
+		254BD511EA498EC1550D0C6C90E37845 /* CocoaService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaService.xcconfig; sourceTree = "<group>"; };
+		25D7B589C00C9977C61B6A57E9A9096A /* IWJLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJLogger.h; path = Classes/IWJLogger.h; sourceTree = "<group>"; };
+		263BD806379378384139DFB07601FBC6 /* CSModuleAppDelegateListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModuleAppDelegateListener.h; path = CocoaService/CSModuleAppDelegateListener.h; sourceTree = "<group>"; };
+		28FD2B3086400C34727FD8E6FD3E3380 /* WJLoggingAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLoggingAPI.xcconfig; sourceTree = "<group>"; };
+		30A37331C30F5989DD1A55C2AC32508C /* CSAspectContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectContainer.h; path = CocoaService/CSAspectContainer.h; sourceTree = "<group>"; };
+		32C66CB8570BF1510AF9D7EDBE59E859 /* CSSafeSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeSet.m; path = CocoaService/CSSafeSet.m; sourceTree = "<group>"; };
+		34DB83E7E5605F56235F8BA5C3F1B767 /* CSHttpServiceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpServiceConfig.h; path = CSHttpServiceAPI/CSHttpServiceConfig.h; sourceTree = "<group>"; };
+		37768C7E9D2F4DB7BF889CC130D9324F /* CSServicesContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSServicesContainer.h; path = CocoaService/CSServicesContainer.h; sourceTree = "<group>"; };
+		3AA36CAD275F8A55F20451402DC10250 /* CSModuleRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModuleRegisterDefine.h; path = CocoaService/CSModuleRegisterDefine.h; sourceTree = "<group>"; };
+		3C2340A8E02861526882F6C0FD855B6E /* CSApplicationCoreModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSApplicationCoreModule.h; path = CocoaService/CSApplicationCoreModule.h; sourceTree = "<group>"; };
+		408A1EA827AEC06F908F97B642DB127F /* CSHttpAbstractRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpAbstractRequest.h; path = CSHttpServiceAPI/CSHttpAbstractRequest.h; sourceTree = "<group>"; };
+		428084AB1C02F4E6C349566E97BD6E81 /* WJLoggingAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJLoggingAPI-dummy.m"; sourceTree = "<group>"; };
+		43269A72B3E3120EA5C303170B4C5411 /* CSRuntimeTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSRuntimeTool.m; path = CocoaService/CSRuntimeTool.m; sourceTree = "<group>"; };
+		44F8806A6DF594A514A7442F1D0FAC95 /* CSSimpleServiceRegisterDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleServiceRegisterDefine.m; path = CocoaService/CSSimpleServiceRegisterDefine.m; sourceTree = "<group>"; };
+		480E13253F63BD2BD853B051D1396D7A /* CSHttpAbstractResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpAbstractResponse.h; path = CSHttpServiceAPI/CSHttpAbstractResponse.h; sourceTree = "<group>"; };
+		49F3526078D97AAD247406E2E125918E /* CSSimpleAspectRegisterDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleAspectRegisterDefine.m; path = CocoaService/CSSimpleAspectRegisterDefine.m; sourceTree = "<group>"; };
+		4CA1AEDF28AF92C4B0ADD4924E2A1F1F /* CSSimpleAspectJoinPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleAspectJoinPoint.h; path = CocoaService/CSSimpleAspectJoinPoint.h; sourceTree = "<group>"; };
+		50E1D2CAC88B16DF980E2AAFA1A6DAE4 /* NSObject+CSService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CSService.m"; path = "CocoaService/NSObject+CSService.m"; sourceTree = "<group>"; };
+		5655B348DF8644AFC651B7C491A8FCC5 /* CSHttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpResponse.h; path = CSHttpServiceAPI/CSHttpResponse.h; sourceTree = "<group>"; };
+		5A61CB4BF6B44F1BED1940AC2C2924A1 /* CSSafeArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeArray.m; path = CocoaService/CSSafeArray.m; sourceTree = "<group>"; };
+		5BFCC9F5B97DDEE8ED5E024FF1FE480B /* CSRuntimeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSRuntimeTool.h; path = CocoaService/CSRuntimeTool.h; sourceTree = "<group>"; };
+		5D8F4848F363BF69613C09D1C5B89356 /* WJLoggerBinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLoggerBinder.h; path = Classes/WJLoggerBinder.h; sourceTree = "<group>"; };
+		5DA170BC02FDCA6A65753EE3B43E995F /* CSSafeQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeQueue.h; path = CocoaService/CSSafeQueue.h; sourceTree = "<group>"; };
+		5DB033585C5CC29691D606E1EF3929D1 /* CSSafeStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeStack.m; path = CocoaService/CSSafeStack.m; sourceTree = "<group>"; };
+		60D82BA2B0B646EF2930D50F9D32B3C7 /* CSMonitorApplicationTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSMonitorApplicationTimeProfiler.h; path = CocoaService/CSMonitorApplicationTimeProfiler.h; sourceTree = "<group>"; };
+		639E1DC5DEE27FD2D2682307FA102CF0 /* CSApplicationPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSApplicationPlugin.h; path = CocoaService/CSApplicationPlugin.h; sourceTree = "<group>"; };
+		675DFE4404332F1D17790C1D089E70D3 /* CSTaskScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSTaskScheduler.m; path = CocoaService/CSTaskScheduler.m; sourceTree = "<group>"; };
+		676A9309727144D3A7DA7AFA744DFDA2 /* CSHttpFileUploadModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSHttpFileUploadModel.m; path = CSHttpServiceAPI/CSHttpFileUploadModel.m; sourceTree = "<group>"; };
+		6863409D6114B01BEA0D5EE191DB57E7 /* CSSafeSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeSet.h; path = CocoaService/CSSafeSet.h; sourceTree = "<group>"; };
+		68C810DF4463CF21FEB67389C7C2A6DB /* CSApplicationPreloadDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSApplicationPreloadDataManager.h; path = CocoaService/CSApplicationPreloadDataManager.h; sourceTree = "<group>"; };
+		6993B6526BB37CF89EB9899B8FB97283 /* CSSafeQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeQueue.m; path = CocoaService/CSSafeQueue.m; sourceTree = "<group>"; };
+		6C5D1F3672EF1556AAB4592C2E6FAB71 /* CSModuleContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModuleContext.h; path = CocoaService/CSModuleContext.h; sourceTree = "<group>"; };
+		6CC5ED5402A8E8534DD79E736DA630CF /* CSHttpAbstractRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSHttpAbstractRequest.m; path = CSHttpServiceAPI/CSHttpAbstractRequest.m; sourceTree = "<group>"; };
+		6D476032D67A6897C1E0B5594D5FAE23 /* CSSimpleAspectJoinPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleAspectJoinPoint.m; path = CocoaService/CSSimpleAspectJoinPoint.m; sourceTree = "<group>"; };
+		6DD4E34C3326C1C0D91361CB61F1D1E9 /* CSSimpleServiceRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleServiceRegisterDefine.h; path = CocoaService/CSSimpleServiceRegisterDefine.h; sourceTree = "<group>"; };
+		6ED670CD5EE5BBE35ACF94F032B97921 /* CSHttpServiceInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpServiceInterceptor.h; path = CSHttpServiceAPI/CSHttpServiceInterceptor.h; sourceTree = "<group>"; };
+		7503A222DD1DFCE83D52FAF7DE99CD42 /* CSAspectContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAspectContainer.m; path = CocoaService/CSAspectContainer.m; sourceTree = "<group>"; };
 		782C6EE7F72CA3B4551DB105D7E5386A /* libPods-CocoaService-HttpService-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CocoaService-HttpService-example.a"; path = "libPods-CocoaService-HttpService-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78BBFABB9DFDC6975EC49315264168F2 /* CSServiceContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSServiceContext.h; path = CocoaService/CSServiceContext.h; sourceTree = "<group>"; };
-		7B3A16091BBA454B96F3A503B55DBBA0 /* CSSafeStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeStack.h; path = CocoaService/CSSafeStack.h; sourceTree = "<group>"; };
-		7B48DFB3C29DE66752CEAB9B8590D578 /* CSSimpleAspectJoinPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleAspectJoinPoint.h; path = CocoaService/CSSimpleAspectJoinPoint.h; sourceTree = "<group>"; };
-		7D29F1F9AF38AEE90E2EAEC57D860695 /* IWJLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJLogger.h; path = Classes/IWJLogger.h; sourceTree = "<group>"; };
-		806F90AEBB8E2F0D9A9B0A2CF9253BA3 /* CSTaskTargetActionTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSTaskTargetActionTask.m; path = CocoaService/CSTaskTargetActionTask.m; sourceTree = "<group>"; };
+		7C7AA0ED7A80958CCB04FAC4F093FE66 /* CSHttpAbstractResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSHttpAbstractResponse.m; path = CSHttpServiceAPI/CSHttpAbstractResponse.m; sourceTree = "<group>"; };
+		7D4D006CB30504F4309A7B3B50DAFD2F /* CSHttpFileUploadModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpFileUploadModel.h; path = CSHttpServiceAPI/CSHttpFileUploadModel.h; sourceTree = "<group>"; };
+		840D3651F71FE9161F071E4AADA9E6C3 /* CSTargetActionTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSTargetActionTask.m; path = CocoaService/CSTargetActionTask.m; sourceTree = "<group>"; };
 		8452040EECAA889DDD6D06B94B05287C /* Pods-CocoaService-HttpService-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaService-HttpService-example-dummy.m"; sourceTree = "<group>"; };
-		84A7A083A275D8A28D2CA100CBF69EED /* CSHttpServiceAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSHttpServiceAPI.xcconfig; sourceTree = "<group>"; };
+		84717607A1EA859074D8160470F8DCAC /* CSAspectContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectContext.h; path = CocoaService/CSAspectContext.h; sourceTree = "<group>"; };
+		84882AE92B2C5CE9D606EF9068B17763 /* CSServiceRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSServiceRegisterDefine.h; path = CocoaService/CSServiceRegisterDefine.h; sourceTree = "<group>"; };
+		85DACB6F089596B7E3136D32D518C946 /* CSModuleContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSModuleContainer.m; path = CocoaService/CSModuleContainer.m; sourceTree = "<group>"; };
 		86E3E58D1E082BFB7BB4EE2B80D5F66B /* libCSHttpServiceAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCSHttpServiceAPI.a; path = libCSHttpServiceAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		87B5CFEBFA44744B034262A9C12B146F /* CSAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnnotation.h; path = CocoaService/CSAnnotation.h; sourceTree = "<group>"; };
+		886DCF7EBBD96AF2071F06A7C806865C /* CSApplicationPreloadDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSApplicationPreloadDataManager.m; path = CocoaService/CSApplicationPreloadDataManager.m; sourceTree = "<group>"; };
 		89083C05C3AE3444837C940665B4B64E /* Pods-CocoaService-HttpService-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaService-HttpService-example.debug.xcconfig"; sourceTree = "<group>"; };
-		8CDA1FB5142AD71ACE719F03502FBD03 /* CSHttpServiceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpServiceConfig.h; path = CSHttpServiceAPI/CSHttpServiceConfig.h; sourceTree = "<group>"; };
-		8E57BD9AA4F09991184EC6E04708EF9A /* CSSimpleAppFristViewControllerDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleAppFristViewControllerDefine.m; path = CocoaService/CSSimpleAppFristViewControllerDefine.m; sourceTree = "<group>"; };
-		8F174573EF84A0254330EE2AFF9AC905 /* CSSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeDictionary.h; path = CocoaService/CSSafeDictionary.h; sourceTree = "<group>"; };
-		8F378BA490EA1FF5907CB6BD3B79BA6B /* CSSimpleServiceRegisterDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleServiceRegisterDefine.m; path = CocoaService/CSSimpleServiceRegisterDefine.m; sourceTree = "<group>"; };
-		9516A6C20DD5A93F1A19F57DE82DCD1F /* CSSimpleModuleContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleModuleContext.h; path = CocoaService/CSSimpleModuleContext.h; sourceTree = "<group>"; };
-		95BF994CA1C4FD4BF0DE2541CDF5FF1F /* CSModuleContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSModuleContainer.m; path = CocoaService/CSModuleContainer.m; sourceTree = "<group>"; };
-		971E524300264CDE06A6560F66A37BFE /* CSSafeStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeStack.m; path = CocoaService/CSSafeStack.m; sourceTree = "<group>"; };
-		97DFDDFB8C7811EF3424AFD53D40A064 /* CSHttpService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpService.h; path = CSHttpServiceAPI/CSHttpService.h; sourceTree = "<group>"; };
-		9B48CD6368B80456D1267849ECEA2C31 /* CSRuntimeTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSRuntimeTool.h; path = CocoaService/CSRuntimeTool.h; sourceTree = "<group>"; };
+		892216EF87B774CDE43EDAD1B0027690 /* CSSimpleApplicationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleApplicationContext.h; path = CocoaService/CSSimpleApplicationContext.h; sourceTree = "<group>"; };
+		8B5A085F96E9A9B901C57FF439082384 /* CSSimpleModuleContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleModuleContext.h; path = CocoaService/CSSimpleModuleContext.h; sourceTree = "<group>"; };
+		8E5817E0277C0167ABE06B63DB8D8CE5 /* CSHttpService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpService.h; path = CSHttpServiceAPI/CSHttpService.h; sourceTree = "<group>"; };
+		96887D0FBC4DEA99DB09497205C91889 /* CSMonitorTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSMonitorTimeProfiler.m; path = CocoaService/CSMonitorTimeProfiler.m; sourceTree = "<group>"; };
 		9CDCBB9E578ACC6E5FD3C119DEE63E36 /* Pods-CocoaService-HttpService-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaService-HttpService-example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1A4B1EF8441AE6B2A63A31A98B040E2 /* CSTaskTargetActionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSTaskTargetActionTask.h; path = CocoaService/CSTaskTargetActionTask.h; sourceTree = "<group>"; };
-		A3F742AF11888D9478AD221AA513EE8A /* CSRuntimeTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSRuntimeTool.m; path = CocoaService/CSRuntimeTool.m; sourceTree = "<group>"; };
-		A56F0847899BB45F709FE7B1504C8052 /* CSAspectContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAspectContext.m; path = CocoaService/CSAspectContext.m; sourceTree = "<group>"; };
-		A5C3C3D3562E21A69626A2A2D33D4A60 /* CSAspectContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectContext.h; path = CocoaService/CSAspectContext.h; sourceTree = "<group>"; };
-		A5D78AADB65A9FB8B66004B2E708E1C6 /* CSTaskBlockTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSTaskBlockTask.h; path = CocoaService/CSTaskBlockTask.h; sourceTree = "<group>"; };
-		A7B1AE1E17B2F5D8B1123E9060D4A943 /* NSObject+CSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CSService.h"; path = "CocoaService/NSObject+CSService.h"; sourceTree = "<group>"; };
-		A919EF68EC2ACDB9EDDC4254A186B467 /* CSAspectServiceProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectServiceProxy.h; path = CocoaService/CSAspectServiceProxy.h; sourceTree = "<group>"; };
-		ADB227A963EA4E0FD7AE640AD96FB017 /* WJLoggingAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLoggingAPI.h; path = Classes/WJLoggingAPI.h; sourceTree = "<group>"; };
-		B3129ABF1217603C19C889D30A1D5B9F /* CSHttpServiceAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpServiceAPI.h; path = CSHttpServiceAPI/CSHttpServiceAPI.h; sourceTree = "<group>"; };
+		9DF71924461DD977ACE7C6F2F49375A7 /* CSBlockTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlockTask.h; path = CocoaService/CSBlockTask.h; sourceTree = "<group>"; };
+		9E406A850652B3499E1D4C95F17D55C7 /* CSHttpServiceAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpServiceAPI.h; path = CSHttpServiceAPI/CSHttpServiceAPI.h; sourceTree = "<group>"; };
+		9F8BA92E8E4402B2B4FA50D3C6D77173 /* CSTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSTask.h; path = CocoaService/CSTask.h; sourceTree = "<group>"; };
+		A09346849D87F71B0473556BE6B53B86 /* NSObject+CSModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CSModule.h"; path = "CocoaService/NSObject+CSModule.h"; sourceTree = "<group>"; };
+		A6C2A823A5C4601398C34AA81A913A27 /* CSAspectServiceProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectServiceProxy.h; path = CocoaService/CSAspectServiceProxy.h; sourceTree = "<group>"; };
+		A9968A8EC1FF44F5BC4A4A1BB6872FC4 /* CSSimpleModuleRegisterDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleModuleRegisterDefine.m; path = CocoaService/CSSimpleModuleRegisterDefine.m; sourceTree = "<group>"; };
+		ACD8A89A67BB58B1D66061590211806B /* CSSimpleApplicationContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleApplicationContext.m; path = CocoaService/CSSimpleApplicationContext.m; sourceTree = "<group>"; };
+		ACE7A8DBD46C9CA5C18F4831C21A4287 /* CSApplicationPluginManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSApplicationPluginManager.m; path = CocoaService/CSApplicationPluginManager.m; sourceTree = "<group>"; };
+		ADE2497CA9ED717752E29383CAE0F065 /* CSSimpleAspectRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleAspectRegisterDefine.h; path = CocoaService/CSSimpleAspectRegisterDefine.h; sourceTree = "<group>"; };
+		AF00E1EE6651E94DDA6F0C7845AC62BC /* CSApplicationPluginDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSApplicationPluginDefine.h; path = CocoaService/CSApplicationPluginDefine.h; sourceTree = "<group>"; };
+		AFD6AB935489D91697C6DE897DE7C7C9 /* CSSimpleApplicationPluginDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleApplicationPluginDefine.m; path = CocoaService/CSSimpleApplicationPluginDefine.m; sourceTree = "<group>"; };
+		B20D4F5503EEDC9DFEDCE21FDDAFC9D4 /* CSServiceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSServiceWrapper.h; path = CocoaService/CSServiceWrapper.h; sourceTree = "<group>"; };
+		B29E1A0BEB05A597B7CEC2671D23854F /* CSSimpleModuleContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleModuleContext.m; path = CocoaService/CSSimpleModuleContext.m; sourceTree = "<group>"; };
+		B3C2D7479CE13D9F1ADDAF1A56A97C1C /* CSSafeStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeStack.h; path = CocoaService/CSSafeStack.h; sourceTree = "<group>"; };
 		B443945D37EA9F194F53EA1BCD127683 /* libCocoaService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaService.a; path = libCocoaService.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4F4E50236F949BEA55B72E7FAD68901 /* CSHttpAbstractRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpAbstractRequest.h; path = CSHttpServiceAPI/CSHttpAbstractRequest.h; sourceTree = "<group>"; };
-		B5433C8A9D53F192FD2BDCA8D76CAB89 /* CSModuleAppDelegateListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModuleAppDelegateListener.h; path = CocoaService/CSModuleAppDelegateListener.h; sourceTree = "<group>"; };
-		B83027E88A5E8E3FAE1F2B9370AC8E55 /* NSObject+CSModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CSModule.m"; path = "CocoaService/NSObject+CSModule.m"; sourceTree = "<group>"; };
-		BC0A12DC4AA8E17C45E59A6258FBB4F4 /* CSServiceRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSServiceRegisterDefine.h; path = CocoaService/CSServiceRegisterDefine.h; sourceTree = "<group>"; };
-		BC80DE0F0F793209EEB1C5946CE56BC8 /* CSTaskScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSTaskScheduler.h; path = CocoaService/CSTaskScheduler.h; sourceTree = "<group>"; };
-		BCAC36AE671406AA72E8954BFF5F7568 /* CSServiceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSServiceWrapper.m; path = CocoaService/CSServiceWrapper.m; sourceTree = "<group>"; };
-		BD399713D4ADFB5D3FCC95E8A9F8E48B /* CSMonitorContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSMonitorContext.h; path = CocoaService/CSMonitorContext.h; sourceTree = "<group>"; };
-		C0EFAC3E685F4A0A37F8DA384AE724C1 /* CSAppGlobalDefaultModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAppGlobalDefaultModule.h; path = CocoaService/CSAppGlobalDefaultModule.h; sourceTree = "<group>"; };
-		C147E2B498F156DB0E1A68537154BBA7 /* CSApplicationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSApplicationContext.h; path = CocoaService/CSApplicationContext.h; sourceTree = "<group>"; };
-		C73CCDFB87BAA2B0FD6AFB388E245B17 /* CSHttpResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpResponse.h; path = CSHttpServiceAPI/CSHttpResponse.h; sourceTree = "<group>"; };
-		C83BE558951E9A63A6C91596A008BA1E /* CSMonitorTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSMonitorTimeProfiler.h; path = CocoaService/CSMonitorTimeProfiler.h; sourceTree = "<group>"; };
-		C9DBF75C44642746B89A8D7E43445987 /* CSMonitorContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSMonitorContext.m; path = CocoaService/CSMonitorContext.m; sourceTree = "<group>"; };
-		C9F0F0126A0EB5AD2D552B7D75DFBF6D /* CSSimpleAspectRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleAspectRegisterDefine.h; path = CocoaService/CSSimpleAspectRegisterDefine.h; sourceTree = "<group>"; };
-		CA64963C10F37A4B0104527D86F7A2F4 /* CSMonitorTimeProfiler+CocoaService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CSMonitorTimeProfiler+CocoaService.m"; path = "CocoaService/CSMonitorTimeProfiler+CocoaService.m"; sourceTree = "<group>"; };
-		CB4EE4CD037D05FCDC4EED62BEA8610C /* CSSimpleAspectRegisterDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleAspectRegisterDefine.m; path = CocoaService/CSSimpleAspectRegisterDefine.m; sourceTree = "<group>"; };
-		CBBA4A6C2BA0F494ED2FDA3179E55292 /* CSServiceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSServiceWrapper.h; path = CocoaService/CSServiceWrapper.h; sourceTree = "<group>"; };
+		B47DCADAB5981A9DD35CF7D847842BC5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B58103DF85E3760F5279F2DA8B6F42A2 /* CSTargetActionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSTargetActionTask.h; path = CocoaService/CSTargetActionTask.h; sourceTree = "<group>"; };
+		B662E15B14CB569C0777D6AFF36F89DC /* CSMonitorApplicationTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSMonitorApplicationTimeProfiler.m; path = CocoaService/CSMonitorApplicationTimeProfiler.m; sourceTree = "<group>"; };
+		B6A02D46EE9751A86B9E24AB408A7241 /* CSAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnnotation.m; path = CocoaService/CSAnnotation.m; sourceTree = "<group>"; };
+		BE98DA6A6759C9E81026AAE40D0503C9 /* CSApplicationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSApplicationContext.h; path = CocoaService/CSApplicationContext.h; sourceTree = "<group>"; };
+		C0AA32FD8048792E004417135A80EBC4 /* CSAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnnotation.h; path = CocoaService/CSAnnotation.h; sourceTree = "<group>"; };
+		C5F2AAAA424F6E1060AD1A3190C0775E /* CSAspectJoinPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspectJoinPoint.h; path = CocoaService/CSAspectJoinPoint.h; sourceTree = "<group>"; };
+		C7B661DAB3F7470BAD78FE6BC3AC3C73 /* CSModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModule.h; path = CocoaService/CSModule.h; sourceTree = "<group>"; };
+		CB98C9C1E0E649741881140B06686799 /* NSObject+CSModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CSModule.m"; path = "CocoaService/NSObject+CSModule.m"; sourceTree = "<group>"; };
+		CC0BF2320C684CDE9B86198F424AFAF1 /* WJLoggingAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLoggingAPI.h; path = Classes/WJLoggingAPI.h; sourceTree = "<group>"; };
 		CCEF6C4D98ACC2AB06E8430864B1483A /* Pods-CocoaService-HttpService-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaService-HttpService-example.release.xcconfig"; sourceTree = "<group>"; };
-		D0E78B7258046C4028BDA0AC9ED1BEC5 /* CSSimpleModuleContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleModuleContext.m; path = CocoaService/CSSimpleModuleContext.m; sourceTree = "<group>"; };
-		D2BDE54191B3A88D03BAF714DB96E8AF /* IWJLoggerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJLoggerFactory.h; path = Classes/IWJLoggerFactory.h; sourceTree = "<group>"; };
-		D306E228ECA7365578BF9EFEFDDDFD00 /* CSHttpServiceAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSHttpServiceAPI-prefix.pch"; sourceTree = "<group>"; };
-		D408A0703B80DE14755CA1FC8FD15E76 /* CSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSService.h; path = CocoaService/CSService.h; sourceTree = "<group>"; };
-		D6C262B57ADAEDD97C2CB286F02B96F1 /* CSModuleContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModuleContainer.h; path = CocoaService/CSModuleContainer.h; sourceTree = "<group>"; };
-		D75847BE16FE45825B959533272BE97C /* CSModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModule.h; path = CocoaService/CSModule.h; sourceTree = "<group>"; };
-		D8203CD451AD6ED610DE713645A09429 /* CSSafeSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeSet.m; path = CocoaService/CSSafeSet.m; sourceTree = "<group>"; };
-		DA4EA4C5F582115C6B6711B2354CA461 /* CSSimpleApplicationContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSimpleApplicationContext.m; path = CocoaService/CSSimpleApplicationContext.m; sourceTree = "<group>"; };
-		DE12B8DD6A0642FC64C8F9DA81D57BFB /* CSSimpleServiceRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleServiceRegisterDefine.h; path = CocoaService/CSSimpleServiceRegisterDefine.h; sourceTree = "<group>"; };
-		DE6ECF12ED3905DD277F739A8B192155 /* CSSafeArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSafeArray.h; path = CocoaService/CSSafeArray.h; sourceTree = "<group>"; };
-		DEC5E272F096E0F745DCC441F46BA0EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E124F2F115F5C4F4B3942C85847A086D /* CSAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspect.h; path = CocoaService/CSAspect.h; sourceTree = "<group>"; };
-		E303866958546A6B103C44D1DA971C61 /* CSModuleRegisterDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModuleRegisterDefine.h; path = CocoaService/CSModuleRegisterDefine.h; sourceTree = "<group>"; };
-		E3BBA23A495195124FAA6B54F786420F /* CSHttpAbstractResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSHttpAbstractResponse.m; path = CSHttpServiceAPI/CSHttpAbstractResponse.m; sourceTree = "<group>"; };
-		E4D94709B55A17ED59E241493DB8DD7E /* CSSimpleAppFristViewControllerDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleAppFristViewControllerDefine.h; path = CocoaService/CSSimpleAppFristViewControllerDefine.h; sourceTree = "<group>"; };
-		E9261D1661F1FC2442DD777FC1618F61 /* CSModuleContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModuleContext.h; path = CocoaService/CSModuleContext.h; sourceTree = "<group>"; };
-		EBCA69002E68CBC0E4F2FE9D4DBDFE28 /* CSHttpServiceInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSHttpServiceInterceptor.h; path = CSHttpServiceAPI/CSHttpServiceInterceptor.h; sourceTree = "<group>"; };
-		F007735A218745C64CB8337DA4E044A1 /* CSSimpleApplicationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleApplicationContext.h; path = CocoaService/CSSimpleApplicationContext.h; sourceTree = "<group>"; };
-		F12493C1750283BB4BFE98CA1655A69B /* CSSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeDictionary.m; path = CocoaService/CSSafeDictionary.m; sourceTree = "<group>"; };
-		F2033CD465679314CFC8A222DA690205 /* CocoaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaService.h; path = CocoaService/CocoaService.h; sourceTree = "<group>"; };
-		F7F68FF8BC8E6A71AC9FA3F027E06524 /* CSAspectServiceProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAspectServiceProxy.m; path = CocoaService/CSAspectServiceProxy.m; sourceTree = "<group>"; };
-		F8A14281945335CF498EB503218002CE /* CSTaskScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSTaskScheduler.m; path = CocoaService/CSTaskScheduler.m; sourceTree = "<group>"; };
-		FF25C0FAFF3B78CA5C4F6EC14C514124 /* CocoaService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaService-dummy.m"; sourceTree = "<group>"; };
+		CE6190A015EC1B4B9E1D26C9BA204D42 /* CSHttpServiceAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSHttpServiceAPI.xcconfig; sourceTree = "<group>"; };
+		CE8C532047716F9A66230A87DCFDFE11 /* CSMonitorContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSMonitorContext.m; path = CocoaService/CSMonitorContext.m; sourceTree = "<group>"; };
+		D3B9FC3C3F56EE7D5C6C3208F6049A3D /* CSAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAspect.h; path = CocoaService/CSAspect.h; sourceTree = "<group>"; };
+		D4418EF8D5B26EF112B0FA776844E6F7 /* CocoaService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaService-prefix.pch"; sourceTree = "<group>"; };
+		D49E7D14F263BB457285A76C4F51D2DA /* WJLoggerBinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLoggerBinder.m; path = Classes/WJLoggerBinder.m; sourceTree = "<group>"; };
+		D607AA00D946F7C7144495140EBEC7B5 /* IWJLoggerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJLoggerFactory.h; path = Classes/IWJLoggerFactory.h; sourceTree = "<group>"; };
+		D97B89A22A1E3D838E1FF2587734D965 /* CSModuleContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSModuleContainer.h; path = CocoaService/CSModuleContainer.h; sourceTree = "<group>"; };
+		DD114474F13CE2E9AAB3E5061E10F75C /* CSMacroDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSMacroDefines.h; path = CocoaService/CSMacroDefines.h; sourceTree = "<group>"; };
+		DF99F6DE402CC99E6C5E4F99164C23D6 /* CSHttpServiceAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CSHttpServiceAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF9F2EE6D75AFDB281BF52215029349B /* NSObject+CSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CSService.h"; path = "CocoaService/NSObject+CSService.h"; sourceTree = "<group>"; };
+		E198F9E85E6118ADD76D7C4609DDB8C3 /* CSAspectServiceProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAspectServiceProxy.m; path = CocoaService/CSAspectServiceProxy.m; sourceTree = "<group>"; };
+		E2B6F268A95202BA26392F579D5B908E /* CocoaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaService.h; path = CocoaService/CocoaService.h; sourceTree = "<group>"; };
+		E57AB7C12CDF3523F0CA01514AEDCF71 /* CSServiceContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSServiceContext.h; path = CocoaService/CSServiceContext.h; sourceTree = "<group>"; };
+		E583DEE1B1CE278D978BC75014F53881 /* CSServiceContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSServiceContext.m; path = CocoaService/CSServiceContext.m; sourceTree = "<group>"; };
+		E7AAB1A1BC913B0581D53D98DA2C1038 /* CSHttpServiceAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSHttpServiceAPI-dummy.m"; sourceTree = "<group>"; };
+		E9EE096030C0625540A88C6B15807D7D /* CSSimpleApplicationPluginDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSimpleApplicationPluginDefine.h; path = CocoaService/CSSimpleApplicationPluginDefine.h; sourceTree = "<group>"; };
+		EB8CC3FA0397C635C05D9E7A44118F8A /* CSHttpServiceAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSHttpServiceAPI-prefix.pch"; sourceTree = "<group>"; };
+		EEBBEB554F0253E056899F528CAE3C35 /* CSTaskScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSTaskScheduler.h; path = CocoaService/CSTaskScheduler.h; sourceTree = "<group>"; };
+		F20D52BC26C1AEFDE80B791B7B369CA5 /* CocoaService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaService-dummy.m"; sourceTree = "<group>"; };
+		F25436A5E03894DAB8F773F5F35CAB98 /* CSSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSafeDictionary.m; path = CocoaService/CSSafeDictionary.m; sourceTree = "<group>"; };
+		F339C92DEFAE97FE666517C56289B926 /* CSService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSService.h; path = CocoaService/CSService.h; sourceTree = "<group>"; };
+		FE610D17BE924C5F8A41C518B8EA710F /* CSAspectContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAspectContext.m; path = CocoaService/CSAspectContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,29 +302,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18D1E2B20ED8484A538D3113FE280655 /* Support Files */ = {
+		18ADEE5BAAC6698364F74010BBE68D48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0EFC121DE9FCCAB6F56CBE4350618FBC /* WJLoggingAPI.xcconfig */,
-				6FFAD97C43F30CF3816BF67FED523BAD /* WJLoggingAPI-dummy.m */,
-				27FD648EBCEDD114DC99BDAF4D30B04C /* WJLoggingAPI-prefix.pch */,
+				254BD511EA498EC1550D0C6C90E37845 /* CocoaService.xcconfig */,
+				F20D52BC26C1AEFDE80B791B7B369CA5 /* CocoaService-dummy.m */,
+				D4418EF8D5B26EF112B0FA776844E6F7 /* CocoaService-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/WJLoggingAPI";
+			path = "../Target Support Files/CocoaService";
 			sourceTree = "<group>";
 		};
-		23D5EDFA699CE798EEA88B063A5728E3 /* WJLoggingAPI */ = {
+		23357200FCC9763CCE6379B15D81D1BA /* WJLoggingAPI */ = {
 			isa = PBXGroup;
 			children = (
-				7D29F1F9AF38AEE90E2EAEC57D860695 /* IWJLogger.h */,
-				D2BDE54191B3A88D03BAF714DB96E8AF /* IWJLoggerFactory.h */,
-				5E7DA5CCB48E744D7C3E44FBC4FCAC5F /* WJLoggerBinder.h */,
-				41100BA3AC0C1AA0E82E1FB0545A165B /* WJLoggerBinder.m */,
-				ADB227A963EA4E0FD7AE640AD96FB017 /* WJLoggingAPI.h */,
-				18D1E2B20ED8484A538D3113FE280655 /* Support Files */,
+				25D7B589C00C9977C61B6A57E9A9096A /* IWJLogger.h */,
+				D607AA00D946F7C7144495140EBEC7B5 /* IWJLoggerFactory.h */,
+				5D8F4848F363BF69613C09D1C5B89356 /* WJLoggerBinder.h */,
+				D49E7D14F263BB457285A76C4F51D2DA /* WJLoggerBinder.m */,
+				CC0BF2320C684CDE9B86198F424AFAF1 /* WJLoggingAPI.h */,
+				BD0356E6CB0B0CE3760CDEACCCFA6A87 /* Support Files */,
 			);
 			name = WJLoggingAPI;
 			path = WJLoggingAPI;
+			sourceTree = "<group>";
+		};
+		362F5A53C2BC4CF9AA92C900C827D6A9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF99F6DE402CC99E6C5E4F99164C23D6 /* CSHttpServiceAPI.podspec */,
+				B47DCADAB5981A9DD35CF7D847842BC5 /* LICENSE */,
+				04DE2354CF7DFB36E4208F3AFDCBF743 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3B581B4A6BDB98837801CFD31EB61A7F /* CSHttpServiceAPI */ = {
+			isa = PBXGroup;
+			children = (
+				408A1EA827AEC06F908F97B642DB127F /* CSHttpAbstractRequest.h */,
+				6CC5ED5402A8E8534DD79E736DA630CF /* CSHttpAbstractRequest.m */,
+				480E13253F63BD2BD853B051D1396D7A /* CSHttpAbstractResponse.h */,
+				7C7AA0ED7A80958CCB04FAC4F093FE66 /* CSHttpAbstractResponse.m */,
+				7D4D006CB30504F4309A7B3B50DAFD2F /* CSHttpFileUploadModel.h */,
+				676A9309727144D3A7DA7AFA744DFDA2 /* CSHttpFileUploadModel.m */,
+				1261C08735E53E3C4CD0E9229EB2E51E /* CSHttpRequest.h */,
+				5655B348DF8644AFC651B7C491A8FCC5 /* CSHttpResponse.h */,
+				8E5817E0277C0167ABE06B63DB8D8CE5 /* CSHttpService.h */,
+				9E406A850652B3499E1D4C95F17D55C7 /* CSHttpServiceAPI.h */,
+				34DB83E7E5605F56235F8BA5C3F1B767 /* CSHttpServiceConfig.h */,
+				6ED670CD5EE5BBE35ACF94F032B97921 /* CSHttpServiceInterceptor.h */,
+				362F5A53C2BC4CF9AA92C900C827D6A9 /* Pod */,
+				3FDFFCF6BDA9BA5AEBA8C50F248CFED4 /* Support Files */,
+			);
+			name = CSHttpServiceAPI;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		3FBB307D0065C6346622885CBF91B27B /* Targets Support Files */ = {
@@ -327,6 +365,17 @@
 				B6C2B42FAF2A3352F306BF1A702A1292 /* Pods-CocoaService-HttpService-example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3FDFFCF6BDA9BA5AEBA8C50F248CFED4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6190A015EC1B4B9E1D26C9BA204D42 /* CSHttpServiceAPI.xcconfig */,
+				E7AAB1A1BC913B0581D53D98DA2C1038 /* CSHttpServiceAPI-dummy.m */,
+				EB8CC3FA0397C635C05D9E7A44118F8A /* CSHttpServiceAPI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/CocoaService-HttpService-example/Pods/Target Support Files/CSHttpServiceAPI";
 			sourceTree = "<group>";
 		};
 		45F05D4493152CF3A870BDA3887A4FB9 /* Products */ = {
@@ -340,143 +389,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4824A94D4E30C580EB1D61A1C5187D28 /* CocoaService */ = {
+		A0819BECDC971DD105087A06C719052F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2033CD465679314CFC8A222DA690205 /* CocoaService.h */,
-				6250B1306CB7FDB6A09BAB659D4FF832 /* CocoaService.m */,
-				87B5CFEBFA44744B034262A9C12B146F /* CSAnnotation.h */,
-				33D564E6B0E7FEEC0FEB46AF08106862 /* CSAnnotation.m */,
-				3AF6961B22C972082BF8F0C941CEF80A /* CSAppFirstViewControllerDefine.h */,
-				C0EFAC3E685F4A0A37F8DA384AE724C1 /* CSAppGlobalDefaultModule.h */,
-				21ED0AF08DC0C8645958CCE4608A4A58 /* CSAppGlobalDefaultModule.m */,
-				C147E2B498F156DB0E1A68537154BBA7 /* CSApplicationContext.h */,
-				6A7BC809AAA3795D56E343F61CAB8DAF /* CSApplicationPreloadDataManager.h */,
-				69B656201584CAADE781A72DAF94B5C8 /* CSApplicationPreloadDataManager.m */,
-				E124F2F115F5C4F4B3942C85847A086D /* CSAspect.h */,
-				125EB9BDF2E93025C6143839B64F57E9 /* CSAspectContainer.h */,
-				173A53C5030A3B1C6FD0A030CAA6DC69 /* CSAspectContainer.m */,
-				A5C3C3D3562E21A69626A2A2D33D4A60 /* CSAspectContext.h */,
-				A56F0847899BB45F709FE7B1504C8052 /* CSAspectContext.m */,
-				0B2B3A20DAFD210A080CCB6D880841AA /* CSAspectJoinPoint.h */,
-				5FBCACC391196D79DA414147A335998B /* CSAspectRegisterDefine.h */,
-				A919EF68EC2ACDB9EDDC4254A186B467 /* CSAspectServiceProxy.h */,
-				F7F68FF8BC8E6A71AC9FA3F027E06524 /* CSAspectServiceProxy.m */,
-				29C28F33A8FCD0C1C92D0AEE850AE684 /* CSMacroDefines.h */,
-				D75847BE16FE45825B959533272BE97C /* CSModule.h */,
-				B5433C8A9D53F192FD2BDCA8D76CAB89 /* CSModuleAppDelegateListener.h */,
-				D6C262B57ADAEDD97C2CB286F02B96F1 /* CSModuleContainer.h */,
-				95BF994CA1C4FD4BF0DE2541CDF5FF1F /* CSModuleContainer.m */,
-				E9261D1661F1FC2442DD777FC1618F61 /* CSModuleContext.h */,
-				E303866958546A6B103C44D1DA971C61 /* CSModuleRegisterDefine.h */,
-				BD399713D4ADFB5D3FCC95E8A9F8E48B /* CSMonitorContext.h */,
-				C9DBF75C44642746B89A8D7E43445987 /* CSMonitorContext.m */,
-				C83BE558951E9A63A6C91596A008BA1E /* CSMonitorTimeProfiler.h */,
-				188AEA4DC209E916C017E5569EE75F3A /* CSMonitorTimeProfiler.m */,
-				5F8C37AFB8A6060EF0B3989DEBFFFF3C /* CSMonitorTimeProfiler+CocoaService.h */,
-				CA64963C10F37A4B0104527D86F7A2F4 /* CSMonitorTimeProfiler+CocoaService.m */,
-				9B48CD6368B80456D1267849ECEA2C31 /* CSRuntimeTool.h */,
-				A3F742AF11888D9478AD221AA513EE8A /* CSRuntimeTool.m */,
-				DE6ECF12ED3905DD277F739A8B192155 /* CSSafeArray.h */,
-				197949E5945CBE27E75D79B496DB3C7F /* CSSafeArray.m */,
-				8F174573EF84A0254330EE2AFF9AC905 /* CSSafeDictionary.h */,
-				F12493C1750283BB4BFE98CA1655A69B /* CSSafeDictionary.m */,
-				547C6A97ECE397CCAF7FDA18D4DDD6E2 /* CSSafeQueue.h */,
-				6E209C7C9D8A3FF70CE95043EDE6977A /* CSSafeQueue.m */,
-				78092063B5CBF69167DA95F2053C69A7 /* CSSafeSet.h */,
-				D8203CD451AD6ED610DE713645A09429 /* CSSafeSet.m */,
-				7B3A16091BBA454B96F3A503B55DBBA0 /* CSSafeStack.h */,
-				971E524300264CDE06A6560F66A37BFE /* CSSafeStack.m */,
-				D408A0703B80DE14755CA1FC8FD15E76 /* CSService.h */,
-				78BBFABB9DFDC6975EC49315264168F2 /* CSServiceContext.h */,
-				046E40A64D1D7320A8EFFECE55CC4880 /* CSServiceContext.m */,
-				BC0A12DC4AA8E17C45E59A6258FBB4F4 /* CSServiceRegisterDefine.h */,
-				3ED69FF094A609F45ECB2F8CA2496E6F /* CSServicesContainer.h */,
-				0A6595C5AC8FFAB2657402F896A16C4B /* CSServicesContainer.m */,
-				CBBA4A6C2BA0F494ED2FDA3179E55292 /* CSServiceWrapper.h */,
-				BCAC36AE671406AA72E8954BFF5F7568 /* CSServiceWrapper.m */,
-				E4D94709B55A17ED59E241493DB8DD7E /* CSSimpleAppFristViewControllerDefine.h */,
-				8E57BD9AA4F09991184EC6E04708EF9A /* CSSimpleAppFristViewControllerDefine.m */,
-				F007735A218745C64CB8337DA4E044A1 /* CSSimpleApplicationContext.h */,
-				DA4EA4C5F582115C6B6711B2354CA461 /* CSSimpleApplicationContext.m */,
-				7B48DFB3C29DE66752CEAB9B8590D578 /* CSSimpleAspectJoinPoint.h */,
-				36FA370DD6DD4B49D87459976AE76224 /* CSSimpleAspectJoinPoint.m */,
-				C9F0F0126A0EB5AD2D552B7D75DFBF6D /* CSSimpleAspectRegisterDefine.h */,
-				CB4EE4CD037D05FCDC4EED62BEA8610C /* CSSimpleAspectRegisterDefine.m */,
-				9516A6C20DD5A93F1A19F57DE82DCD1F /* CSSimpleModuleContext.h */,
-				D0E78B7258046C4028BDA0AC9ED1BEC5 /* CSSimpleModuleContext.m */,
-				552B707C24AF3CAB0A2C136ECCE6F8AB /* CSSimpleModuleRegisterDefine.h */,
-				47308C6C31568D6FAA87FF2AEFC3D528 /* CSSimpleModuleRegisterDefine.m */,
-				DE12B8DD6A0642FC64C8F9DA81D57BFB /* CSSimpleServiceRegisterDefine.h */,
-				8F378BA490EA1FF5907CB6BD3B79BA6B /* CSSimpleServiceRegisterDefine.m */,
-				32D86D1916E9993B6539E479E4F91174 /* CSTask.h */,
-				A5D78AADB65A9FB8B66004B2E708E1C6 /* CSTaskBlockTask.h */,
-				5B262D4F57F2EB6A84C41AFC8F765AD8 /* CSTaskBlockTask.m */,
-				BC80DE0F0F793209EEB1C5946CE56BC8 /* CSTaskScheduler.h */,
-				F8A14281945335CF498EB503218002CE /* CSTaskScheduler.m */,
-				A1A4B1EF8441AE6B2A63A31A98B040E2 /* CSTaskTargetActionTask.h */,
-				806F90AEBB8E2F0D9A9B0A2CF9253BA3 /* CSTaskTargetActionTask.m */,
-				34157420DC45730B7CD10D40282C5170 /* NSObject+CSModule.h */,
-				B83027E88A5E8E3FAE1F2B9370AC8E55 /* NSObject+CSModule.m */,
-				A7B1AE1E17B2F5D8B1123E9060D4A943 /* NSObject+CSService.h */,
-				23CEBAC54662A1D6250BD95E7C83F77E /* NSObject+CSService.m */,
-				6309125B1043BEB3D4BE4166F82A8FA1 /* Support Files */,
-			);
-			name = CocoaService;
-			path = CocoaService;
-			sourceTree = "<group>";
-		};
-		4E11D1ADB28F678A6BB235DAE04FCD90 /* CSHttpServiceAPI */ = {
-			isa = PBXGroup;
-			children = (
-				B4F4E50236F949BEA55B72E7FAD68901 /* CSHttpAbstractRequest.h */,
-				5036067A8C2136F53680B3F404CE2907 /* CSHttpAbstractRequest.m */,
-				1ADBE5D0703A83AABF83A1AC290C3C32 /* CSHttpAbstractResponse.h */,
-				E3BBA23A495195124FAA6B54F786420F /* CSHttpAbstractResponse.m */,
-				0745FF1DE68ADAEAF84E0FF4DDC0DB3D /* CSHttpFileUpload.h */,
-				0234B9EE7A3101A27FE9218A8ED1A32D /* CSHttpFileUpload.m */,
-				1A068E04FB0B7AA0268A40B28A11F89C /* CSHttpRequest.h */,
-				C73CCDFB87BAA2B0FD6AFB388E245B17 /* CSHttpResponse.h */,
-				97DFDDFB8C7811EF3424AFD53D40A064 /* CSHttpService.h */,
-				B3129ABF1217603C19C889D30A1D5B9F /* CSHttpServiceAPI.h */,
-				8CDA1FB5142AD71ACE719F03502FBD03 /* CSHttpServiceConfig.h */,
-				EBCA69002E68CBC0E4F2FE9D4DBDFE28 /* CSHttpServiceInterceptor.h */,
-				E104D05AE356C0C3AEB52828924C2ED7 /* Pod */,
-				886595B5352F15DACA58021AF6ADD338 /* Support Files */,
-			);
-			name = CSHttpServiceAPI;
-			path = ../../..;
-			sourceTree = "<group>";
-		};
-		6309125B1043BEB3D4BE4166F82A8FA1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3A882C85FEA9E943D8DD85610ED6FF36 /* CocoaService.xcconfig */,
-				FF25C0FAFF3B78CA5C4F6EC14C514124 /* CocoaService-dummy.m */,
-				29419263CBBF76A87306D6EFF7C56E8F /* CocoaService-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CocoaService";
-			sourceTree = "<group>";
-		};
-		7E951FA8016E5A4FA5DD113FF574C6D3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4824A94D4E30C580EB1D61A1C5187D28 /* CocoaService */,
-				23D5EDFA699CE798EEA88B063A5728E3 /* WJLoggingAPI */,
+				F1340976E3A9E65CD54762E1DD753C4D /* CocoaService */,
+				23357200FCC9763CCE6379B15D81D1BA /* WJLoggingAPI */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		886595B5352F15DACA58021AF6ADD338 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				84A7A083A275D8A28D2CA100CBF69EED /* CSHttpServiceAPI.xcconfig */,
-				225569E393ECD1D58207A41754B38301 /* CSHttpServiceAPI-dummy.m */,
-				D306E228ECA7365578BF9EFEFDDDFD00 /* CSHttpServiceAPI-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/CocoaService-HttpService-example/Pods/Target Support Files/CSHttpServiceAPI";
 			sourceTree = "<group>";
 		};
 		B6C2B42FAF2A3352F306BF1A702A1292 /* Pods-CocoaService-HttpService-example */ = {
@@ -492,13 +411,24 @@
 			path = "Target Support Files/Pods-CocoaService-HttpService-example";
 			sourceTree = "<group>";
 		};
+		BD0356E6CB0B0CE3760CDEACCCFA6A87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28FD2B3086400C34727FD8E6FD3E3380 /* WJLoggingAPI.xcconfig */,
+				428084AB1C02F4E6C349566E97BD6E81 /* WJLoggingAPI-dummy.m */,
+				195480D2CB153711C201C685296A412C /* WJLoggingAPI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJLoggingAPI";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D364201AE48EFE85920419261728FCF8 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				7E951FA8016E5A4FA5DD113FF574C6D3 /* Pods */,
+				A0819BECDC971DD105087A06C719052F /* Pods */,
 				45F05D4493152CF3A870BDA3887A4FB9 /* Products */,
 				3FBB307D0065C6346622885CBF91B27B /* Targets Support Files */,
 			);
@@ -507,7 +437,7 @@
 		D364201AE48EFE85920419261728FCF8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E11D1ADB28F678A6BB235DAE04FCD90 /* CSHttpServiceAPI */,
+				3B581B4A6BDB98837801CFD31EB61A7F /* CSHttpServiceAPI */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -519,14 +449,93 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E104D05AE356C0C3AEB52828924C2ED7 /* Pod */ = {
+		F1340976E3A9E65CD54762E1DD753C4D /* CocoaService */ = {
 			isa = PBXGroup;
 			children = (
-				74272A1BA413F0CF4E68B1D3E44BD8AF /* CSHttpServiceAPI.podspec */,
-				3B8E4CB4F55EE11FE3CD93D6E4DB9E84 /* LICENSE */,
-				DEC5E272F096E0F745DCC441F46BA0EF /* README.md */,
+				E2B6F268A95202BA26392F579D5B908E /* CocoaService.h */,
+				090988EDD466CFDBE8652D78D71A0EC1 /* CocoaService.m */,
+				C0AA32FD8048792E004417135A80EBC4 /* CSAnnotation.h */,
+				B6A02D46EE9751A86B9E24AB408A7241 /* CSAnnotation.m */,
+				BE98DA6A6759C9E81026AAE40D0503C9 /* CSApplicationContext.h */,
+				3C2340A8E02861526882F6C0FD855B6E /* CSApplicationCoreModule.h */,
+				06A3FB67FA3A7A4EBE9E8244483ECDC8 /* CSApplicationCoreModule.m */,
+				639E1DC5DEE27FD2D2682307FA102CF0 /* CSApplicationPlugin.h */,
+				AF00E1EE6651E94DDA6F0C7845AC62BC /* CSApplicationPluginDefine.h */,
+				20E2C11693C43C658FE378CB12818CD0 /* CSApplicationPluginManager.h */,
+				ACE7A8DBD46C9CA5C18F4831C21A4287 /* CSApplicationPluginManager.m */,
+				68C810DF4463CF21FEB67389C7C2A6DB /* CSApplicationPreloadDataManager.h */,
+				886DCF7EBBD96AF2071F06A7C806865C /* CSApplicationPreloadDataManager.m */,
+				D3B9FC3C3F56EE7D5C6C3208F6049A3D /* CSAspect.h */,
+				30A37331C30F5989DD1A55C2AC32508C /* CSAspectContainer.h */,
+				7503A222DD1DFCE83D52FAF7DE99CD42 /* CSAspectContainer.m */,
+				84717607A1EA859074D8160470F8DCAC /* CSAspectContext.h */,
+				FE610D17BE924C5F8A41C518B8EA710F /* CSAspectContext.m */,
+				C5F2AAAA424F6E1060AD1A3190C0775E /* CSAspectJoinPoint.h */,
+				1940876D46D8FB7996AAD4D4EB707747 /* CSAspectRegisterDefine.h */,
+				A6C2A823A5C4601398C34AA81A913A27 /* CSAspectServiceProxy.h */,
+				E198F9E85E6118ADD76D7C4609DDB8C3 /* CSAspectServiceProxy.m */,
+				9DF71924461DD977ACE7C6F2F49375A7 /* CSBlockTask.h */,
+				17D6D9B0B5F707683731095B0F8480C9 /* CSBlockTask.m */,
+				DD114474F13CE2E9AAB3E5061E10F75C /* CSMacroDefines.h */,
+				C7B661DAB3F7470BAD78FE6BC3AC3C73 /* CSModule.h */,
+				263BD806379378384139DFB07601FBC6 /* CSModuleAppDelegateListener.h */,
+				D97B89A22A1E3D838E1FF2587734D965 /* CSModuleContainer.h */,
+				85DACB6F089596B7E3136D32D518C946 /* CSModuleContainer.m */,
+				6C5D1F3672EF1556AAB4592C2E6FAB71 /* CSModuleContext.h */,
+				3AA36CAD275F8A55F20451402DC10250 /* CSModuleRegisterDefine.h */,
+				60D82BA2B0B646EF2930D50F9D32B3C7 /* CSMonitorApplicationTimeProfiler.h */,
+				B662E15B14CB569C0777D6AFF36F89DC /* CSMonitorApplicationTimeProfiler.m */,
+				02296CC81086C7F76FC8664E69CF7554 /* CSMonitorContext.h */,
+				CE8C532047716F9A66230A87DCFDFE11 /* CSMonitorContext.m */,
+				06EA7214C74EF6413C6CD63806A5172F /* CSMonitorTimeProfiler.h */,
+				96887D0FBC4DEA99DB09497205C91889 /* CSMonitorTimeProfiler.m */,
+				5BFCC9F5B97DDEE8ED5E024FF1FE480B /* CSRuntimeTool.h */,
+				43269A72B3E3120EA5C303170B4C5411 /* CSRuntimeTool.m */,
+				1BE033A202D6405C095E54AAC0369539 /* CSSafeArray.h */,
+				5A61CB4BF6B44F1BED1940AC2C2924A1 /* CSSafeArray.m */,
+				1549F335FC0F9C369719EF6DD84BF91C /* CSSafeDictionary.h */,
+				F25436A5E03894DAB8F773F5F35CAB98 /* CSSafeDictionary.m */,
+				5DA170BC02FDCA6A65753EE3B43E995F /* CSSafeQueue.h */,
+				6993B6526BB37CF89EB9899B8FB97283 /* CSSafeQueue.m */,
+				6863409D6114B01BEA0D5EE191DB57E7 /* CSSafeSet.h */,
+				32C66CB8570BF1510AF9D7EDBE59E859 /* CSSafeSet.m */,
+				B3C2D7479CE13D9F1ADDAF1A56A97C1C /* CSSafeStack.h */,
+				5DB033585C5CC29691D606E1EF3929D1 /* CSSafeStack.m */,
+				F339C92DEFAE97FE666517C56289B926 /* CSService.h */,
+				E57AB7C12CDF3523F0CA01514AEDCF71 /* CSServiceContext.h */,
+				E583DEE1B1CE278D978BC75014F53881 /* CSServiceContext.m */,
+				84882AE92B2C5CE9D606EF9068B17763 /* CSServiceRegisterDefine.h */,
+				37768C7E9D2F4DB7BF889CC130D9324F /* CSServicesContainer.h */,
+				196F4AEF910413633AF0BCFBCA2530C8 /* CSServicesContainer.m */,
+				B20D4F5503EEDC9DFEDCE21FDDAFC9D4 /* CSServiceWrapper.h */,
+				21A6A52D511620C04EDC6E4A0FF111B5 /* CSServiceWrapper.m */,
+				892216EF87B774CDE43EDAD1B0027690 /* CSSimpleApplicationContext.h */,
+				ACD8A89A67BB58B1D66061590211806B /* CSSimpleApplicationContext.m */,
+				E9EE096030C0625540A88C6B15807D7D /* CSSimpleApplicationPluginDefine.h */,
+				AFD6AB935489D91697C6DE897DE7C7C9 /* CSSimpleApplicationPluginDefine.m */,
+				4CA1AEDF28AF92C4B0ADD4924E2A1F1F /* CSSimpleAspectJoinPoint.h */,
+				6D476032D67A6897C1E0B5594D5FAE23 /* CSSimpleAspectJoinPoint.m */,
+				ADE2497CA9ED717752E29383CAE0F065 /* CSSimpleAspectRegisterDefine.h */,
+				49F3526078D97AAD247406E2E125918E /* CSSimpleAspectRegisterDefine.m */,
+				8B5A085F96E9A9B901C57FF439082384 /* CSSimpleModuleContext.h */,
+				B29E1A0BEB05A597B7CEC2671D23854F /* CSSimpleModuleContext.m */,
+				14B0046DA8AC748939A4F470DDFB1745 /* CSSimpleModuleRegisterDefine.h */,
+				A9968A8EC1FF44F5BC4A4A1BB6872FC4 /* CSSimpleModuleRegisterDefine.m */,
+				6DD4E34C3326C1C0D91361CB61F1D1E9 /* CSSimpleServiceRegisterDefine.h */,
+				44F8806A6DF594A514A7442F1D0FAC95 /* CSSimpleServiceRegisterDefine.m */,
+				B58103DF85E3760F5279F2DA8B6F42A2 /* CSTargetActionTask.h */,
+				840D3651F71FE9161F071E4AADA9E6C3 /* CSTargetActionTask.m */,
+				9F8BA92E8E4402B2B4FA50D3C6D77173 /* CSTask.h */,
+				EEBBEB554F0253E056899F528CAE3C35 /* CSTaskScheduler.h */,
+				675DFE4404332F1D17790C1D089E70D3 /* CSTaskScheduler.m */,
+				A09346849D87F71B0473556BE6B53B86 /* NSObject+CSModule.h */,
+				CB98C9C1E0E649741881140B06686799 /* NSObject+CSModule.m */,
+				DF9F2EE6D75AFDB281BF52215029349B /* NSObject+CSService.h */,
+				50E1D2CAC88B16DF980E2AAFA1A6DAE4 /* NSObject+CSService.m */,
+				18ADEE5BAAC6698364F74010BBE68D48 /* Support Files */,
 			);
-			name = Pod;
+			name = CocoaService;
+			path = CocoaService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -539,55 +548,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8287180A6D10FEB0D8D710F89DDF934E /* Headers */ = {
+		8794931930EB3A89A317E433CE31BF47 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E36B71B6845BA42409086BB64F83E1 /* CocoaService.h in Headers */,
-				A81B46DEF5A0C1E28635237E5681EA6A /* CSAnnotation.h in Headers */,
-				83B0BA1BE374C6AA07E2929C9568DB81 /* CSAppFirstViewControllerDefine.h in Headers */,
-				3B3F477C44EBDE09D8B569C965B736F0 /* CSAppGlobalDefaultModule.h in Headers */,
-				BC6F87BCDBF150CC4BD826C916BC7E90 /* CSApplicationContext.h in Headers */,
-				B1A77AE3F6908344C5AE7C6521035C80 /* CSApplicationPreloadDataManager.h in Headers */,
-				28AAC08377AE59F629D0ECF5AF680B26 /* CSAspect.h in Headers */,
-				9564E3C971A30EC0FB38D5BBBCEA8020 /* CSAspectContainer.h in Headers */,
-				E850B16A5E28E2B306AA3B67B37CE578 /* CSAspectContext.h in Headers */,
-				8CF9DF52ED58994AD07BB953C8152B72 /* CSAspectJoinPoint.h in Headers */,
-				DC4CB676FCB260EA03E3194467E693F2 /* CSAspectRegisterDefine.h in Headers */,
-				7257171355612001D26903A8BC588306 /* CSAspectServiceProxy.h in Headers */,
-				F6DD47586C506729A9D2D1BC56260068 /* CSMacroDefines.h in Headers */,
-				97820A1685A94BE012DFA20D26B3592A /* CSModule.h in Headers */,
-				E189A56BAF393EC5480209E435E2F6B7 /* CSModuleAppDelegateListener.h in Headers */,
-				5B590C3AE13E9B72AD6CE6496ED7B14B /* CSModuleContainer.h in Headers */,
-				83C391877C17A9DE399E55E4A0F31632 /* CSModuleContext.h in Headers */,
-				D9145FB2C40FD19283934FADFA8F50D9 /* CSModuleRegisterDefine.h in Headers */,
-				1F97A8EFBDBCB7F98A4A92652E055661 /* CSMonitorContext.h in Headers */,
-				BD93A0FF15D1D2BBB65395B9FEB31D36 /* CSMonitorTimeProfiler+CocoaService.h in Headers */,
-				0EC48AF4569910FBB1A2D06F27C7A76D /* CSMonitorTimeProfiler.h in Headers */,
-				6E8E8B3E55D0EFC9A300CFED48152666 /* CSRuntimeTool.h in Headers */,
-				06613ECA1A2707A6BB320A7B2606DDB1 /* CSSafeArray.h in Headers */,
-				D4CDA6732D4F370312D319EE00117EA1 /* CSSafeDictionary.h in Headers */,
-				E44AC3ABD8F7CE51E1813764709E3FC8 /* CSSafeQueue.h in Headers */,
-				38257D05B139C5F787BD051B7E167E77 /* CSSafeSet.h in Headers */,
-				472C11678656ECE4A921E85DB9F1192B /* CSSafeStack.h in Headers */,
-				6B96B2F73F36C1135F90FBE0D227B0A4 /* CSService.h in Headers */,
-				565291657E77E3C850A832DBD303B5F6 /* CSServiceContext.h in Headers */,
-				BC883CABD0078914D2C5F52DC5806097 /* CSServiceRegisterDefine.h in Headers */,
-				06C2142D35687C9131E89CCB594F6B4F /* CSServicesContainer.h in Headers */,
-				8C4C85E12B6BC343BB66AE43994D43D4 /* CSServiceWrapper.h in Headers */,
-				1BB71BF4F6C09F6B56060B6F7B4E7DA8 /* CSSimpleAppFristViewControllerDefine.h in Headers */,
-				292232FBB86F6B79A77CA0B9EA0D715E /* CSSimpleApplicationContext.h in Headers */,
-				3E7CDABEECF89B230F8743C149B67DB3 /* CSSimpleAspectJoinPoint.h in Headers */,
-				6AAE8AFE32396993A8B18DC5E41898F8 /* CSSimpleAspectRegisterDefine.h in Headers */,
-				86D8637A96D9D44B3BD06ED76310060E /* CSSimpleModuleContext.h in Headers */,
-				F6B887FA11CC968F410A2C00E89B4C69 /* CSSimpleModuleRegisterDefine.h in Headers */,
-				E121700BF12BB1EB0593330006DA4E8E /* CSSimpleServiceRegisterDefine.h in Headers */,
-				F198C339AC52AF9D82B37798B2B20594 /* CSTask.h in Headers */,
-				6438BE1C50E84FE7F9E8A0DDC65A4678 /* CSTaskBlockTask.h in Headers */,
-				3F66F7249A3C469B25E0DD17056F7AF7 /* CSTaskScheduler.h in Headers */,
-				85245B7F9E0C78096748A3974727B7CD /* CSTaskTargetActionTask.h in Headers */,
-				35AB2598BB785AC59E051F3E2A9F3A1A /* NSObject+CSModule.h in Headers */,
-				2235D0557B821D04A7BDFCFBDC915D5D /* NSObject+CSService.h in Headers */,
+				7F64C1F9870485359E24D0D76E767C9F /* CocoaService.h in Headers */,
+				6E312F83396E8169FA22116ECEAF6CBD /* CSAnnotation.h in Headers */,
+				224878404D955EA432C7EFF1C87DE0B6 /* CSApplicationContext.h in Headers */,
+				598A55B60478836CCB35696FED84D92E /* CSApplicationCoreModule.h in Headers */,
+				D7619BC8324D956283D6A5A2F2078391 /* CSApplicationPlugin.h in Headers */,
+				B5AC0F2B503CBF14019BE7DD53BA8521 /* CSApplicationPluginDefine.h in Headers */,
+				0BC4788B7D6074C03C78A468F6EE5D5F /* CSApplicationPluginManager.h in Headers */,
+				5294774FAB1F99118E4C60BA1284E4D9 /* CSApplicationPreloadDataManager.h in Headers */,
+				DE74EDF550B9F53122EA2BA69FE86C34 /* CSAspect.h in Headers */,
+				5B837E8A4EA99527A9CB4FB4ECE7F6C7 /* CSAspectContainer.h in Headers */,
+				89859957B5647FB2AC873F94775FC303 /* CSAspectContext.h in Headers */,
+				A70D0FD89C266B4F359F29805BD4B362 /* CSAspectJoinPoint.h in Headers */,
+				493A07A6806D5016915AB0A55098A8D2 /* CSAspectRegisterDefine.h in Headers */,
+				7610EE02710596BCE445055749438F0A /* CSAspectServiceProxy.h in Headers */,
+				FC411053995E8EA28274B65776852A09 /* CSBlockTask.h in Headers */,
+				007D7F46F40E1ACE73C4B035ABB47025 /* CSMacroDefines.h in Headers */,
+				50A94F0B03DECC677A2E8C18159D7B8A /* CSModule.h in Headers */,
+				94DE8FD6A7BB8729390A016E63684E91 /* CSModuleAppDelegateListener.h in Headers */,
+				A11867E7B588C8352FBA5DD5D42149D4 /* CSModuleContainer.h in Headers */,
+				59E7CCC6487AE534F5C39449A3922D95 /* CSModuleContext.h in Headers */,
+				5B42FDA600158B6D443F83F553174EF0 /* CSModuleRegisterDefine.h in Headers */,
+				522750291944F4700808839BAC3BB11B /* CSMonitorApplicationTimeProfiler.h in Headers */,
+				768BFA3031332DF9229B6FFA55D5FD2A /* CSMonitorContext.h in Headers */,
+				F74EF416FABDA6D38E3EF3362C14CF26 /* CSMonitorTimeProfiler.h in Headers */,
+				4AA2E61B96E8438DC6DE969CA55E6203 /* CSRuntimeTool.h in Headers */,
+				390287F6CE17261F2C8395EB21CD4C6C /* CSSafeArray.h in Headers */,
+				87CAABD4040B649EB23663B8CF4A805E /* CSSafeDictionary.h in Headers */,
+				2A9E4243272857C60C3C8D8AA54D6A9B /* CSSafeQueue.h in Headers */,
+				E9CAD576560AA3C5AE1F609A7890760C /* CSSafeSet.h in Headers */,
+				1AD21714EED73D36986BE9EC1ECE6BE4 /* CSSafeStack.h in Headers */,
+				8C5CA66359AC39151E6C6206BFF0FF57 /* CSService.h in Headers */,
+				0DD3B13B9737696B5CB3EF9B660785F5 /* CSServiceContext.h in Headers */,
+				C970B814FAACCA25F5B20D11DE95FEF8 /* CSServiceRegisterDefine.h in Headers */,
+				2DC312F43543A6217750757C13C7C93A /* CSServicesContainer.h in Headers */,
+				81C57331B392CE81AFF29AF3D46E782F /* CSServiceWrapper.h in Headers */,
+				CB2BA385CA58166414E2B98E51122C6F /* CSSimpleApplicationContext.h in Headers */,
+				A9FCC30C5358D8197624A3233EBD9A17 /* CSSimpleApplicationPluginDefine.h in Headers */,
+				8ABB38E4A98A37C916E26C31CBA31500 /* CSSimpleAspectJoinPoint.h in Headers */,
+				0DA66DB69D9C7E350DE1E45F0E2ABFBF /* CSSimpleAspectRegisterDefine.h in Headers */,
+				4058BF4C015484ADF809BFD2E43BE7D2 /* CSSimpleModuleContext.h in Headers */,
+				D3D7EEEB12F65B557B68EA91917F935A /* CSSimpleModuleRegisterDefine.h in Headers */,
+				F3863D7F532DFF522A78F4A87A5A9195 /* CSSimpleServiceRegisterDefine.h in Headers */,
+				8002455D49CCE86012F05DC261309561 /* CSTargetActionTask.h in Headers */,
+				F3A579DF7988A46E721A958D4AC3E77F /* CSTask.h in Headers */,
+				7D5837583CC1DACC2F60DF9825B83110 /* CSTaskScheduler.h in Headers */,
+				6F5001B2F2768FAC3975DE47C8792F41 /* NSObject+CSModule.h in Headers */,
+				0779264C8AD9BFF31A069A5D114E48C7 /* NSObject+CSService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,19 +613,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE457E0B0B53F5FAF3397E806E21AADD /* Headers */ = {
+		E7DBBF1310AD5DD5834034197CC7BB51 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6473DD9E8443CF1F149C7B8BC23110D /* CSHttpAbstractRequest.h in Headers */,
-				AD5C820B642D217C2A372425E0A996CF /* CSHttpAbstractResponse.h in Headers */,
-				39FB4323B1BE4EF3838E4400130AF5D8 /* CSHttpFileUpload.h in Headers */,
-				12AAFC82E6A7C2AEED3D0646E2328896 /* CSHttpRequest.h in Headers */,
-				E912C3BE6B39E4777315BA83EEFB7F2E /* CSHttpResponse.h in Headers */,
-				E3A2D74E5417345814BDB8536841C981 /* CSHttpService.h in Headers */,
-				D680F92B4C877D8236EE8F3497276012 /* CSHttpServiceAPI.h in Headers */,
-				0E2EA2672009D056BBF98C068E879D91 /* CSHttpServiceConfig.h in Headers */,
-				5724E37B3BC3FB405A40B930685748A5 /* CSHttpServiceInterceptor.h in Headers */,
+				ECE9ADAD9D93B048255F7CD208FCD627 /* CSHttpAbstractRequest.h in Headers */,
+				464E7A4665EBC5FB91E83A8D6CC0F98A /* CSHttpAbstractResponse.h in Headers */,
+				3641D2427BCA018564A024CAD2BE3C90 /* CSHttpFileUploadModel.h in Headers */,
+				4891BAC5BE7DD190FFC12198965FF639 /* CSHttpRequest.h in Headers */,
+				5FFB6893893D4765380686BFF756535C /* CSHttpResponse.h in Headers */,
+				A703DC05DEB3A1E71DD5329920B31E87 /* CSHttpService.h in Headers */,
+				0D54C8857333B38ED4D6F29DCB7CE0C1 /* CSHttpServiceAPI.h in Headers */,
+				C73BFABEAAE9C6B1D3445D4B98AE3793 /* CSHttpServiceConfig.h in Headers */,
+				6F42E330295CB924CD8537BCE7FE0FFF /* CSHttpServiceInterceptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,8 +636,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D3951144EAF4DCEFFD4A42EBAAF603D /* Build configuration list for PBXNativeTarget "CSHttpServiceAPI" */;
 			buildPhases = (
-				AE457E0B0B53F5FAF3397E806E21AADD /* Headers */,
-				4D7CE564C8971313F8CEC2C33DF58B38 /* Sources */,
+				E7DBBF1310AD5DD5834034197CC7BB51 /* Headers */,
+				D067A154BDADFCA941EA4F6A7496E82E /* Sources */,
 				C2DD4874EC56A0D3E4251B454B59F4A4 /* Frameworks */,
 			);
 			buildRules = (
@@ -680,8 +691,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 077795DD88CF2BE230660DD74C834F14 /* Build configuration list for PBXNativeTarget "CocoaService" */;
 			buildPhases = (
-				8287180A6D10FEB0D8D710F89DDF934E /* Headers */,
-				999C98D83536F003764022CC9C39E7EB /* Sources */,
+				8794931930EB3A89A317E433CE31BF47 /* Headers */,
+				5D97BA6912A45D50D1365B356A0905D3 /* Sources */,
 				311B9AE63885705572CAF2288A093FBA /* Frameworks */,
 			);
 			buildRules = (
@@ -724,14 +735,44 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D7CE564C8971313F8CEC2C33DF58B38 /* Sources */ = {
+		5D97BA6912A45D50D1365B356A0905D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C9DADE58BEB26FA338451BB6E0BD5E /* CSHttpAbstractRequest.m in Sources */,
-				AEA58FB36BD5193433CC7A3B219950C6 /* CSHttpAbstractResponse.m in Sources */,
-				00062BDD35EFDB06E23895E03B6B1102 /* CSHttpFileUpload.m in Sources */,
-				F67BB13FAD9CD4D8565A112341D52A94 /* CSHttpServiceAPI-dummy.m in Sources */,
+				147FE3E92352F21BC0B4034E7D7C0829 /* CocoaService-dummy.m in Sources */,
+				90D09FD337ECA94EA220B5B72645F8F2 /* CocoaService.m in Sources */,
+				2E46270D5681CE36F9114B743DA07C73 /* CSAnnotation.m in Sources */,
+				2DA67B2BC0E1E1597BDA1EFD919EE1C6 /* CSApplicationCoreModule.m in Sources */,
+				88BF721D7B31F244EA0FDA6FCFEE9E55 /* CSApplicationPluginManager.m in Sources */,
+				4C6B4DC6BAC1007B62AF3257591FA929 /* CSApplicationPreloadDataManager.m in Sources */,
+				8B86CA9CB294B8EE1ED7B45C3B0206E2 /* CSAspectContainer.m in Sources */,
+				E35F6518D12EAEA78B46DFAF5BA77DE6 /* CSAspectContext.m in Sources */,
+				517707F0B27477F29A2980C673D708E9 /* CSAspectServiceProxy.m in Sources */,
+				BFAFCC5CF59E69520DCB3B6698A96FD0 /* CSBlockTask.m in Sources */,
+				0080E8199AC7F01AD9E627E1DBF40D4D /* CSModuleContainer.m in Sources */,
+				ADE22E68B2C6BA4D2B0E710FF1591F4A /* CSMonitorApplicationTimeProfiler.m in Sources */,
+				D515D4260AAB88BD57FE5C850B82C6BC /* CSMonitorContext.m in Sources */,
+				9F2C5F0D9C0A1FE43BDF2037552712A5 /* CSMonitorTimeProfiler.m in Sources */,
+				71CA6DB8592CCA196348C4F4F50F4E72 /* CSRuntimeTool.m in Sources */,
+				FB7CBFC2BFC6BB49728CFA2AA1375147 /* CSSafeArray.m in Sources */,
+				8B05302ED5F94BB9CE4D20A44AD0D53B /* CSSafeDictionary.m in Sources */,
+				78BFA61D221550AAA732E0DBCAB422F8 /* CSSafeQueue.m in Sources */,
+				C455BB2FE88380F918429897D9A3395C /* CSSafeSet.m in Sources */,
+				A4DF08793E6652662054447D1B655FF5 /* CSSafeStack.m in Sources */,
+				B2F31ECEFB537332DA49FA54EE393857 /* CSServiceContext.m in Sources */,
+				4790CEA6045F1196BE40B5345FCBAC51 /* CSServicesContainer.m in Sources */,
+				71E3D426A2230DCFAF6C498AB280FD74 /* CSServiceWrapper.m in Sources */,
+				842B55F5824937547AA39FF3008A18FD /* CSSimpleApplicationContext.m in Sources */,
+				55B18D4AD9ED6FB813140618FC8DCD38 /* CSSimpleApplicationPluginDefine.m in Sources */,
+				277E1185BE7B1D3972A82FB42A9A1188 /* CSSimpleAspectJoinPoint.m in Sources */,
+				F6374CF4774E424391B7D6D5652CE1C4 /* CSSimpleAspectRegisterDefine.m in Sources */,
+				12CE3AC331B9357C193F0EDBB86B3840 /* CSSimpleModuleContext.m in Sources */,
+				F06A24AFC42A0DFC0B532B8A932A2CB1 /* CSSimpleModuleRegisterDefine.m in Sources */,
+				AD9136E3861449AF8529A0F7EBEBC40C /* CSSimpleServiceRegisterDefine.m in Sources */,
+				20F5E5DFE4CF8BF8C9607262FDFB97B2 /* CSTargetActionTask.m in Sources */,
+				AEDEB03317BA25A8CE753DF3ACCF8E48 /* CSTaskScheduler.m in Sources */,
+				555F8BB8A8B747374CB704D02925A912 /* NSObject+CSModule.m in Sources */,
+				F6F93050B0F7AE0FF6C0E44FB5D9D4CF /* NSObject+CSService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,43 +785,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		999C98D83536F003764022CC9C39E7EB /* Sources */ = {
+		D067A154BDADFCA941EA4F6A7496E82E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F6CD9EBAB566D8615A166690200E976 /* CocoaService-dummy.m in Sources */,
-				AA26C065741B13E21F7544B7994CA414 /* CocoaService.m in Sources */,
-				A53AD9B62588E1894A6ACA54ED1A0A7C /* CSAnnotation.m in Sources */,
-				5B14E6392C2192CB4A3AA65BC20AE014 /* CSAppGlobalDefaultModule.m in Sources */,
-				B919622114775280FAF97AA8B3C1D2FE /* CSApplicationPreloadDataManager.m in Sources */,
-				AF01C3400D90E6446966A8B3928A8B5B /* CSAspectContainer.m in Sources */,
-				2E9C16425D2F7279AF41ECD788948951 /* CSAspectContext.m in Sources */,
-				912AE69C591A96A5B809CFE8BCB7AA53 /* CSAspectServiceProxy.m in Sources */,
-				75A1B3E78140590D65266AC3D87F714C /* CSModuleContainer.m in Sources */,
-				E226F4D4CB3C30F23D473B50A01A521C /* CSMonitorContext.m in Sources */,
-				469A5BFFAF8576E3E9B7DEF1A36CF47E /* CSMonitorTimeProfiler+CocoaService.m in Sources */,
-				352694C748DB71DD1C3F29D159B49ED3 /* CSMonitorTimeProfiler.m in Sources */,
-				AFE0CABE45B82690C089ED179A92EA7A /* CSRuntimeTool.m in Sources */,
-				32EC9DD525EA09C167D9AA3CFAA7F200 /* CSSafeArray.m in Sources */,
-				BF6DE894B951D4754AB2EB66F9DA1DBD /* CSSafeDictionary.m in Sources */,
-				F5DAEDA1F66987DDADCD07C0DC5064D6 /* CSSafeQueue.m in Sources */,
-				C4D54DF4173BE07D0339ACBBD06B3831 /* CSSafeSet.m in Sources */,
-				1512FC309CD3F329E2C20D25ABC7A106 /* CSSafeStack.m in Sources */,
-				AC000929854ABCC231E0FF40C3A4CA16 /* CSServiceContext.m in Sources */,
-				0040D9ACBB0EB678D8EDCE3D51EC329E /* CSServicesContainer.m in Sources */,
-				1602E0F16BC9B38C0F46DA5019419208 /* CSServiceWrapper.m in Sources */,
-				783E3B6AC64B694D74AD54ADA076ECF8 /* CSSimpleAppFristViewControllerDefine.m in Sources */,
-				117429CC693D764AF2E76A55E6578D80 /* CSSimpleApplicationContext.m in Sources */,
-				15E757B099711BD25F2C13E34DB5AC20 /* CSSimpleAspectJoinPoint.m in Sources */,
-				CF06338C7522BA9D4E563995CE131F7A /* CSSimpleAspectRegisterDefine.m in Sources */,
-				C92BA3890014E981B4DF6A68636DD734 /* CSSimpleModuleContext.m in Sources */,
-				F3C52CB91E26E572B6668B8FD365429E /* CSSimpleModuleRegisterDefine.m in Sources */,
-				998D9E13D175AA93303A9BA21DA0D78A /* CSSimpleServiceRegisterDefine.m in Sources */,
-				F35BC049CAE4F65029A34D104AD2314E /* CSTaskBlockTask.m in Sources */,
-				45D19718A717134D5135B1E83403E9A0 /* CSTaskScheduler.m in Sources */,
-				9E1276151622AA550353D805277F8CFD /* CSTaskTargetActionTask.m in Sources */,
-				496DD6D8737BF01DC57846B7A18E29B8 /* NSObject+CSModule.m in Sources */,
-				D6F88E05B4E376850B5B203FB11FCFF3 /* NSObject+CSService.m in Sources */,
+				A8ECA6FA950A97A693377F07BC2900CC /* CSHttpAbstractRequest.m in Sources */,
+				4170892AF2A5CE03D91F00144430D52B /* CSHttpAbstractResponse.m in Sources */,
+				C396186DDD7EBCAE3C614597DEF14604 /* CSHttpFileUploadModel.m in Sources */,
+				1130E61830E302A46B5C6B215AA6352F /* CSHttpServiceAPI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,7 +885,7 @@
 		};
 		24C3A6CC7849F4991269449738BC19CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EFC121DE9FCCAB6F56CBE4350618FBC /* WJLoggingAPI.xcconfig */;
+			baseConfigurationReference = 28FD2B3086400C34727FD8E6FD3E3380 /* WJLoggingAPI.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -896,7 +908,7 @@
 		};
 		31DD5C8FA40592503230BEB9FB599E7F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A882C85FEA9E943D8DD85610ED6FF36 /* CocoaService.xcconfig */;
+			baseConfigurationReference = 254BD511EA498EC1550D0C6C90E37845 /* CocoaService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -980,7 +992,7 @@
 		};
 		54B3A8DCA546FDD5BD617845EB7056BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A882C85FEA9E943D8DD85610ED6FF36 /* CocoaService.xcconfig */;
+			baseConfigurationReference = 254BD511EA498EC1550D0C6C90E37845 /* CocoaService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1003,7 +1015,7 @@
 		};
 		6FB4008791F2595815243B349DC3D8E7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84A7A083A275D8A28D2CA100CBF69EED /* CSHttpServiceAPI.xcconfig */;
+			baseConfigurationReference = CE6190A015EC1B4B9E1D26C9BA204D42 /* CSHttpServiceAPI.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1091,7 +1103,7 @@
 		};
 		84D13B66CFDC73FDFC967CEDB896D1F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EFC121DE9FCCAB6F56CBE4350618FBC /* WJLoggingAPI.xcconfig */;
+			baseConfigurationReference = 28FD2B3086400C34727FD8E6FD3E3380 /* WJLoggingAPI.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1115,7 +1127,7 @@
 		};
 		C51181D681BCEF35E3E82EB57C4FDA28 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84A7A083A275D8A28D2CA100CBF69EED /* CSHttpServiceAPI.xcconfig */;
+			baseConfigurationReference = CE6190A015EC1B4B9E1D26C9BA204D42 /* CSHttpServiceAPI.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

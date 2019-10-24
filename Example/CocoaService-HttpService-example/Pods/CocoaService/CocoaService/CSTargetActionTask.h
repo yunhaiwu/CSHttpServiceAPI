@@ -1,5 +1,5 @@
 //
-//  CSTaskBlockTask.h
+//  CSTargetActionTask.h
 //  CocoaService-Framework
 //
 //  Created by 吴云海
@@ -9,18 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "CSTask.h"
 
-
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^CSTaskBlock)(void);
+@interface CSTargetActionTask : NSObject<CSTask>
 
-@interface CSTaskBlockTask : NSObject<CSTask>
+@property (nonatomic, strong) id target;
 
-@property (nonatomic, copy) CSTaskBlock taskBlock;
+@property (nonatomic, assign) SEL action;
 
 @property (nonatomic, assign) BOOL async;
 
-- (instancetype)initWithBlock:(CSTaskBlock)block async:(BOOL)async;
+- (instancetype)initWithTarget:(id)target action:(SEL)action async:(BOOL)async;
 
 @end
 

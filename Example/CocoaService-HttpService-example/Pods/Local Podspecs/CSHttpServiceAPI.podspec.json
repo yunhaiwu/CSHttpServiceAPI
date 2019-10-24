@@ -15,7 +15,7 @@
     "ios": "7.0"
   },
   "source": {
-    "git": "https://github.com/yunhaiwu/CocoaService-HttpServiceAPI.git",
+    "git": "https://github.com/yunhaiwu/CSHttpServiceAPI.git",
     "tag": "1.0.0"
   },
   "source_files": "CSHttpServiceAPI/*.{h,m}",

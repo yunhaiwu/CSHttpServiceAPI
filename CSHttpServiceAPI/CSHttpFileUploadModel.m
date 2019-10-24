@@ -1,14 +1,14 @@
 //
-//  CSHttpFileUpload.m
+//  CSHttpFileUploadModel.m
 //  CocoaService-HttpServiceAPI
 //
 //  Created by 吴云海
 //  Copyright © 2018年 yunhai.wu. All rights reserved.
 //
 
-#import "CSHttpFileUpload.h"
+#import "CSHttpFileUploadModel.h"
 
-@implementation CSHttpFileUpload
+@implementation CSHttpFileUploadModel
 
 - (instancetype)initWithRequestKey:(NSString*)requestKey mimeType:(NSString*)mimeType fileName:(NSString*)fileName filePath:(NSString*)filePath {
     self = [super init];
@@ -24,4 +24,5 @@
 - (BOOL)fileExist {
     return [[NSFileManager defaultManager] fileExistsAtPath:_filePath];
 }
+
 @end
