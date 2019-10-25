@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603F2312236295C300B824DB /* CSHttpFileUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 603F2309236295C300B824DB /* CSHttpFileUploadModel.m */; };
+		603F2313236295C300B824DB /* CSHttpAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 603F230B236295C300B824DB /* CSHttpAbstractResponse.m */; };
+		603F2314236295C300B824DB /* CSHttpAbstractRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 603F230D236295C300B824DB /* CSHttpAbstractRequest.m */; };
 		60BBABDF23571FCE0058F540 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABDE23571FCE0058F540 /* AppDelegate.m */; };
 		60BBABE523571FCE0058F540 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABE423571FCE0058F540 /* ViewController.m */; };
 		60BBABEA23571FCF0058F540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BBABE923571FCF0058F540 /* Assets.xcassets */; };
@@ -36,6 +39,19 @@
 
 /* Begin PBXFileReference section */
 		0EB438062A69D68B8F585E60 /* libPods-CocoaService-HttpService-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaService-HttpService-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		603F2306236295C300B824DB /* CSHttpAbstractRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpAbstractRequest.h; sourceTree = "<group>"; };
+		603F2307236295C300B824DB /* CSHttpServiceInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpServiceInterceptor.h; sourceTree = "<group>"; };
+		603F2308236295C300B824DB /* CSHttpServiceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpServiceConfig.h; sourceTree = "<group>"; };
+		603F2309236295C300B824DB /* CSHttpFileUploadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHttpFileUploadModel.m; sourceTree = "<group>"; };
+		603F230A236295C300B824DB /* CSHttpServiceAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpServiceAPI.h; sourceTree = "<group>"; };
+		603F230B236295C300B824DB /* CSHttpAbstractResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHttpAbstractResponse.m; sourceTree = "<group>"; };
+		603F230C236295C300B824DB /* CSHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpService.h; sourceTree = "<group>"; };
+		603F230D236295C300B824DB /* CSHttpAbstractRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHttpAbstractRequest.m; sourceTree = "<group>"; };
+		603F230E236295C300B824DB /* CSHttpFileUploadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpFileUploadModel.h; sourceTree = "<group>"; };
+		603F230F236295C300B824DB /* CSHttpAbstractResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpAbstractResponse.h; sourceTree = "<group>"; };
+		603F2310236295C300B824DB /* CSHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpResponse.h; sourceTree = "<group>"; };
+		603F2311236295C300B824DB /* CSHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpRequest.h; sourceTree = "<group>"; };
+		603F2315236295D700B824DB /* CSHttpTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpTask.h; sourceTree = "<group>"; };
 		605F7B8023598058002E2901 /* CSHttpServiceAPI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = CSHttpServiceAPI.podspec; path = ../../CSHttpServiceAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		60B7EE542361443000FA897C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		60BBABDA23571FCE0058F540 /* CocoaService-HttpService-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaService-HttpService-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,11 +107,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		603F2305236295C300B824DB /* CSHttpServiceAPI */ = {
+			isa = PBXGroup;
+			children = (
+				603F2306236295C300B824DB /* CSHttpAbstractRequest.h */,
+				603F230D236295C300B824DB /* CSHttpAbstractRequest.m */,
+				603F230F236295C300B824DB /* CSHttpAbstractResponse.h */,
+				603F230B236295C300B824DB /* CSHttpAbstractResponse.m */,
+				603F230E236295C300B824DB /* CSHttpFileUploadModel.h */,
+				603F2309236295C300B824DB /* CSHttpFileUploadModel.m */,
+				603F2311236295C300B824DB /* CSHttpRequest.h */,
+				603F2310236295C300B824DB /* CSHttpResponse.h */,
+				603F2315236295D700B824DB /* CSHttpTask.h */,
+				603F230C236295C300B824DB /* CSHttpService.h */,
+				603F230A236295C300B824DB /* CSHttpServiceAPI.h */,
+				603F2308236295C300B824DB /* CSHttpServiceConfig.h */,
+				603F2307236295C300B824DB /* CSHttpServiceInterceptor.h */,
+			);
+			name = CSHttpServiceAPI;
+			path = ../../CSHttpServiceAPI;
+			sourceTree = "<group>";
+		};
 		60BBABD123571FCE0058F540 = {
 			isa = PBXGroup;
 			children = (
 				605F7B8023598058002E2901 /* CSHttpServiceAPI.podspec */,
 				60B7EE542361443000FA897C /* README.md */,
+				603F2305236295C300B824DB /* CSHttpServiceAPI */,
 				60BBABDC23571FCE0058F540 /* CocoaService-HttpService-example */,
 				60BBABF823571FCF0058F540 /* CocoaService-HttpService-exampleTests */,
 				60BBAC0323571FCF0058F540 /* CocoaService-HttpService-exampleUITests */,
@@ -313,7 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				60BBABE523571FCE0058F540 /* ViewController.m in Sources */,
+				603F2314236295C300B824DB /* CSHttpAbstractRequest.m in Sources */,
+				603F2313236295C300B824DB /* CSHttpAbstractResponse.m in Sources */,
 				60BBABDF23571FCE0058F540 /* AppDelegate.m in Sources */,
+				603F2312236295C300B824DB /* CSHttpFileUploadModel.m in Sources */,
 				60BBABF023571FCF0058F540 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

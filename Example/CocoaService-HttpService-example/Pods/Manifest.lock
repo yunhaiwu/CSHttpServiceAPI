@@ -1,13 +1,10 @@
 PODS:
   - CocoaService (0.0.2):
     - WJLoggingAPI
-  - CSHttpServiceAPI (1.0.0):
-    - CocoaService
   - WJLoggingAPI (2.0)
 
 DEPENDENCIES:
   - CocoaService
-  - CSHttpServiceAPI (from `../../`)
   - WJLoggingAPI
 
 SPEC REPOS:
@@ -15,15 +12,10 @@ SPEC REPOS:
     - CocoaService
     - WJLoggingAPI
 
-EXTERNAL SOURCES:
-  CSHttpServiceAPI:
-    :path: "../../"
-
 SPEC CHECKSUMS:
   CocoaService: 4a58e08a268e9243f810a43757d0426851870e0a
-  CSHttpServiceAPI: b7e4f075c4c6fe49c87170d606e86aab4b715223
   WJLoggingAPI: 183581a351d51f93ec9900a3cc5f2df15b907de3
 
-PODFILE CHECKSUM: 85afd9b3bad594dbc8c84c3d38d92a2e2f894f18
+PODFILE CHECKSUM: cd335ef959df1866893d59bed1c29f48bdeafb0d
 
 COCOAPODS: 1.7.5
