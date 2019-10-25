@@ -1,17 +1,19 @@
 //
 //  CSHttpTask.h
-//  CocoaService-HttpService-example
+//  CocoaService-HttpServiceAPI
 //
-//  Created by wuyunhai on 2019/10/25.
-//  Copyright © 2019 wuyunhai. All rights reserved.
+//  Created by 吴云海
+//  Copyright © 2018年 yunhai.wu. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @protocol CSHttpTask <NSObject>
 
-@end
+- (BOOL)isLoading;
 
-NS_ASSUME_NONNULL_END
+- (void)cancel;
+
+- (NSURL* _Nullable)requestURL;
+
+@end
