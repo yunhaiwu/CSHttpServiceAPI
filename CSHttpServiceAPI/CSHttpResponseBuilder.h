@@ -9,12 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "CSHttpResponse.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface CSHttpResponseBuilder : NSObject
 
 + (id<CSHttpResponse> _Nonnull)buildResponseWithData:(NSData* _Nonnull)responseData responseClass:(Class<CSHttpResponse> _Nonnull)responseClass;
 
 @end
-
-NS_ASSUME_NONNULL_END
