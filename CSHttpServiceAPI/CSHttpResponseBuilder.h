@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CSHttpResponseBuilder : NSObject
 
-+ (id<CSHttpResponse>)buildResponseWithData:(NSData*)responseData responseClass:(Class<CSHttpResponse>)responseClass;
++ (id<CSHttpResponse> _Nonnull)buildResponseWithData:(NSData* _Nonnull)responseData responseClass:(Class<CSHttpResponse> _Nonnull)responseClass;
 
 @end
 

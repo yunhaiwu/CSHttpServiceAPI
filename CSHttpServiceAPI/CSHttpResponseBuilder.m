@@ -20,7 +20,7 @@
 }
 
 - (NSString *)errorCode {
-    return @"-1000";
+    return @"-10000";
 }
 
 - (NSString *)errorMessage {
