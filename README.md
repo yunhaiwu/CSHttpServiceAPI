@@ -9,7 +9,7 @@ cocoaservice http 请求组件api
 source：https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git
 
 //HTTP服务API
-pod CSHttpServiceAPI
+pod 'CSHttpServiceAPI'
 
 ```
 
@@ -29,6 +29,7 @@ pod CSHttpServiceAPI
             if ([response isError]) {
                 //接口数据逻辑错误
             } else {
+                SimpleResponseObject *simpleResponseObject = (SimpleResponseObject*)response;
                 //请求成功
             }
         }
