@@ -10,6 +10,8 @@
 #import "CSHttpRequest.h"
 #import "CSHttpResponse.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 /*
  http 服务拦截器
  */
@@ -18,11 +20,13 @@
 /*
  请求响应前
  */
--(BOOL)preRequestHandle:(id<CSHttpRequest> _Nonnull)request;
+-(BOOL)preRequestHandle:(id<CSHttpRequest>)request;
 
 /*
  请求响应后
  */
--(void)afterResponseHandle:(id<CSHttpResponse> _Nonnull)response;
+-(void)afterResponseHandle:(id<CSHttpResponse>)response;
 
 @end
+
+NS_ASSUME_NONNULL_END

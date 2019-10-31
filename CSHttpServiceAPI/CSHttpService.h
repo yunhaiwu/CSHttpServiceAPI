@@ -12,6 +12,8 @@
 #import "CSHttpResponse.h"
 #import "CSHttpTask.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef void(^CSHttpServiceResponseBlock)(id<CSHttpResponse> _Nullable response, NSError * _Nullable error);
 
 typedef void(^CSHttpServiceResponseDataBlock)(NSData * _Nullable responseData, NSError * _Nullable error);
@@ -20,27 +22,27 @@ typedef void (^CSHttpServiceDownloadResponseBlock)(NSString* _Nullable filePath,
 
 typedef void (^CSHttpServiceProgressBlock)(float progress);
 
-
-
 /*
  HTTP 服务接口
  */
 @protocol CSHttpService <CSService>
 
-- (id<CSHttpTask> _Nullable)request:(id<CSHttpRequest> _Nonnull)request
-  responseClass:(Class _Nonnull)resClass
-  responseBlock:(CSHttpServiceResponseBlock _Nonnull)responseBlock;
+- (id<CSHttpTask> _Nullable)request:(id<CSHttpRequest>)request
+  responseClass:(Class)resClass
+  responseBlock:(CSHttpServiceResponseBlock)responseBlock;
 
 
-- (id<CSHttpTask> _Nullable)requestWithURL:(NSURL* _Nonnull)url
+- (id<CSHttpTask> _Nullable)requestWithURL:(NSURL*)url
                 method:(CSHTTPMethod)method
                 params:(NSDictionary<NSString*, NSObject*>* _Nullable)params
                headers:(NSDictionary<NSString*, NSString*>* _Nullable)headers
-         responseBlock:(CSHttpServiceResponseDataBlock _Nonnull) responseBlock;
+         responseBlock:(CSHttpServiceResponseDataBlock) responseBlock;
 
 
-- (id<CSHttpTask> _Nullable)downloadWithURL:(NSURL* _Nonnull)url
-          responseBlock:(CSHttpServiceDownloadResponseBlock _Nonnull)downloadResponseBlock
+- (id<CSHttpTask> _Nullable)downloadWithURL:(NSURL*)url
+          responseBlock:(CSHttpServiceDownloadResponseBlock)downloadResponseBlock
                progress:(CSHttpServiceProgressBlock _Nullable)progressBlock;
 
 @end
+
+NS_ASSUME_NONNULL_END

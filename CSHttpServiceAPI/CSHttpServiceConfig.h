@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 //最大并发数
 #define CSHttpServiceDefaultMaxConcurrentNumber     5
 
@@ -32,3 +34,5 @@
 - (int)defaultTimeoutBySeconds;
 
 @end
+
+NS_ASSUME_NONNULL_END

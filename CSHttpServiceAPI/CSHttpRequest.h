@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "CSHttpFileUploadModel.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef NS_ENUM(NSInteger, CSHTTPMethod) {
     
     CSHTTPMethodGET = 0,
@@ -27,7 +29,7 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
 /**
  请求url
  */
-- (NSURL* _Nonnull)url;
+- (NSURL*)url;
 
 @optional
 /**
@@ -64,3 +66,5 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
 
 
 @end
+
+NS_ASSUME_NONNULL_END

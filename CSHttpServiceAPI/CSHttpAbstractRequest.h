@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "CSHttpRequest.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 /*
  HTTP 请求抽象类
  */
@@ -16,3 +18,4 @@
 
 @end
 
+NS_ASSUME_NONNULL_END

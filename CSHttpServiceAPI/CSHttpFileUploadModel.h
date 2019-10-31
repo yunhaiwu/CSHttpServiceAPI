@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 __attribute__((objc_subclassing_restricted))
 @interface CSHttpFileUploadModel : NSObject
 
@@ -22,7 +24,7 @@ __attribute__((objc_subclassing_restricted))
 //文件名
 @property(nonatomic, copy) NSString * _Nullable fileName;
 
-- (instancetype _Nonnull)initWithRequestKey:(NSString* _Nullable)requestKey mimeType:(NSString* _Nullable)mimeType fileName:(NSString* _Nullable)fileName filePath:(NSString* _Nullable)filePath;
+- (instancetype)initWithRequestKey:(NSString* _Nullable)requestKey mimeType:(NSString* _Nullable)mimeType fileName:(NSString* _Nullable)fileName filePath:(NSString* _Nullable)filePath;
 
 /*
  文件是否存在
@@ -30,3 +32,5 @@ __attribute__((objc_subclassing_restricted))
 - (BOOL)fileExist;
 
 @end
+
+NS_ASSUME_NONNULL_END

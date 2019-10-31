@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "CSHttpResponse.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 /*
 HTTP 响应抽象类
 */
@@ -17,11 +19,13 @@ HTTP 响应抽象类
 /*
  响应数据
  */
-@property (nonatomic, copy) NSData * _Nonnull responseData;
+@property (nonatomic, copy) NSData *responseData;
 
 /*
  子类重写
  */
-+ (id<CSHttpResponse>_Nonnull)buildResponseWithString:(NSString* _Nonnull)responseString;
++ (id<CSHttpResponse>)buildResponseWithString:(NSString*)responseString;
 
 @end
+
+NS_ASSUME_NONNULL_END
