@@ -39,7 +39,27 @@ pod 'CSHttpServiceAPI'
 
 方式二：
 ```
-id<CSHttpTask> httpTask = CSHttpServiceSugar.build([NSURL URLWithString:@"https://www.baidu.com"]).method(CSHTTPMethodGET).submit(^(NSData *responseData, NSError *error){
+id<CSHttpTask> httpTask = CSHttpServiceSugar.GET([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", responseString);
+});
+
+id<CSHttpTask> httpTask = CSHttpServiceSugar.POST([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", responseString);
+});
+
+id<CSHttpTask> httpTask = CSHttpServiceSugar.PUT([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", responseString);
+});
+
+id<CSHttpTask> httpTask = CSHttpServiceSugar.DELETE([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", responseString);
+});
+
+id<CSHttpTask> httpTask = CSHttpServiceSugar.PATCH([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
     NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     NSLog(@"%@", responseString);
 });
