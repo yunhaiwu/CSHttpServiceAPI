@@ -48,17 +48,46 @@
     return _httpUploadFiles;
 }
 
-- (instancetype)initWithURL:(NSURL*)url {
+- (instancetype)initWithURL:(NSURL*)url method:(CSHTTPMethod)method {
     self = [super init];
     if (self) {
         self.url = url;
+        _httpMethod = method;
     }
     return self;
 }
 
-+ (CSHttpServiceSugar * (^)(NSURL * url))build {
++ (CSHttpServiceSugar* (^)(NSURL *url))GET {
     return ^(NSURL *url) {
-        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url];
+        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodGET];
+        return sugar;
+    };
+}
+
++ (CSHttpServiceSugar* (^)(NSURL *url))POST {
+    return ^(NSURL *url) {
+        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodPOST];
+        return sugar;
+    };
+}
+
++ (CSHttpServiceSugar* (^)(NSURL *url))PUT {
+    return ^(NSURL *url) {
+        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodPUT];
+        return sugar;
+    };
+}
+
++ (CSHttpServiceSugar* (^)(NSURL *url))DELETE {
+    return ^(NSURL *url) {
+        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodDELETE];
+        return sugar;
+    };
+}
+
++ (CSHttpServiceSugar* (^)(NSURL *url))PATCH {
+    return ^(NSURL *url) {
+        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodPATCH];
         return sugar;
     };
 }
@@ -67,13 +96,6 @@
     return ^(CSHttpServiceResponseDataBlock responseDataBlock) {
         id<CSHttpService> httpService = [[[CocoaService sharedInstance] applicationContext] fetchService:@protocol(CSHttpService)];
         return [httpService requestWithURL:self.url method:self.httpMethod params:self.httpParams headers:self.httpHeaders responseBlock:responseDataBlock];
-    };
-}
-
-- (CSHttpServiceSugar*(^)(CSHTTPMethod method))method {
-    return ^(CSHTTPMethod method) {
-        self.httpMethod = method;
-        return self;
     };
 }
 

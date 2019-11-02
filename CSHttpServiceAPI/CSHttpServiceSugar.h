@@ -18,25 +18,70 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface CSHttpServiceSugar : NSObject
 
-+ (CSHttpServiceSugar*(^)(NSURL *url))build;
+/*
+ GET
+ */
++ (CSHttpServiceSugar* (^)(NSURL *url))GET;
 
-- (id<CSHttpTask>(^)(CSHttpServiceResponseDataBlock responseDataBlock))submit;
+/*
+ POST
+ */
++ (CSHttpServiceSugar* (^)(NSURL *url))POST;
 
-- (CSHttpServiceSugar*(^)(CSHTTPMethod method))method;
+/*
+ PUT
+ */
++ (CSHttpServiceSugar* (^)(NSURL *url))PUT;
 
+/*
+ DELETE
+ */
++ (CSHttpServiceSugar* (^)(NSURL *url))DELETE;
+
+/*
+ PATCH
+ */
++ (CSHttpServiceSugar* (^)(NSURL *url))PATCH;
+
+/*
+ http 请求头
+ */
 - (CSHttpServiceSugar*(^)(NSDictionary<NSString* ,NSString*> *headers))headers;
 
+/*
+ 添加请求头
+ */
 - (CSHttpServiceSugar*(^)(NSString *key, NSString *value))addHeader;
 
+/*
+ http 参数
+ */
 - (CSHttpServiceSugar*(^)(NSDictionary<NSString*, NSObject*> *params))params;
 
+/*
+ 添加参数
+ */
 - (CSHttpServiceSugar*(^)(NSString *key, NSObject *value))addParam;
 
+/*
+ 超时时间
+ */
 - (CSHttpServiceSugar*(^)(int timeoutDuration))timeoutDuration;
 
+/*
+ 上传文件
+ */
 - (CSHttpServiceSugar*(^)(NSArray<CSHttpFileUploadModel*> *uploadFiles))uploadFiles;
 
+/*
+ 添加上传文件
+ */
 - (CSHttpServiceSugar*(^)(CSHttpFileUploadModel *uploadFile))addUploadFile;
+
+/*
+ 提交
+ */
+- (id<CSHttpTask>(^)(CSHttpServiceResponseDataBlock responseDataBlock))submit;
 
 @end
 
