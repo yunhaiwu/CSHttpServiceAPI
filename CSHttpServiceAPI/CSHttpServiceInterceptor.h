@@ -1,6 +1,6 @@
 //
 //  CSHttpServiceInterceptor.h
-//  CocoaService-HttpServiceAPI
+//  CSHttpServiceAPI
 //
 //  Created by 吴云海
 //  Copyright © 2018年 yunhai.wu. All rights reserved.
@@ -20,12 +20,12 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  请求响应前
  */
--(BOOL)preRequestHandle:(id<CSHttpRequest>)request;
+- (BOOL)preRequestHandle:(id<CSHttpRequest>)request;
 
 /*
  请求响应后
  */
--(void)afterResponseHandle:(id<CSHttpResponse>)response;
+- (void)afterResponseHandle:(id<CSHttpResponse>)response;
 
 @end
 

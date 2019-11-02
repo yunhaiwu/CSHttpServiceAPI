@@ -20,6 +20,7 @@ pod 'CSHttpServiceAPI'
 
 ### 使用方法
 
+方式一：
 ```
     id<CSHttpService> httpService = [[[CocoaService sharedInstance] applicationContext] fetchService:@protocol(CSHttpService)];
     id<CSHttpTask> task = [httpService request:request responseClass:[SimpleResponseObject class] responseBlock:^(id<CSHttpResponse> response, NSError *error) {
@@ -34,4 +35,13 @@ pod 'CSHttpServiceAPI'
             }
         }
     }];
+```
+
+方式二：
+```
+id<CSHttpTask> httpTask = CSHttpServiceSugar.build([NSURL URLWithString:@"https://www.baidu.com"]).method(CSHTTPMethodGET).submit(^(NSData *responseData, NSError *error){
+    NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+    NSLog(@"%@", responseString);
+});
+
 ```

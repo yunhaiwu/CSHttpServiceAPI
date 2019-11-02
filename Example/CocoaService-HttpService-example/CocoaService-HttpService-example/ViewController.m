@@ -21,8 +21,8 @@
     // Do any additional setup after loading the view.
     self.title = @"CSHttpService-Demo";
     
-    id<CSHttpRequest> request = nil;
-    id<CSHttpService> httpService = [[[CocoaService sharedInstance] applicationContext] fetchService:@protocol(CSHttpService)];
+//    id<CSHttpRequest> request = nil;
+//    id<CSHttpService> httpService = [[[CocoaService sharedInstance] applicationContext] fetchService:@protocol(CSHttpService)];
 //    id<CSHttpTask> task = [httpService request:request responseClass:[SimpleResponseObject class] responseBlock:^(id<CSHttpResponse> response, NSError *error) {
 //        if (error) {
 //            //处理网络环境错误
