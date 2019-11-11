@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "CSHttpServiceAPI"
-s.version      = "1.0.3"
+s.version      = "1.0.4"
 s.summary      = "cocoaservice http service api."
 
 s.description  = <<-DESC

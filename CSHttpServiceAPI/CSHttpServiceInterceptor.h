@@ -13,9 +13,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /*
- http 服务拦截器
+ Http Service拦截器
  */
 @protocol CSHttpServiceInterceptor <NSObject>
+
+@optional
 
 /*
  请求响应前

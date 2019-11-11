@@ -17,6 +17,11 @@ HTTP 响应抽象类
 @interface CSHttpAbstractResponse : NSObject<CSHttpResponse>
 
 /*
+ 对应请求信息
+ */
+@property (nonatomic, strong) id<CSHttpRequest> _Nonnull request;
+
+/*
  响应数据
  */
 @property (nonatomic, copy) NSData *responseData;
