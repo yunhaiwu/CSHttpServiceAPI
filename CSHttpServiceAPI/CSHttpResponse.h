@@ -12,11 +12,6 @@
 @protocol CSHttpResponse <NSObject>
 
 /*
- 对应请求
- */
-@property (nonatomic, strong) id<CSHttpRequest> _Nonnull request;
-
-/*
  响应数据
  */
 @property (nonatomic, copy) NSData * _Nonnull responseData;

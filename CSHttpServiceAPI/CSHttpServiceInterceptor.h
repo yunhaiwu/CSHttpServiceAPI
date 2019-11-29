@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CSHttpRequest.h"
-#import "CSHttpResponse.h"
+#import "CSHttpContext.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -22,12 +21,12 @@ NS_ASSUME_NONNULL_BEGIN
 /*
  请求响应前
  */
-- (BOOL)preRequestHandle:(id<CSHttpRequest>)request;
+- (BOOL)preRequestHandle:(id<CSHttpContext>)context;
 
 /*
  请求响应后
  */
-- (void)afterResponseHandle:(id<CSHttpResponse>)response;
+- (void)afterResponseHandle:(id<CSHttpContext>)context;
 
 @end
 

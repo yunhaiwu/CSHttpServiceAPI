@@ -55,6 +55,7 @@
 		603F2311236295C300B824DB /* CSHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHttpRequest.h; sourceTree = "<group>"; };
 		603F2315236295D700B824DB /* CSHttpTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpTask.h; sourceTree = "<group>"; };
 		605F7B8023598058002E2901 /* CSHttpServiceAPI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = CSHttpServiceAPI.podspec; path = ../../CSHttpServiceAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6072244F23915DCD00638732 /* CSHttpContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpContext.h; sourceTree = "<group>"; };
 		608621FF2367D8760063B198 /* CSHttpResponseBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpResponseBuilder.h; sourceTree = "<group>"; };
 		608622002367D8760063B198 /* CSHttpResponseBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSHttpResponseBuilder.m; sourceTree = "<group>"; };
 		60B7EE542361443000FA897C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 				603F2311236295C300B824DB /* CSHttpRequest.h */,
 				603F2310236295C300B824DB /* CSHttpResponse.h */,
 				603F2315236295D700B824DB /* CSHttpTask.h */,
+				6072244F23915DCD00638732 /* CSHttpContext.h */,
 				603F230C236295C300B824DB /* CSHttpService.h */,
 				603F230A236295C300B824DB /* CSHttpServiceAPI.h */,
 				603F2308236295C300B824DB /* CSHttpServiceConfig.h */,
