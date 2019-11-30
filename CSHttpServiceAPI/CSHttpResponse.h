@@ -19,7 +19,7 @@
 /*
  构建响应对象
  */
-+ (id<CSHttpResponse>_Nonnull)buildResponseWithData:(NSData*_Nonnull)responseData;
++ (id<CSHttpResponse>_Nullable)buildResponseWithData:(NSData*_Nullable)responseData;
 
 
 @optional
@@ -32,11 +32,11 @@
 /*
  服务端返回的逻辑错误码
  */
-- (NSString*_Nonnull)errorCode;
+- (NSString*_Nullable)errorCode;
 
 /*
  服务端返回的逻辑错误说明
  */
-- (NSString*_Nonnull)errorMessage;
+- (NSString*_Nullable)errorMessage;
 
 @end

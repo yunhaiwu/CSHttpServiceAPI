@@ -29,7 +29,7 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
 /**
  请求url
  */
-- (NSURL*)url;
+- (NSURL*_Nullable)url;
 
 @optional
 /**

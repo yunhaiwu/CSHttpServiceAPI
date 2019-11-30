@@ -29,7 +29,7 @@ HTTP 响应抽象类
 /*
  子类重写
  */
-+ (id<CSHttpResponse>)buildResponseWithString:(NSString*)responseString;
++ (id<CSHttpResponse> _Nullable)buildResponseWithString:(NSString* _Nullable)responseString;
 
 @end
 
