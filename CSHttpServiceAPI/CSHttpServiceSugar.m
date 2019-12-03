@@ -94,7 +94,7 @@
 
 - (id<CSHttpTask> (^)(CSHttpServiceResponseDataBlock responseDataBlock))submit {
     return ^(CSHttpServiceResponseDataBlock responseDataBlock) {
-        id<CSHttpService> httpService = [[[CocoaService sharedInstance] applicationContext] fetchService:@protocol(CSHttpService)];
+        id<CSHttpService> httpService = [[[CocoaService sharedInstance] applicationContext] getService:@protocol(CSHttpService)];
         return [httpService requestWithURL:self.url method:self.httpMethod params:self.httpParams headers:self.httpHeaders responseBlock:responseDataBlock];
     };
 }
