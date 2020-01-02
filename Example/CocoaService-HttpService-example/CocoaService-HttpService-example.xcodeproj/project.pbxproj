@@ -18,7 +18,7 @@
 		60BBABF023571FCF0058F540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABEF23571FCF0058F540 /* main.m */; };
 		60BBABFA23571FCF0058F540 /* CocoaService_HttpService_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABF923571FCF0058F540 /* CocoaService_HttpService_exampleTests.m */; };
 		60BBAC0523571FCF0058F540 /* CocoaService_HttpService_exampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBAC0423571FCF0058F540 /* CocoaService_HttpService_exampleUITests.m */; };
-		60E938D5236D3AA700119A0D /* CSHttpServiceSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E938D4236D3AA700119A0D /* CSHttpServiceSugar.m */; };
+		60E938D5236D3AA700119A0D /* CSHttpServiceBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E938D4236D3AA700119A0D /* CSHttpServiceBuilder.m */; };
 		D306E7952BE4BF853CF7393D /* libPods-CocoaService-HttpService-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB438062A69D68B8F585E60 /* libPods-CocoaService-HttpService-example.a */; };
 /* End PBXBuildFile section */
 
@@ -74,8 +74,8 @@
 		60BBAC0023571FCF0058F540 /* CocoaService-HttpService-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaService-HttpService-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BBAC0423571FCF0058F540 /* CocoaService_HttpService_exampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaService_HttpService_exampleUITests.m; sourceTree = "<group>"; };
 		60BBAC0623571FCF0058F540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60E938D3236D3AA700119A0D /* CSHttpServiceSugar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpServiceSugar.h; sourceTree = "<group>"; };
-		60E938D4236D3AA700119A0D /* CSHttpServiceSugar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSHttpServiceSugar.m; sourceTree = "<group>"; };
+		60E938D3236D3AA700119A0D /* CSHttpServiceBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpServiceBuilder.h; sourceTree = "<group>"; };
+		60E938D4236D3AA700119A0D /* CSHttpServiceBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSHttpServiceBuilder.m; sourceTree = "<group>"; };
 		BA3578C65B2220B2C7DA469B /* Pods-CocoaService-HttpService-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaService-HttpService-example.release.xcconfig"; path = "Target Support Files/Pods-CocoaService-HttpService-example/Pods-CocoaService-HttpService-example.release.xcconfig"; sourceTree = "<group>"; };
 		BB32469909425AD2A23FC705 /* Pods-CocoaService-HttpService-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaService-HttpService-example.debug.xcconfig"; path = "Target Support Files/Pods-CocoaService-HttpService-example/Pods-CocoaService-HttpService-example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,8 +133,8 @@
 				603F2307236295C300B824DB /* CSHttpServiceInterceptor.h */,
 				608621FF2367D8760063B198 /* CSHttpResponseBuilder.h */,
 				608622002367D8760063B198 /* CSHttpResponseBuilder.m */,
-				60E938D3236D3AA700119A0D /* CSHttpServiceSugar.h */,
-				60E938D4236D3AA700119A0D /* CSHttpServiceSugar.m */,
+				60E938D3236D3AA700119A0D /* CSHttpServiceBuilder.h */,
+				60E938D4236D3AA700119A0D /* CSHttpServiceBuilder.m */,
 			);
 			name = CSHttpServiceAPI;
 			path = ../../CSHttpServiceAPI;
@@ -369,7 +369,7 @@
 				60BBABDF23571FCE0058F540 /* AppDelegate.m in Sources */,
 				603F2312236295C300B824DB /* CSHttpFileUploadModel.m in Sources */,
 				60BBABF023571FCF0058F540 /* main.m in Sources */,
-				60E938D5236D3AA700119A0D /* CSHttpServiceSugar.m in Sources */,
+				60E938D5236D3AA700119A0D /* CSHttpServiceBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

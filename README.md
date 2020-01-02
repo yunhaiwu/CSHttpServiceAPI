@@ -39,27 +39,27 @@ pod 'CSHttpServiceAPI'
 
 方式二：
 ```
-id<CSHttpTask> httpTask = CSHttpServiceSugar.GET([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+id<CSHttpTask> httpTask = CSHttpServiceBuilder.GET([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
     NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     NSLog(@"%@", responseString);
 });
 
-id<CSHttpTask> httpTask = CSHttpServiceSugar.POST([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+id<CSHttpTask> httpTask = CSHttpServiceBuilder.POST([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
     NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     NSLog(@"%@", responseString);
 });
 
-id<CSHttpTask> httpTask = CSHttpServiceSugar.PUT([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+id<CSHttpTask> httpTask = CSHttpServiceBuilder.PUT([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
     NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     NSLog(@"%@", responseString);
 });
 
-id<CSHttpTask> httpTask = CSHttpServiceSugar.DELETE([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+id<CSHttpTask> httpTask = CSHttpServiceBuilder.DELETE([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
     NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     NSLog(@"%@", responseString);
 });
 
-id<CSHttpTask> httpTask = CSHttpServiceSugar.PATCH([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
+id<CSHttpTask> httpTask = CSHttpServiceBuilder.PATCH([NSURL URLWithString:@"https://www.baidu.com"]).submit(^(NSData *responseData, NSError *error){
     NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     NSLog(@"%@", responseString);
 });

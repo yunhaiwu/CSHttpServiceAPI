@@ -1,15 +1,15 @@
 //
-//  CSHttpServiceSugar.m
+//  CSHttpServiceBuilder.m
 //  CSHttpServiceAPI
 //
 //  Created by 吴云海
 //  Copyright © 2018年 yunhai.wu. All rights reserved.
 //
 
-#import "CSHttpServiceSugar.h"
+#import "CSHttpServiceBuilder.h"
 #import <CocoaService/CocoaService.h>
 
-@interface CSHttpServiceSugar ()
+@interface CSHttpServiceBuilder ()
 
 @property (nonatomic, copy) NSURL *url;
 
@@ -25,7 +25,7 @@
 
 @end
 
-@implementation CSHttpServiceSugar
+@implementation CSHttpServiceBuilder
 
 - (NSMutableDictionary<NSString*, NSString*> *)httpHeaders {
     if (!_httpHeaders) {
@@ -57,37 +57,37 @@
     return self;
 }
 
-+ (CSHttpServiceSugar* (^)(NSURL *url))GET {
++ (CSHttpServiceBuilder* (^)(NSURL *url))GET {
     return ^(NSURL *url) {
-        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodGET];
+        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodGET];
         return sugar;
     };
 }
 
-+ (CSHttpServiceSugar* (^)(NSURL *url))POST {
++ (CSHttpServiceBuilder* (^)(NSURL *url))POST {
     return ^(NSURL *url) {
-        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodPOST];
+        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPOST];
         return sugar;
     };
 }
 
-+ (CSHttpServiceSugar* (^)(NSURL *url))PUT {
++ (CSHttpServiceBuilder* (^)(NSURL *url))PUT {
     return ^(NSURL *url) {
-        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodPUT];
+        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPUT];
         return sugar;
     };
 }
 
-+ (CSHttpServiceSugar* (^)(NSURL *url))DELETE {
++ (CSHttpServiceBuilder* (^)(NSURL *url))DELETE {
     return ^(NSURL *url) {
-        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodDELETE];
+        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodDELETE];
         return sugar;
     };
 }
 
-+ (CSHttpServiceSugar* (^)(NSURL *url))PATCH {
++ (CSHttpServiceBuilder* (^)(NSURL *url))PATCH {
     return ^(NSURL *url) {
-        CSHttpServiceSugar *sugar = [[CSHttpServiceSugar alloc] initWithURL:url method:CSHTTPMethodPATCH];
+        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPATCH];
         return sugar;
     };
 }
@@ -99,7 +99,7 @@
     };
 }
 
-- (CSHttpServiceSugar*(^)(NSDictionary<NSString*, NSString*> *headers))headers {
+- (CSHttpServiceBuilder*(^)(NSDictionary<NSString*, NSString*> *headers))headers {
     return ^(NSDictionary<NSString*, NSString*> *headers) {
         if ([headers count]) {
             [self.httpHeaders addEntriesFromDictionary:headers];
@@ -108,7 +108,7 @@
     };
 }
 
-- (CSHttpServiceSugar*(^)(NSString *key, NSString *value))addHeader {
+- (CSHttpServiceBuilder*(^)(NSString *key, NSString *value))addHeader {
     return ^(NSString *key, NSString *value) {
         if (key && value) {
             self.httpHeaders[key] = value;
@@ -117,7 +117,7 @@
     };
 }
 
-- (CSHttpServiceSugar*(^)(NSDictionary<NSString*, NSObject*> *params))params {
+- (CSHttpServiceBuilder*(^)(NSDictionary<NSString*, NSObject*> *params))params {
     return ^(NSDictionary<NSString*, NSObject*> *params) {
         if ([params count]) {
             [self.httpParams addEntriesFromDictionary:params];
@@ -126,7 +126,7 @@
     };
 }
 
-- (CSHttpServiceSugar*(^)(NSString *key, NSObject *value))addParam {
+- (CSHttpServiceBuilder*(^)(NSString *key, NSObject *value))addParam {
     return ^(NSString *key, NSObject *value) {
         if (key && value) {
             self.httpParams[key] = value;
@@ -135,14 +135,14 @@
     };
 }
 
-- (CSHttpServiceSugar*(^)(int timeoutDuration))timeoutDuration {
+- (CSHttpServiceBuilder*(^)(int timeoutDuration))timeoutDuration {
     return ^(int timeoutDuration) {
         self.httpTimeoutDuration = timeoutDuration;
         return self;
     };
 }
 
-- (CSHttpServiceSugar*(^)(NSArray<CSHttpFileUploadModel*> *uploadFiles))uploadFiles {
+- (CSHttpServiceBuilder*(^)(NSArray<CSHttpFileUploadModel*> *uploadFiles))uploadFiles {
     return ^(NSArray<CSHttpFileUploadModel*> *uploadFiles) {
         if ([uploadFiles count]) {
             [self.httpUploadFiles addObjectsFromArray:uploadFiles];
@@ -151,7 +151,7 @@
     };
 }
 
-- (CSHttpServiceSugar*(^)(CSHttpFileUploadModel *uploadFile))addUploadFile {
+- (CSHttpServiceBuilder*(^)(CSHttpFileUploadModel *uploadFile))addUploadFile {
     return ^(CSHttpFileUploadModel *uploadFile) {
         if (uploadFile) {
             [self.httpUploadFiles addObject:uploadFile];
