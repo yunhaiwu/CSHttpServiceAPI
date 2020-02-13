@@ -59,36 +59,36 @@
 
 + (CSHttpServiceBuilder* (^)(NSURL *url))GET {
     return ^(NSURL *url) {
-        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodGET];
-        return sugar;
+        CSHttpServiceBuilder *builder = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodGET];
+        return builder;
     };
 }
 
 + (CSHttpServiceBuilder* (^)(NSURL *url))POST {
     return ^(NSURL *url) {
-        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPOST];
-        return sugar;
+        CSHttpServiceBuilder *builder = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPOST];
+        return builder;
     };
 }
 
 + (CSHttpServiceBuilder* (^)(NSURL *url))PUT {
     return ^(NSURL *url) {
-        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPUT];
-        return sugar;
+        CSHttpServiceBuilder *builder = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPUT];
+        return builder;
     };
 }
 
 + (CSHttpServiceBuilder* (^)(NSURL *url))DELETE {
     return ^(NSURL *url) {
-        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodDELETE];
-        return sugar;
+        CSHttpServiceBuilder *builder = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodDELETE];
+        return builder;
     };
 }
 
 + (CSHttpServiceBuilder* (^)(NSURL *url))PATCH {
     return ^(NSURL *url) {
-        CSHttpServiceBuilder *sugar = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPATCH];
-        return sugar;
+        CSHttpServiceBuilder *builder = [[CSHttpServiceBuilder alloc] initWithURL:url method:CSHTTPMethodPATCH];
+        return builder;
     };
 }
 

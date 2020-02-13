@@ -15,13 +15,13 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
     
     CSHTTPMethodGET = 0,
     
-    CSHTTPMethodPOST = 1,
+    CSHTTPMethodPOST,
     
-    CSHTTPMethodPUT = 2,
+    CSHTTPMethodPUT,
     
-    CSHTTPMethodDELETE = 3,
+    CSHTTPMethodDELETE,
     
-    CSHTTPMethodPATCH = 4,
+    CSHTTPMethodPATCH,
 };
 
 @protocol CSHttpRequest <NSObject>
@@ -41,12 +41,12 @@ typedef NS_ENUM(NSInteger, CSHTTPMethod) {
 /**
  请求头
  */
-- (NSDictionary*_Nullable)headers;
+- (NSDictionary<NSString*, NSString*>*_Nullable)headers;
 
 /**
  请求参数
  */
-- (NSDictionary*_Nullable)params;
+- (NSDictionary<NSString*, NSObject*>*_Nullable)params;
 
 /**
  超时时长(秒)

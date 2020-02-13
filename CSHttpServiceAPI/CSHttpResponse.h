@@ -19,7 +19,7 @@
 /*
  构建响应对象
  */
-+ (id<CSHttpResponse>_Nullable)buildResponseWithData:(NSData*_Nullable)responseData;
++ (id<CSHttpResponse>_Nullable)createResponseWithData:(NSData*_Nullable)responseData;
 
 
 @optional

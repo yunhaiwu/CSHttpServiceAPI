@@ -19,12 +19,12 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 
 /*
- 请求响应前
+ 请求前
  */
 - (BOOL)preRequestHandle:(id<CSHttpContext>)context;
 
 /*
- 请求响应后
+ 响应后
  */
 - (void)afterResponseHandle:(id<CSHttpContext>)context;
 

@@ -10,7 +10,7 @@
 		603F2312236295C300B824DB /* CSHttpFileUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 603F2309236295C300B824DB /* CSHttpFileUploadModel.m */; };
 		603F2313236295C300B824DB /* CSHttpAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 603F230B236295C300B824DB /* CSHttpAbstractResponse.m */; };
 		603F2314236295C300B824DB /* CSHttpAbstractRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 603F230D236295C300B824DB /* CSHttpAbstractRequest.m */; };
-		608622012367D8760063B198 /* CSHttpResponseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 608622002367D8760063B198 /* CSHttpResponseBuilder.m */; };
+		608622012367D8760063B198 /* CSHttpResponseCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 608622002367D8760063B198 /* CSHttpResponseCreater.m */; };
 		60BBABDF23571FCE0058F540 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABDE23571FCE0058F540 /* AppDelegate.m */; };
 		60BBABE523571FCE0058F540 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BBABE423571FCE0058F540 /* ViewController.m */; };
 		60BBABEA23571FCF0058F540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BBABE923571FCF0058F540 /* Assets.xcassets */; };
@@ -56,8 +56,8 @@
 		603F2315236295D700B824DB /* CSHttpTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpTask.h; sourceTree = "<group>"; };
 		605F7B8023598058002E2901 /* CSHttpServiceAPI.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = CSHttpServiceAPI.podspec; path = ../../CSHttpServiceAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6072244F23915DCD00638732 /* CSHttpContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpContext.h; sourceTree = "<group>"; };
-		608621FF2367D8760063B198 /* CSHttpResponseBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpResponseBuilder.h; sourceTree = "<group>"; };
-		608622002367D8760063B198 /* CSHttpResponseBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSHttpResponseBuilder.m; sourceTree = "<group>"; };
+		608621FF2367D8760063B198 /* CSHttpResponseCreater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHttpResponseCreater.h; sourceTree = "<group>"; };
+		608622002367D8760063B198 /* CSHttpResponseCreater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSHttpResponseCreater.m; sourceTree = "<group>"; };
 		60B7EE542361443000FA897C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		60BBABDA23571FCE0058F540 /* CocoaService-HttpService-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaService-HttpService-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BBABDD23571FCE0058F540 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,8 +131,8 @@
 				603F230A236295C300B824DB /* CSHttpServiceAPI.h */,
 				603F2308236295C300B824DB /* CSHttpServiceConfig.h */,
 				603F2307236295C300B824DB /* CSHttpServiceInterceptor.h */,
-				608621FF2367D8760063B198 /* CSHttpResponseBuilder.h */,
-				608622002367D8760063B198 /* CSHttpResponseBuilder.m */,
+				608621FF2367D8760063B198 /* CSHttpResponseCreater.h */,
+				608622002367D8760063B198 /* CSHttpResponseCreater.m */,
 				60E938D3236D3AA700119A0D /* CSHttpServiceBuilder.h */,
 				60E938D4236D3AA700119A0D /* CSHttpServiceBuilder.m */,
 			);
@@ -364,7 +364,7 @@
 			files = (
 				60BBABE523571FCE0058F540 /* ViewController.m in Sources */,
 				603F2314236295C300B824DB /* CSHttpAbstractRequest.m in Sources */,
-				608622012367D8760063B198 /* CSHttpResponseBuilder.m in Sources */,
+				608622012367D8760063B198 /* CSHttpResponseCreater.m in Sources */,
 				603F2313236295C300B824DB /* CSHttpAbstractResponse.m in Sources */,
 				60BBABDF23571FCE0058F540 /* AppDelegate.m in Sources */,
 				603F2312236295C300B824DB /* CSHttpFileUploadModel.m in Sources */,

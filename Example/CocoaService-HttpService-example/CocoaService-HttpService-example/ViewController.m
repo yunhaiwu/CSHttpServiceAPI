@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <CocoaService/CocoaService.h>
 #import "CSHttpServiceAPI.h"
+#import "CSHttpServiceBuilder.h"
 
 @interface ViewController ()
 
@@ -21,19 +22,6 @@
     // Do any additional setup after loading the view.
     self.title = @"CSHttpService-Demo";
     
-//    id<CSHttpRequest> request = nil;
-//    id<CSHttpService> httpService = [[[CocoaService sharedInstance] applicationContext] getService:@protocol(CSHttpService)];
-//    id<CSHttpTask> task = [httpService request:request responseClass:[SimpleResponseObject class] responseBlock:^(id<CSHttpResponse> response, NSError *error) {
-//        if (error) {
-//            //处理网络环境错误
-//        } else {
-//            if ([response isError]) {
-//                //接口数据逻辑错误
-//            } else {
-//                //请求成功
-//            }
-//        }
-//    }];
 }
 
 

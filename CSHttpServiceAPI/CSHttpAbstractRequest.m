@@ -19,11 +19,11 @@
     return CSHTTPMethodGET;
 }
 
-- (NSDictionary*)headers {
+- (NSDictionary<NSString *,NSString *> *)headers {
     return nil;
 }
 
-- (NSDictionary*)params {
+- (NSDictionary<NSString *,NSObject *> *)params {
     return nil;
 }
 

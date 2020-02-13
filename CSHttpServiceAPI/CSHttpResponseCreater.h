@@ -1,5 +1,5 @@
 //
-//  CSHttpResponseBuilder.h
+//  CSHttpResponseCreater.h
 //  CSHttpServiceAPI
 //
 //  Created by 吴云海
@@ -11,9 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CSHttpResponseBuilder : NSObject
+@interface CSHttpResponseCreater : NSObject
 
-+ (id<CSHttpResponse>)buildResponseWithData:(NSData*)responseData responseClass:(Class<CSHttpResponse>)responseClass;
++ (id<CSHttpResponse>)createResponseWithData:(NSData*)responseData responseClass:(Class<CSHttpResponse>)responseClass;
 
 @end
 

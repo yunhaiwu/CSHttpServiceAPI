@@ -11,10 +11,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 //最大并发数
-#define CSHttpServiceDefaultMaxConcurrentNumber     5
+#ifndef CSHttpServiceDefaultMaxConcurrentNumber
+    #define CSHttpServiceDefaultMaxConcurrentNumber     5
+#endif
 
 //默认超时时间（以秒为单位）
-#define CSHttpServiceDefaultTimeoutBySeconds        30
+#ifndef CSHttpServiceDefaultTimeoutBySeconds
+    #define CSHttpServiceDefaultTimeoutBySeconds        30
+#endif
 
 /*
  服务配置

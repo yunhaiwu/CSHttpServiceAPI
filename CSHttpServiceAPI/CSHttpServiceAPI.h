@@ -14,7 +14,11 @@
 #import "CSHttpServiceConfig.h"
 #import "CSHttpAbstractRequest.h"
 #import "CSHttpAbstractResponse.h"
-#import "CSHttpResponseBuilder.h"
+#import "CSHttpResponseCreater.h"
 #import "CSHttpServiceBuilder.h"
+
+#ifndef CSHttpServiceObject
+    #define CSHttpServiceObject         [[[CocoaService sharedInstance] applicationContext] getService:@protocol(CSHttpService)]
+#endif
 
 #endif /* CSHttpServiceAPI_h */

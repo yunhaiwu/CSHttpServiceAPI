@@ -1,12 +1,12 @@
 //
-//  CSHttpResponseBuilder.m
+//  CSHttpResponseCreater.m
 //  CSHttpServiceAPI
 //
 //  Created by 吴云海
 //  Copyright © 2018年 yunhai.wu. All rights reserved.
 //
 
-#import "CSHttpResponseBuilder.h"
+#import "CSHttpResponseCreater.h"
 #import "CSHttpAbstractResponse.h"
 
 @interface CSHttpResponseDataParseErrorResponse : CSHttpAbstractResponse
@@ -29,12 +29,12 @@
 
 @end
 
-@implementation CSHttpResponseBuilder
+@implementation CSHttpResponseCreater
 
-+ (id<CSHttpResponse>)buildResponseWithData:(NSData *)responseData responseClass:(Class<CSHttpResponse>)responseClass {
++ (id<CSHttpResponse>)createResponseWithData:(NSData *)responseData responseClass:(Class<CSHttpResponse>)responseClass {
     id<CSHttpResponse> response = nil;
     @try {
-        response = [responseClass buildResponseWithData:responseData];
+        response = [responseClass createResponseWithData:responseData];
     } @catch (NSException *exception) {
         response = [[CSHttpResponseDataParseErrorResponse alloc] init];
     } @finally {
