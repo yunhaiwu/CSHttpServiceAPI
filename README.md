@@ -18,18 +18,18 @@
 		3. CocoaService (1.0+)
 	* CocoaPods
 	
-		```
+```
 		在Podfile 文件头部添加：
 		source：https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git
 
 		//HTTP服务API
 		pod 'CSHttpServiceAPI'
-		```
+```
 
 - 示例
 	* 方式一：
 	
-	```
+```
     id<CSHttpService> httpService = CSGetService(@protocol(CSHttpService));
     id<CSHttpTask> task = [httpService request:request
                                  responseClass:[SimpleResponseObject class]
@@ -45,13 +45,13 @@
             }
         }
     }];
-	```
+```
 
 	* 方式二：
 
-	```
+```
 	id<CSHttpTask> httpTask = CSHttpServiceBuilder.GET([NSURL URLWithString:@"https://www.testexample.com"]).buildAndSubmit(^(NSData *responseData, NSError *error){
         NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
         NSLog(@"%@", responseString);
     });
-	```
+```
