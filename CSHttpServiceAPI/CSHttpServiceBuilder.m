@@ -92,13 +92,6 @@
     };
 }
 
-- (id<CSHttpTask> (^)(CSHttpServiceResponseDataBlock responseDataBlock))submit {
-    return ^(CSHttpServiceResponseDataBlock responseDataBlock) {
-        id<CSHttpService> httpService = [[[CocoaService sharedInstance] applicationContext] getService:@protocol(CSHttpService)];
-        return [httpService requestWithURL:self.url method:self.httpMethod params:self.httpParams headers:self.httpHeaders responseBlock:responseDataBlock];
-    };
-}
-
 - (CSHttpServiceBuilder*(^)(NSDictionary<NSString*, NSString*> *headers))headers {
     return ^(NSDictionary<NSString*, NSString*> *headers) {
         if ([headers count]) {
@@ -157,6 +150,13 @@
             [self.httpUploadFiles addObject:uploadFile];
         }
         return self;
+    };
+}
+
+- (id<CSHttpTask> (^)(CSHttpServiceResponseDataBlock responseDataBlock))buildAndSubmit {
+    return ^(CSHttpServiceResponseDataBlock responseDataBlock) {
+        id<CSHttpService> httpService = CSGetService(@protocol(CSHttpService));
+        return [httpService requestWithURL:self.url method:self.httpMethod params:self.httpParams headers:self.httpHeaders responseBlock:responseDataBlock];
     };
 }
 

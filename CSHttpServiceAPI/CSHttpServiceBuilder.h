@@ -79,9 +79,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (CSHttpServiceBuilder*(^)(CSHttpFileUploadModel *uploadFile))addUploadFile;
 
 /*
- 提交
+ 构建并提交
  */
-- (id<CSHttpTask>(^)(CSHttpServiceResponseDataBlock responseDataBlock))submit;
+- (id<CSHttpTask>(^)(CSHttpServiceResponseDataBlock responseDataBlock))buildAndSubmit;
 
 @end
 
